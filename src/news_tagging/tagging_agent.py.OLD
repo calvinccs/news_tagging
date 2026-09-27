@@ -1,0 +1,138 @@
+"""Tagging agent that uses local LLM to tag articles with companies and their relationships."""
+
+import json
+import requests
+
+def tag_article(article, companies, profile):
+    """Tag an article using the local LLM and company relationship data."""
+    
+    # Prepare the prompt for LLM
+    prompt = f"""
+You are a news tagging assistant that identifies companies mentioned in articles.
+Only return JSON with a list of company names that appear directly in the text or are clearly affected by industry trends.
+
+Article Title: {article['title']}
+Article Content: {article['content']}
+
+Company List (only use these for tagging):
+"""
+    
+    # Add company information to prompt, but excluding suppliers/customers
+    companies_info = []
+    for company in companies:
+        info = f"- {company['name']} ({company['sector']}): {company['description']}"
+        companies_info.append(info)
+    
+    prompt += "\n".join(companies_info) + "\n\n"
+    
+    # Add profile instruction
+    prompt += f"Profile Instruction: {profile['instruction']}"
+
+    # Prepare the request to local LLM
+    llm_request = {
+        "model": "gemma-4-26b-a4b-it-qat",
+        "messages": [
+            {"role": "user", "content": prompt}
+        ],
+        "temperature": 0.1,
+        "max_tokens": 2000
+    }
+    
+    try:
+        # Call the local LLM API
+        response = requests.post(
+            "http://127.0.0.1:7749/v1/chat/completions",
+            json=llm_request,
+            timeout=30
+        )
+        response.raise_for_status()
+        
+        llm_output = response.json()['choices'][0]['message']['content']
+        print("RAW LLM OUTPUT:", repr(llm_output))   # add this
+        print("FULL RESPONSE:", json.dumps(response.json(), indent=2))
+
+        # Try to parse the LLM output as JSON 
+        try:
+            l1_companies = json.loads(llm_output)
+            if not isinstance(l1_companies, list):
+                l1_companies = []
+        except json.JSONDecodeError:
+            # If it's not valid JSON, look for company names in text
+            l1_companies = extract_company_names_from_text(llm_output, companies)
+    except Exception as e:
+        # Fallback if LLM call fails
+        print(f"LLM call failed: {e}")
+        l1_companies = []
+    
+    # Validate that we have a list of company names 
+    if not isinstance(l1_companies, list):
+        l1_companies = []
+        
+    # Create result list with direct mentions (L1)
+    tags = []
+    for company_name in l1_companies:
+        if company_name and isinstance(company_name, str):
+            # Find the full company data to ensure it exists
+            company_data = next((c for c in companies if c['name'] == company_name), None)
+            if company_data:
+                tags.append({
+                    "company": company_name,
+                    "relation": "L1",
+                    "profile_used": profile["name"]
+                })
+    
+    # Expand L1 to L2 by looking up suppliers and customers
+    for tag in tags[:]:  # Use slice copy to avoid modifying during iteration
+        company_name = tag['company']
+        
+        # Find the company data
+        company_data = next((c for c in companies if c['name'] == company_name), None)
+        if not company_data:
+            continue
+            
+        # Get suppliers and customers
+        suppliers = company_data.get('suppliers', [])
+        customers = company_data.get('customers', [])
+        
+        # Add L2 tags for suppliers
+        for supplier in suppliers:
+            supplier_company = next((c for c in companies if c['name'] == supplier), None)
+            if supplier_company and not any(t['company'] == supplier for t in tags):
+                tags.append({
+                    "company": supplier,
+                    "relation": "L2",
+                    "profile_used": profile["name"]
+                })
+        
+        # Add L2 tags for customers  
+        for customer in customers:
+            customer_company = next((c for c in companies if c['name'] == customer), None)
+            if customer_company and not any(t['company'] == customer for t in tags):
+                tags.append({
+                    "company": customer,
+                    "relation": "L2",
+                    "profile_used": profile["name"]
+                })
+    
+    return tags
+
+def extract_company_names_from_text(text, companies):
+    """Extract company names from LLM output text when it's not valid JSON."""
+    found_companies = []
+    if not isinstance(text, str):
+        return found_companies
+        
+    # Look for company names in the text
+    for company in companies:
+        if company['name'].lower() in text.lower():
+            found_companies.append(company['name'])
+    
+    # Remove duplicates while preserving order
+    seen = set()
+    unique_companies = []
+    for comp in found_companies:
+        if comp not in seen:
+            seen.add(comp)
+            unique_companies.append(comp)
+            
+    return unique_companies

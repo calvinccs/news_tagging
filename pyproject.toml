@@ -1,0 +1,34 @@
+[project]
+name = "news-tagging"
+version = "0.1.0"
+description = "A news tagging system for categorizing and organizing news articles"
+readme = "README.md"
+authors = [
+    { name = "calvinccs", email = "thisiscalvinccs@gmail.com" }
+]
+requires-python = ">=3.12"
+dependencies = [
+    "click>=8.0",
+    "pandas>=1.5",
+    "numpy>=1.24",
+    "pyyaml>=6.0.3",
+    "requests>=2.34.2",
+    "openai>=1.0",
+    "instructor>=0.1.0",
+    "pydantic>=2.0",
+]
+
+[project.scripts]
+news-tagging = "news_tagging:main"
+
+[build-system]
+requires = ["uv_build>=0.12.17,<0.13.0"]
+build-backend = "uv_build"
+
+[project.optional-dependencies]
+dev = [
+    "pytest>=7.0",
+    "black>=23.0",
+    "flake8>=6.0",
+    "mypy>=1.0",
+]

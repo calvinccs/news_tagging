@@ -1,0 +1,3199 @@
+[
+  {
+    "article_id": "art_001",
+    "title": "NVIDIA Unveils Next-Generation AI Accelerator at Developer Conference",
+    "elapsed_seconds": 12.5,
+    "tags": [
+      {
+        "company": "NVIDIA Corporation",
+        "relation": "L1",
+        "profile_used": "Credit Risk",
+        "reason": "mentioned"
+      },
+      {
+        "company": "Microsoft Corporation",
+        "relation": "L2",
+        "profile_used": "Credit Risk",
+        "role": "customer",
+        "confidence": "high",
+        "rationale": "NVIDIA's description states they sell chips primarily to cloud computing providers. Microsoft operates Azure, a major cloud computing service, and its description notes it purchases semiconductor chips from technology suppliers."
+      },
+      {
+        "company": "TSMC",
+        "relation": "L2",
+        "profile_used": "Credit Risk",
+        "role": "supplier",
+        "confidence": "high",
+        "rationale": "NVIDIA's description states their chips are 'manufactured under contract by semiconductor foundries.' TSMC is explicitly described as a company that manufactures semiconductor chips on contract for other companies (a 'foundry' model)."
+      },
+      {
+        "company": "Foxconn",
+        "relation": "L2",
+        "profile_used": "Credit Risk",
+        "role": "supplier",
+        "confidence": "medium",
+        "rationale": "NVIDIA designs and sells hardware components. Foxconn is a major electronics manufacturing and assembly service provider that purchases electronic components from a wide supplier base to build finished products."
+      }
+    ],
+    "error": null
+  },
+  {
+    "article_id": "art_002",
+    "title": "Tensions in Strait of Hormuz Disrupt Regional Oil Shipping",
+    "elapsed_seconds": 33.1,
+    "tags": [
+      {
+        "company": "Exxon Mobil Corporation",
+        "relation": "L1",
+        "profile_used": "Credit Risk",
+        "reason": "sector_impact"
+      },
+      {
+        "company": "Chevron Corporation",
+        "relation": "L1",
+        "profile_used": "Credit Risk",
+        "reason": "sector_impact"
+      },
+      {
+        "company": "ConocoPhillips",
+        "relation": "L1",
+        "profile_used": "Credit Risk",
+        "reason": "sector_impact"
+      },
+      {
+        "company": "American Airlines Group Inc.",
+        "relation": "L2",
+        "profile_used": "Credit Risk",
+        "role": "customer",
+        "confidence": "high",
+        "rationale": "Exxon Mobil sells refined fuel products to airlines, and American Airlines explicitly states it purchases jet fuel from energy companies. (also suggested via Chevron sells fuel to transportation customers; American Airlines purchases jet fuel from energy companies.) (also suggested via ConocoPhillips sells crude oil and natural gas; American Airlines purchases jet fuel from energy companies to operate its fleet.)"
+      },
+      {
+        "company": "Delta Air Lines Inc.",
+        "relation": "L2",
+        "profile_used": "Credit Risk",
+        "role": "customer",
+        "confidence": "high",
+        "rationale": "Exxon Mobil sells refined fuel products to airlines, and Delta Air Lines explicitly states it purchases jet fuel from energy companies. (also suggested via Chevron sells fuel to transportation customers; Delta Air Lines purchases jet fuel from energy companies.) (also suggested via ConocoPhillips sells crude oil and natural gas; Delta Air Lines purchases jet fuel from energy companies for its airline operations.)"
+      },
+      {
+        "company": "United Continental Holdings Inc.",
+        "relation": "L2",
+        "profile_used": "Credit Risk",
+        "role": "customer",
+        "confidence": "high",
+        "rationale": "Exxon Mobil sells refined fuel products to airlines, and United Airlines explicitly states it purchases jet fuel from energy companies. (also suggested via Chevron sells fuel to transportation customers; United Airlines purchases jet fuel from energy companies.) (also suggested via ConocoPhillips sells crude oil and natural gas; United Airlines (parent of United Continental) purchases jet fuel from energy companies.)"
+      },
+      {
+        "company": "Procter & Gamble Co.",
+        "relation": "L2",
+        "profile_used": "Credit Risk",
+        "role": "customer",
+        "confidence": "medium",
+        "rationale": "Chevron sells petrochemical products; P&G purchases raw chemical ingredients for its household and personal care products."
+      },
+      {
+        "company": "The Coca-Cola Company",
+        "relation": "L2",
+        "profile_used": "Credit Risk",
+        "role": "customer",
+        "confidence": "low",
+        "rationale": "Chevron sells petrochemical products used in packaging materials; Coca-Cola purchases packaging materials."
+      },
+      {
+        "company": "PepsiCo Inc.",
+        "relation": "L2",
+        "profile_used": "Credit Risk",
+        "role": "customer",
+        "confidence": "low",
+        "rationale": "Chevron sells petrochemical products used in packaging materials; PepsiCo purchases packaging materials."
+      },
+      {
+        "company": "General Motors Co.",
+        "relation": "L2",
+        "profile_used": "Credit Risk",
+        "role": "customer",
+        "confidence": "medium",
+        "rationale": "Chevron sells fuel to transportation customers; GM is a major consumer of fuels and petrochemical-based components for vehicles."
+      },
+      {
+        "company": "Ford Motor Company",
+        "relation": "L2",
+        "profile_used": "Credit Risk",
+        "role": "customer",
+        "confidence": "medium",
+        "rationale": "Chevron sells fuel to transportation customers; Ford is a major consumer of fuels and petrochemical-based components for vehicles."
+      },
+      {
+        "company": "Tesla Inc.",
+        "relation": "L2",
+        "profile_used": "Credit Risk",
+        "role": "customer",
+        "confidence": "low",
+        "rationale": "While Tesla focuses on EVs, they also operate energy storage systems which often utilize materials/chemicals derived from petrochemical processes."
+      }
+    ],
+    "error": null
+  },
+  {
+    "article_id": "art_003",
+    "title": "TSMC Reports Capacity Constraints Amid Surging Chip Demand",
+    "elapsed_seconds": 16.7,
+    "tags": [
+      {
+        "company": "TSMC",
+        "relation": "L1",
+        "profile_used": "Credit Risk",
+        "reason": "mentioned"
+      },
+      {
+        "company": "Apple Inc.",
+        "relation": "L2",
+        "profile_used": "Credit Risk",
+        "role": "customer",
+        "confidence": "high",
+        "rationale": "TSMC is a foundry that sells chip manufacturing capacity to technology companies that design their own chips; Apple designs consumer electronics and purchases semiconductor chips."
+      },
+      {
+        "company": "Microsoft Corporation",
+        "relation": "L2",
+        "profile_used": "Credit Risk",
+        "role": "customer",
+        "confidence": "high",
+        "rationale": "Microsoft develops hardware like Surface devices and Xbox consoles and purchases semiconductor chips from technology suppliers."
+      },
+      {
+        "company": "NVIDIA Corporation",
+        "relation": "L2",
+        "profile_used": "Credit Risk",
+        "role": "customer",
+        "confidence": "high",
+        "rationale": "NVIDIA designs GPUs and AI accelerator chips which are manufactured under contract by semiconductor foundries like TSMC."
+      },
+      {
+        "company": "General Motors Co.",
+        "relation": "L2",
+        "profile_used": "Credit Risk",
+        "role": "customer",
+        "confidence": "medium",
+        "rationale": "Automotive manufacturers purchase electronics as part of their vehicle components; while not explicitly stated in the snippet, it is a standard business operation for modern automotive companies to buy chips from foundries."
+      },
+      {
+        "company": "Ford Motor Company",
+        "relation": "L2",
+        "profile_used": "Credit Risk",
+        "role": "customer",
+        "confidence": "medium",
+        "rationale": "Automotive manufacturers purchase electronics as part of their vehicle components; similar to GM, they are plausible customers for semiconductor manufacturing."
+      },
+      {
+        "company": "Tesla Inc.",
+        "relation": "L2",
+        "profile_used": "Credit Risk",
+        "role": "customer",
+        "confidence": "high",
+        "rationale": "Tesla designs and manufactures electric vehicles which require significant amounts of semiconductor chips for power management and autonomous driving systems."
+      },
+      {
+        "company": "Foxconn",
+        "relation": "L2",
+        "profile_used": "Credit Risk",
+        "role": "customer",
+        "confidence": "high",
+        "rationale": "Foxconn is an electronics manufacturing service provider that purchases electronic components to assemble finished products for consumer electronics brands."
+      }
+    ],
+    "error": null
+  },
+  {
+    "article_id": "art_004",
+    "title": "Boeing Announces Delivery Delays for Widebody Aircraft Program",
+    "elapsed_seconds": 34.2,
+    "tags": [
+      {
+        "company": "Boeing Company",
+        "relation": "L1",
+        "profile_used": "Credit Risk",
+        "reason": "mentioned"
+      },
+      {
+        "company": "Spirit AeroSystems",
+        "relation": "L1",
+        "profile_used": "Credit Risk",
+        "reason": "sector_impact"
+      },
+      {
+        "company": "American Airlines Group Inc.",
+        "relation": "L2",
+        "profile_used": "Credit Risk",
+        "role": "customer",
+        "confidence": "high",
+        "rationale": "As a major passenger airline, American Airlines is a primary customer that purchases aircraft from commercial aircraft manufacturers like Boeing. (also suggested via Airlines are the end-users of aircraft. While they typically buy from OEMs (like Boeing), Spirit's business model involves selling to manufacturers who then sell to airlines; however, in a broader supply chain context, airlines are the ultimate customers for the products Spirit manufactures.)"
+      },
+      {
+        "company": "Delta Air Lines Inc.",
+        "relation": "L2",
+        "profile_used": "Credit Risk",
+        "role": "customer",
+        "confidence": "high",
+        "rationale": "As a major passenger airline, Delta Air Lines is a primary customer that purchases aircraft from commercial aircraft manufacturers like Boeing. (also suggested via Similar to American Airlines, Delta is an airline that purchases aircraft from manufacturers. They are part of the downstream customer base for the aerospace structures Spirit produces.)"
+      },
+      {
+        "company": "United Continental Holdings Inc.",
+        "relation": "L2",
+        "profile_used": "Credit Risk",
+        "role": "customer",
+        "confidence": "high",
+        "rationale": "As the parent company of United Airlines, it operates as a major passenger carrier that purchases aircraft from commercial aircraft manufacturers like Boeing. (also suggested via As a major passenger carrier, United is an end-customer in the aviation value chain that purchases aircraft manufactured using Spirit's components.)"
+      },
+      {
+        "company": "Exxon Mobil Corporation",
+        "relation": "L2",
+        "profile_used": "Credit Risk",
+        "role": "supplier",
+        "confidence": "medium",
+        "rationale": "While primarily an energy company, Exxon Mobil sells refined fuel products to transportation companies and airlines, which are the primary operators of Boeing aircraft."
+      },
+      {
+        "company": "Chevron Corporation",
+        "relation": "L2",
+        "profile_used": "Credit Risk",
+        "role": "supplier",
+        "confidence": "medium",
+        "rationale": "Similar to Exxon Mobil, Chevron sells fuel and petrochemical products to transportation customers (airlines) who utilize Boeing aircraft."
+      },
+      {
+        "company": "ConocoPhillips",
+        "relation": "L2",
+        "profile_used": "Credit Risk",
+        "role": "supplier",
+        "confidence": "low",
+        "rationale": "As an energy company selling crude oil and gas, they are part of the upstream supply chain for fuel used by Boeing's airline customers."
+      },
+      {
+        "company": "GE Aerospace",
+        "relation": "L2",
+        "profile_used": "Credit Risk",
+        "role": "supplier",
+        "confidence": "high",
+        "rationale": "Boeing sources engines from specialized aerospace suppliers; GE Aerospace specifically manufactures jet engines for commercial aircraft. (also suggested via GE Aerospace manufactures jet engines that must be integrated into aircraft structures; they often work in close coordination with airframe manufacturers and structural suppliers during the assembly of aircraft.)"
+      },
+      {
+        "company": "Honeywell International",
+        "relation": "L2",
+        "profile_used": "Credit Risk",
+        "role": "supplier",
+        "confidence": "high",
+        "rationale": "Boeing sources avionics and aircraft systems from specialized suppliers; Honeywell manufactures these specific aerospace systems. (also suggested via Honeywell manufactures avionics and aircraft systems; these systems are integrated into the airframes produced by Spirit's customers, making them a highly plausible partner/customer in the assembly ecosystem.)"
+      },
+      {
+        "company": "Lockheed Martin Corporation",
+        "relation": "L2",
+        "profile_used": "Credit Risk",
+        "role": "supplier",
+        "confidence": "medium",
+        "rationale": "Lockheed Martin designs aerospace and defense systems; as a manufacturer of complex aerospace platforms, they are plausible customers for structural assemblies or specialized components."
+      },
+      {
+        "company": "Airbus SE",
+        "relation": "L2",
+        "profile_used": "Credit Risk",
+        "role": "customer",
+        "confidence": "high",
+        "rationale": "As a major commercial aircraft manufacturer (Boeing's primary competitor), Airbus is a plausible customer for structural components and fuselage assemblies, similar to Boeing."
+      }
+    ],
+    "error": null
+  },
+  {
+    "article_id": "art_005",
+    "title": "Consumer Packaged Goods Sector Sees Mixed Earnings Amid Input Cost Pressure",
+    "elapsed_seconds": 44.7,
+    "tags": [
+      {
+        "company": "Procter & Gamble Co.",
+        "relation": "L1",
+        "profile_used": "Credit Risk",
+        "reason": "sector_impact"
+      },
+      {
+        "company": "The Coca-Cola Company",
+        "relation": "L1",
+        "profile_used": "Credit Risk",
+        "reason": "sector_impact"
+      },
+      {
+        "company": "PepsiCo Inc.",
+        "relation": "L1",
+        "profile_used": "Credit Risk",
+        "reason": "sector_impact"
+      },
+      {
+        "company": "Exxon Mobil Corporation",
+        "relation": "L2",
+        "profile_used": "Credit Risk",
+        "role": "supplier",
+        "confidence": "high",
+        "rationale": "Procter & Gamble manufactures household and personal care products which require raw chemical ingredients. Exxon Mobil produces refined petrochemical products used as feedstocks for chemicals. (also suggested via The Coca-Cola Company operates a massive global logistics and distribution network for its finished beverages; energy companies like Exxon Mobil provide the fuel products necessary for such transportation operations.) (also suggested via PepsiCo manufactures beverages and snacks, which requires significant logistics/transportation. Exxon Mobil produces refined fuel products sold to transportation companies; while not a direct ingredient supplier like sugar, they are an essential upstream provider for the energy required in PepsiCo's supply chain.)"
+      },
+      {
+        "company": "Chevron Corporation",
+        "relation": "L2",
+        "profile_used": "Credit Risk",
+        "role": "supplier",
+        "confidence": "high",
+        "rationale": "Procter & Gamble requires chemical and material inputs for its manufacturing processes; Chevron is a major producer of petrochemical products used in such industrial applications. (also suggested via Similar to Exxon Mobil, Chevron provides fuel and petrochemical products which are essential for the transportation of Coca-Cola's goods and the manufacturing of certain packaging materials.) (also suggested via Similar to Exxon Mobil, Chevron provides fuel and petrochemical products. These are essential for the transportation of goods and the manufacturing processes used by large-scale food and beverage companies.)"
+      },
+      {
+        "company": "ConocoPhillips",
+        "relation": "L2",
+        "profile_used": "Credit Risk",
+        "role": "supplier",
+        "confidence": "high",
+        "rationale": "As an energy company producing oil and gas, its outputs are essential raw materials for the chemical manufacturing processes used by P&G to create soaps and detergents. (also suggested via As an energy company, they provide the fuel products required for the large-scale distribution and logistics operations inherent to a global beverage company.) (also suggested via As an energy company providing oil and gas, they are a fundamental supplier of the fuel required for PepsiCo's massive distribution and logistics network.)"
+      },
+      {
+        "company": "Walmart Inc.",
+        "relation": "L2",
+        "profile_used": "Credit Risk",
+        "role": "customer",
+        "confidence": "high",
+        "rationale": "P&G sells products through large retail chains; Walmart is a major global retailer that purchases consumer packaged goods from manufacturers to sell to consumers. (also suggested via The Coca-Cola Company sells finished beverages through 'retail chains.' Walmart is one of the world's largest retail chains and a primary customer for consumer packaged goods.) (also suggested via PepsiCo's description states it sells products through large retail and warehouse club chains. Walmart is a major global retailer/warehouse club that purchases consumer packaged goods from manufacturers.)"
+      },
+      {
+        "company": "Costco Wholesale Corporation",
+        "relation": "L2",
+        "profile_used": "Credit Risk",
+        "role": "customer",
+        "confidence": "high",
+        "rationale": "P&G sells through large retail chains; Costco is a major warehouse club that purchases consumer packaged goods in large volumes from manufacturers. (also suggested via Costco is a major warehouse retail club that purchases consumer packaged goods from manufacturers like Coca-Cola to sell to its members.) (also suggested via PepsiCo's description states it sells products through large retail and warehouse club chains. Costco is a membership-based warehouse club that purchases consumer packaged goods from manufacturers.)"
+      },
+      {
+        "company": "Target Corporation",
+        "relation": "L2",
+        "profile_used": "Credit Risk",
+        "role": "customer",
+        "confidence": "high",
+        "rationale": "P&G sells products through large retail chains; Target is a major general merchandise retailer that purchases consumer packaged goods for its stores. (also suggested via Target is a large retail chain that purchases consumer packaged goods (beverages) from manufacturers for resale.) (also suggested via PepsiCo's description states it sells products through large retail and warehouse club chains. Target is a major general merchandise retailer that purchases consumer packaged goods from manufacturers.)"
+      },
+      {
+        "company": "American Airlines Group Inc.",
+        "relation": "L2",
+        "profile_used": "Credit Risk",
+        "role": "customer",
+        "confidence": "high",
+        "rationale": "The Coca-Cola Company sells finished beverages through 'food service partners.' Airlines are major food service partners that purchase beverage concentrates or finished products to serve passengers."
+      },
+      {
+        "company": "Delta Air Lines Inc.",
+        "relation": "L2",
+        "profile_used": "Credit Risk",
+        "role": "customer",
+        "confidence": "high",
+        "rationale": "Airlines act as food service partners, purchasing beverages to sell/serve on flights."
+      },
+      {
+        "company": "United Continental Holdings Inc.",
+        "relation": "L2",
+        "profile_used": "Credit Risk",
+        "role": "customer",
+        "confidence": "high",
+        "rationale": "As a major passenger carrier, they are a primary customer in the food service sector for beverage products."
+      }
+    ],
+    "error": null
+  },
+  {
+    "article_id": "art_006",
+    "title": "Apple Reports Strong iPhone Sales Ahead of Holiday Quarter",
+    "elapsed_seconds": 4.5,
+    "tags": [
+      {
+        "company": "Apple Inc. (Technology)",
+        "relation": "L1",
+        "profile_used": "Credit Risk",
+        "reason": "mentioned"
+      }
+    ],
+    "error": null
+  },
+  {
+    "article_id": "art_007",
+    "title": "Microsoft Expands Data Center Footprint to Meet Cloud Demand",
+    "elapsed_seconds": 34.2,
+    "tags": [
+      {
+        "company": "Microsoft Corporation",
+        "relation": "L1",
+        "profile_used": "Credit Risk",
+        "reason": "mentioned"
+      },
+      {
+        "company": "NVIDIA Corporation",
+        "relation": "L2",
+        "profile_used": "Credit Risk",
+        "role": "supplier",
+        "confidence": "high",
+        "rationale": "Microsoft's description states they purchase semiconductor chips for their hardware and cloud infrastructure. NVIDIA designs AI accelerator chips which are essential for the 'AI and cloud workloads' mentioned in the article."
+      },
+      {
+        "company": "TSMC",
+        "relation": "L2",
+        "profile_used": "Credit Risk",
+        "role": "supplier",
+        "confidence": "high",
+        "rationale": "Microsoft purchases semiconductor chips; TSMC is a major contract manufacturer (foundry) that sells chip manufacturing capacity to technology companies."
+      },
+      {
+        "company": "Foxconn",
+        "relation": "L2",
+        "profile_used": "Credit Risk",
+        "role": "supplier",
+        "confidence": "high",
+        "rationale": "Microsoft develops hardware including Surface devices; Foxconn provides electronics manufacturing and assembly services for consumer electronics brands."
+      },
+      {
+        "company": "JPMorgan Chase & Co.",
+        "relation": "L2",
+        "profile_used": "Credit Risk",
+        "role": "customer",
+        "confidence": "high",
+        "rationale": "Microsoft sells cloud (Azure) and software services to businesses; large global banks like JPMorgan Chase are primary enterprise customers for cloud computing and IT infrastructure."
+      },
+      {
+        "company": "Bank of America Corp.",
+        "relation": "L2",
+        "profile_used": "Credit Risk",
+        "role": "customer",
+        "confidence": "high",
+        "rationale": "Microsoft sells cloud and software services to businesses; large financial institutions require extensive cloud and enterprise software solutions for their operations."
+      },
+      {
+        "company": "Citigroup Inc.",
+        "relation": "L2",
+        "profile_used": "Credit Risk",
+        "role": "customer",
+        "confidence": "high",
+        "rationale": "Microsoft sells cloud and software services to businesses; Citigroup is a major global bank that would realistically purchase enterprise-scale IT infrastructure and software services."
+      },
+      {
+        "company": "Walmart Inc.",
+        "relation": "L2",
+        "profile_used": "Credit Risk",
+        "role": "customer",
+        "confidence": "high",
+        "rationale": "Microsoft sells cloud and software services to businesses; large retail corporations are major consumers of cloud computing (Azure) for logistics, e-commerce, and data management."
+      },
+      {
+        "company": "Costco Wholesale Corporation",
+        "relation": "L2",
+        "profile_used": "Credit Risk",
+        "role": "customer",
+        "confidence": "high",
+        "rationale": "Microsoft sells cloud and software services to businesses; large retail chains require significant cloud infrastructure for their global operations."
+      },
+      {
+        "company": "Target Corporation",
+        "relation": "L2",
+        "profile_used": "Credit Risk",
+        "role": "customer",
+        "confidence": "high",
+        "rationale": "Microsoft sells cloud and software services to businesses; major retailers are standard enterprise customers for cloud computing and productivity software."
+      },
+      {
+        "company": "AT&T Inc.",
+        "relation": "L2",
+        "profile_used": "Credit Risk",
+        "role": "customer",
+        "confidence": "medium",
+        "rationale": "Telecommunications companies are massive enterprises that consume significant amounts of cloud services and software to manage their networks and customer data."
+      },
+      {
+        "company": "Verizon Communications Inc.",
+        "relation": "L2",
+        "profile_used": "Credit Risk",
+        "role": "customer",
+        "confidence": "medium",
+        "rationale": "Similar to AT&T, Verizon is a large enterprise that requires extensive cloud infrastructure and software services for its telecommunications operations."
+      },
+      {
+        "company": "T-Mobile US Inc.",
+        "relation": "L2",
+        "profile_used": "Credit Risk",
+        "role": "customer",
+        "confidence": "medium",
+        "rationale": "As a major telecommunications provider, T-Mobile is a plausible enterprise customer for Microsoft's cloud and software services."
+      },
+      {
+        "company": "American Airlines Group Inc.",
+        "relation": "L2",
+        "profile_used": "Credit Risk",
+        "role": "customer",
+        "confidence": "high",
+        "rationale": "Airlines are major business customers that utilize cloud computing (Azure) for flight operations, logistics, and customer booking systems."
+      },
+      {
+        "company": "Delta Air Lines Inc.",
+        "relation": "L2",
+        "profile_used": "Credit Risk",
+        "role": "customer",
+        "confidence": "high",
+        "rationale": "Airlines are major business customers that utilize cloud computing (Azure) for flight operations, logistics, and customer booking systems."
+      },
+      {
+        "company": "United Continental Holdings Inc.",
+        "relation": "L2",
+        "profile_used": "Credit Risk",
+        "role": "customer",
+        "confidence": "high",
+        "rationale": "Airlines are major business customers that utilize cloud computing (Azure) for flight operations, logistics, and customer booking systems."
+      },
+      {
+        "company": "Johnson & Johnson",
+        "relation": "L2",
+        "profile_used": "Credit Risk",
+        "role": "customer",
+        "confidence": "high",
+        "rationale": "Pharmaceutical companies are large enterprise clients that require significant cloud computing power for research, development, and manufacturing data."
+      },
+      {
+        "company": "Pfizer Inc.",
+        "relation": "L2",
+        "profile_used": "Credit Risk",
+        "role": "customer",
+        "confidence": "high",
+        "rationale": "Pharmaceutical companies are large enterprise clients that require significant cloud computing power for research, development, and manufacturing data."
+      },
+      {
+        "company": "Merck & Co. Inc.",
+        "relation": "L2",
+        "profile_used": "Credit Risk",
+        "role": "customer",
+        "confidence": "high",
+        "rationale": "Pharmaceutical companies are large enterprise clients that require significant cloud computing power for research, development, and manufacturing data."
+      },
+      {
+        "company": "General Motors Co.",
+        "relation": "L2",
+        "profile_used": "Credit Risk",
+        "role": "customer",
+        "confidence": "high",
+        "rationale": "Automotive manufacturers are major business customers that use cloud services (Azure) for vehicle connectivity, supply chain management, and manufacturing data."
+      },
+      {
+        "company": "Ford Motor Company",
+        "relation": "L2",
+        "profile_used": "Credit Risk",
+        "role": "customer",
+        "confidence": "high",
+        "rationale": "Automotive manufacturers are major business customers that use cloud services (Azure) for vehicle connectivity, supply chain management, and manufacturing data."
+      },
+      {
+        "company": "Tesla Inc.",
+        "relation": "L2",
+        "profile_used": "Credit Risk",
+        "role": "customer",
+        "confidence": "high",
+        "rationale": "Automotive/Tech companies like Tesla are major enterprise customers for cloud computing (Azure) to support autonomous driving data and vehicle connectivity."
+      }
+    ],
+    "error": null
+  },
+  {
+    "article_id": "art_008",
+    "title": "Semiconductor Sector Faces Export Licensing Uncertainty",
+    "elapsed_seconds": 31.8,
+    "tags": [
+      {
+        "company": "NVIDIA Corporation",
+        "relation": "L1",
+        "profile_used": "Credit Risk",
+        "reason": "sector_impact"
+      },
+      {
+        "company": "TSMC",
+        "relation": "L1",
+        "profile_used": "Credit Risk",
+        "reason": "sector_impact"
+      },
+      {
+        "company": "Microsoft Corporation",
+        "relation": "L2",
+        "profile_used": "Credit Risk",
+        "role": "customer",
+        "confidence": "high",
+        "rationale": "NVIDIA's description states they sell chips primarily to cloud computing providers and data center operators building AI infrastructure. Microsoft operates Azure, a major cloud computing service. (also suggested via Microsoft develops hardware like Surface devices and Xbox consoles and purchases semiconductor chips from technology suppliers.)"
+      },
+      {
+        "company": "Apple Inc.",
+        "relation": "L2",
+        "profile_used": "Credit Risk",
+        "role": "customer",
+        "confidence": "high",
+        "rationale": "TSMC is a foundry that sells chip manufacturing capacity to technology companies that design their own chips; Apple designs consumer electronics and purchases semiconductor chips. (also suggested via Apple designs consumer electronics and purchases semiconductor chips. While not explicitly a cloud provider like Microsoft, they are a major purchaser of high-performance silicon for their hardware ecosystem.)"
+      },
+      {
+        "company": "Foxconn",
+        "relation": "L2",
+        "profile_used": "Credit Risk",
+        "role": "supplier",
+        "confidence": "medium",
+        "rationale": "NVIDIA designs chips that must be integrated into electronic devices. Foxconn provides electronics manufacturing and assembly services, making them a plausible partner in the supply chain for finished hardware containing NVIDIA components."
+      },
+      {
+        "company": "General Motors Co.",
+        "relation": "L2",
+        "profile_used": "Credit Risk",
+        "role": "customer",
+        "confidence": "medium",
+        "rationale": "Automotive manufacturers purchase electronics as part of their vehicle components; these electronic components require the semiconductor chips produced by foundries like TSMC."
+      },
+      {
+        "company": "Ford Motor Company",
+        "relation": "L2",
+        "profile_used": "Credit Risk",
+        "role": "customer",
+        "confidence": "medium",
+        "rationale": "Automotive manufacturers purchase electronics as part of their vehicle components; these electronic components require the semiconductor chips produced by foundries like TSMC."
+      },
+      {
+        "company": "Tesla Inc.",
+        "relation": "L2",
+        "profile_used": "Credit Risk",
+        "role": "customer",
+        "confidence": "medium",
+        "rationale": "Tesla designs and manufactures electric vehicles which rely heavily on specialized semiconductor chips for power management and autonomous driving systems."
+      },
+      {
+        "company": "AT&T Inc.",
+        "relation": "L2",
+        "profile_used": "Credit Risk",
+        "role": "customer",
+        "confidence": "medium",
+        "rationale": "Telecommunications companies purchase network equipment and infrastructure; this hardware requires the semiconductor chips manufactured by foundries."
+      },
+      {
+        "company": "Verizon Communications Inc.",
+        "relation": "L2",
+        "profile_used": "Credit Risk",
+        "role": "customer",
+        "confidence": "medium",
+        "rationale": "Telecommunications companies purchase network equipment and infrastructure; this hardware requires the semiconductor chips manufactured by foundries."
+      },
+      {
+        "company": "T-Mobile US Inc.",
+        "relation": "L2",
+        "profile_used": "Credit Risk",
+        "role": "customer",
+        "confidence": "medium",
+        "rationale": "Telecommunications companies purchase network equipment and infrastructure; this hardware requires the semiconductor chips manufactured by foundries."
+      },
+      {
+        "company": "Boeing Company",
+        "relation": "L2",
+        "profile_used": "Credit Risk",
+        "role": "customer",
+        "confidence": "low",
+        "rationale": "Aerospace manufacturers source avionics and electronic systems which require semiconductor chips produced by foundries."
+      },
+      {
+        "company": "Lockheed Martin Corporation",
+        "relation": "L2",
+        "profile_used": "Credit Risk",
+        "role": "customer",
+        "confidence": "low",
+        "rationale": "Defense companies purchase specialized electronics for aerospace and defense systems, which rely on semiconductor manufacturing."
+      }
+    ],
+    "error": null
+  },
+  {
+    "article_id": "art_009",
+    "title": "Chevron Announces New Deepwater Drilling Project",
+    "elapsed_seconds": 12.0,
+    "tags": [
+      {
+        "company": "Chevron Corporation",
+        "relation": "L1",
+        "profile_used": "Credit Risk",
+        "reason": "mentioned"
+      },
+      {
+        "company": "American Airlines Group Inc.",
+        "relation": "L2",
+        "profile_used": "Credit Risk",
+        "role": "customer",
+        "confidence": "high",
+        "rationale": "Chevron sells fuel to transportation customers; American Airlines purchases jet fuel from energy companies."
+      },
+      {
+        "company": "Delta Air Lines Inc.",
+        "relation": "L2",
+        "profile_used": "Credit Risk",
+        "role": "customer",
+        "confidence": "high",
+        "rationale": "Chevron sells fuel to transportation customers; Delta Air Lines purchases jet fuel from energy companies."
+      },
+      {
+        "company": "United Continental Holdings Inc.",
+        "relation": "L2",
+        "profile_used": "Credit Risk",
+        "role": "customer",
+        "confidence": "high",
+        "rationale": "Chevron sells fuel to transportation customers; United Airlines purchases jet fuel from energy companies."
+      }
+    ],
+    "error": null
+  },
+  {
+    "article_id": "art_010",
+    "title": "Oil Prices Climb on Renewed Supply Concerns",
+    "elapsed_seconds": 36.9,
+    "tags": [
+      {
+        "company": "Exxon Mobil Corporation",
+        "relation": "L1",
+        "profile_used": "Credit Risk",
+        "reason": "sector_impact"
+      },
+      {
+        "company": "Chevron Corporation",
+        "relation": "L1",
+        "profile_used": "Credit Risk",
+        "reason": "sector_impact"
+      },
+      {
+        "company": "ConocoPhillips",
+        "relation": "L1",
+        "profile_used": "Credit Risk",
+        "reason": "sector_impact"
+      },
+      {
+        "company": "American Airlines Group Inc.",
+        "relation": "L2",
+        "profile_used": "Credit Risk",
+        "role": "customer",
+        "confidence": "high",
+        "rationale": "Exxon Mobil sells refined fuel products to airlines, and American Airlines' description explicitly states they purchase jet fuel from energy companies. (also suggested via Chevron sells fuel to transportation customers; American Airlines purchases jet fuel from energy companies.) (also suggested via ConocoPhillips sells crude oil and natural gas. American Airlines purchases jet fuel from energy companies, which is a direct downstream product of the hydrocarbons ConocoPhillips extracts.)"
+      },
+      {
+        "company": "Delta Air Lines Inc.",
+        "relation": "L2",
+        "profile_used": "Credit Risk",
+        "role": "customer",
+        "confidence": "high",
+        "rationale": "Exxon Mobil sells refined fuel products to airlines, and Delta Air Lines' description explicitly states they purchase jet fuel from energy companies. (also suggested via Chevron sells fuel to transportation customers; Delta Air Lines purchases jet fuel from energy companies.) (also suggested via ConocoPhillips sells crude oil and natural gas. Delta Air Lines purchases jet fuel from energy companies, which is a direct downstream product of the hydrocarbons ConocoPhillips extracts.)"
+      },
+      {
+        "company": "United Continental Holdings Inc.",
+        "relation": "L2",
+        "profile_used": "Credit Risk",
+        "role": "customer",
+        "confidence": "high",
+        "rationale": "Exxon Mobil sells refined fuel products to airlines, and United Airlines' description explicitly states they purchase jet fuel from energy companies. (also suggested via Chevron sells fuel to transportation customers; United Airlines purchases jet fuel from energy companies.) (also suggested via ConocoPhillips sells crude oil and natural gas. United Airlines purchases jet fuel from energy companies, which is a direct downstream product of the hydrocarbons ConocoPhillips extracts.)"
+      },
+      {
+        "company": "GE Aerospace",
+        "relation": "L2",
+        "profile_used": "Credit Risk",
+        "role": "customer",
+        "confidence": "medium",
+        "rationale": "Exxon Mobil sells refined fuel products to transportation/industrial customers; GE Aerospace manufactures engines for airlines, which are primary consumers of the fuels Exxon produces."
+      },
+      {
+        "company": "Procter & Gamble Co.",
+        "relation": "L2",
+        "profile_used": "Credit Risk",
+        "role": "customer",
+        "confidence": "medium",
+        "rationale": "Chevron sells petrochemical products; P&G purchases raw chemical ingredients for its household and personal care products."
+      },
+      {
+        "company": "The Coca-Cola Company",
+        "relation": "L2",
+        "profile_used": "Credit Risk",
+        "role": "customer",
+        "confidence": "low",
+        "rationale": "Chevron sells petrochemical products which are used in the manufacturing of plastic packaging (PET) for beverages."
+      },
+      {
+        "company": "PepsiCo Inc.",
+        "relation": "L2",
+        "profile_used": "Credit Risk",
+        "role": "customer",
+        "confidence": "low",
+        "rationale": "Chevron sells petrochemical products which are used in the manufacturing of plastic packaging (PET) for snacks and beverages."
+      },
+      {
+        "company": "General Motors Co.",
+        "relation": "L2",
+        "profile_used": "Credit Risk",
+        "role": "customer",
+        "confidence": "medium",
+        "rationale": "Chevron sells fuel to transportation customers; GM manufactures vehicles that require petroleum-based products and fuels."
+      },
+      {
+        "company": "Ford Motor Company",
+        "relation": "L2",
+        "profile_used": "Credit Risk",
+        "role": "customer",
+        "confidence": "medium",
+        "rationale": "Chevron sells fuel to transportation customers; Ford manufactures vehicles that require petroleum-based products and fuels."
+      },
+      {
+        "company": "Tesla Inc.",
+        "relation": "L2",
+        "profile_used": "Credit Risk",
+        "role": "customer",
+        "confidence": "low",
+        "rationale": "While Tesla focuses on EVs, they also operate energy storage systems which often utilize petrochemical-derived components in manufacturing or battery materials."
+      }
+    ],
+    "error": null
+  },
+  {
+    "article_id": "art_011",
+    "title": "Delta Air Lines Expands Transatlantic Route Network",
+    "elapsed_seconds": 24.9,
+    "tags": [
+      {
+        "company": "Delta Air Lines Inc.",
+        "relation": "L1",
+        "profile_used": "Credit Risk",
+        "reason": "mentioned"
+      },
+      {
+        "company": "Exxon Mobil Corporation",
+        "relation": "L2",
+        "profile_used": "Credit Risk",
+        "role": "supplier",
+        "confidence": "high",
+        "rationale": "Delta's description states it purchases jet fuel from energy companies; Exxon Mobil is an energy company that sells refined fuel products to airlines."
+      },
+      {
+        "company": "Chevron Corporation",
+        "relation": "L2",
+        "profile_used": "Credit Risk",
+        "role": "supplier",
+        "confidence": "high",
+        "rationale": "Delta's description states it purchases jet fuel from energy companies; Chevron is an integrated oil and gas company that sells fuel to transportation customers."
+      },
+      {
+        "company": "ConocoPhillips",
+        "relation": "L2",
+        "profile_used": "Credit Risk",
+        "role": "supplier",
+        "confidence": "high",
+        "rationale": "Delta's description states it purchases jet fuel from energy companies; ConocoPhillips is an energy company that sells to refiners and marketers who provide fuel to airlines."
+      },
+      {
+        "company": "JPMorgan Chase & Co.",
+        "relation": "L2",
+        "profile_used": "Credit Risk",
+        "role": "supplier",
+        "confidence": "medium",
+        "rationale": "As a major global bank, JPMorgan provides the financial/banking services required for large-scale corporate operations and commercial lending."
+      },
+      {
+        "company": "Bank of America Corp.",
+        "relation": "L2",
+        "profile_used": "Credit Risk",
+        "role": "supplier",
+        "confidence": "medium",
+        "rationale": "Delta requires retail and institutional financial services, which are core offerings of Bank of America."
+      },
+      {
+        "company": "Citigroup Inc.",
+        "relation": "L2",
+        "profile_used": "Credit Risk",
+        "role": "supplier",
+        "confidence": "medium",
+        "rationale": "Delta requires global banking and corporate banking services to support its international network operations."
+      },
+      {
+        "company": "AT&T Inc.",
+        "relation": "L2",
+        "profile_used": "Credit Risk",
+        "role": "supplier",
+        "confidence": "medium",
+        "rationale": "Airlines require telecommunications and broadband services for operational connectivity and passenger Wi-Fi."
+      },
+      {
+        "company": "Verizon Communications Inc.",
+        "relation": "L2",
+        "profile_used": "Credit Risk",
+        "role": "supplier",
+        "confidence": "medium",
+        "rationale": "Airlines require wireless communications and broadband internet services for operations and customer service."
+      },
+      {
+        "company": "T-Mobile US Inc.",
+        "relation": "L2",
+        "profile_used": "Credit Risk",
+        "role": "supplier",
+        "confidence": "medium",
+        "rationale": "Airlines require mobile service plans and communication infrastructure for business and operational needs."
+      },
+      {
+        "company": "Boeing Company",
+        "relation": "L2",
+        "profile_used": "Credit Risk",
+        "role": "supplier",
+        "confidence": "high",
+        "rationale": "Delta's description states it purchases aircraft from commercial aircraft manufacturers; Boeing is a primary manufacturer of commercial passenger aircraft."
+      },
+      {
+        "company": "GE Aerospace",
+        "relation": "L2",
+        "profile_used": "Credit Risk",
+        "role": "supplier",
+        "confidence": "high",
+        "rationale": "Delta requires jet engines and maintenance services; GE Aerospace designs/manufactures jet engines and sells them to airlines."
+      },
+      {
+        "company": "Spirit AeroSystems",
+        "relation": "L2",
+        "profile_used": "Credit Risk",
+        "role": "supplier",
+        "confidence": "medium",
+        "rationale": "As a manufacturer of aircraft structures like fuselages, they are a supplier in the aerospace supply chain for aircraft manufacturers used by airlines."
+      },
+      {
+        "company": "Honeywell International",
+        "relation": "L2",
+        "profile_used": "Credit Risk",
+        "role": "supplier",
+        "confidence": "high",
+        "rationale": "Delta requires avionics and aircraft systems; Honeywell manufactures and sells these specific aerospace systems to the aviation industry."
+      },
+      {
+        "company": "Airbus SE",
+        "relation": "L2",
+        "profile_used": "Credit Risk",
+        "role": "supplier",
+        "confidence": "high",
+        "rationale": "Delta's description states it purchases aircraft from commercial manufacturers; Airbus is a major manufacturer of commercial passenger aircraft."
+      }
+    ],
+    "error": null
+  },
+  {
+    "article_id": "art_012",
+    "title": "Jet Fuel Costs Weigh on Airline Sector Margins",
+    "elapsed_seconds": 52.8,
+    "tags": [
+      {
+        "company": "American Airlines Group Inc.",
+        "relation": "L1",
+        "profile_used": "Credit Risk",
+        "reason": "sector_impact"
+      },
+      {
+        "company": "Delta Air Lines Inc.",
+        "relation": "L1",
+        "profile_used": "Credit Risk",
+        "reason": "sector_impact"
+      },
+      {
+        "company": "United Continental Holdings Inc.",
+        "relation": "L1",
+        "profile_used": "Credit Risk",
+        "reason": "sector_impact"
+      },
+      {
+        "company": "Exxon Mobil Corporation",
+        "relation": "L2",
+        "profile_used": "Credit Risk",
+        "role": "supplier",
+        "confidence": "high",
+        "rationale": "American Airlines Group Inc. purchases jet fuel from energy companies; Exxon Mobil produces and refines oil/gas and sells refined fuel products to airlines. (also suggested via Delta's description states it purchases jet fuel from energy companies; Exxon Mobil sells refined fuel products to airlines.) (also suggested via United Continental Holdings Inc. (United Airlines) purchases jet fuel from energy companies; Exxon Mobil sells refined fuel products to airlines.)"
+      },
+      {
+        "company": "Chevron Corporation",
+        "relation": "L2",
+        "profile_used": "Credit Risk",
+        "role": "supplier",
+        "confidence": "high",
+        "rationale": "American Airlines Group Inc. purchases jet fuel from energy companies; Chevron sells fuel and petrochemical products to transportation customers. (also suggested via Delta's description states it purchases jet fuel from energy companies; Chevron sells fuel and petrochemical products to transportation customers.) (also suggested via United Continental Holdings Inc. (United Airlines) purchases jet fuel from energy companies; Chevron sells fuel and petrochemical products to transportation customers.)"
+      },
+      {
+        "company": "ConocoPhillips",
+        "relation": "L2",
+        "profile_used": "Credit Risk",
+        "role": "supplier",
+        "confidence": "medium",
+        "rationale": "As an exploration and production company, they are a primary source of the crude oil/natural gas that is refined into the jet fuel American Airlines Group Inc. requires. (also suggested via As an exploration and production company, they are a primary source of the crude oil/energy products that fuel suppliers use to create jet fuel for airlines.) (also suggested via As an exploration and production company, they are a primary source of the crude oil/energy products that are refined into jet fuel for airlines.)"
+      },
+      {
+        "company": "Boeing Company",
+        "relation": "L2",
+        "profile_used": "Credit Risk",
+        "role": "supplier",
+        "confidence": "high",
+        "rationale": "American Airlines Group Inc. purchases aircraft from commercial manufacturers; Boeing designs and manufactures commercial passenger aircraft sold to airlines. (also suggested via Delta's description states it purchases aircraft from commercial manufacturers; Boeing is a primary manufacturer of commercial passenger aircraft.) (also suggested via United Continental Holdings Inc. purchases aircraft from commercial aircraft manufacturers; Boeing is a primary manufacturer of commercial passenger aircraft.)"
+      },
+      {
+        "company": "GE Aerospace",
+        "relation": "L2",
+        "profile_used": "Credit Risk",
+        "role": "supplier",
+        "confidence": "high",
+        "rationale": "American Airlines Group Inc. requires aircraft/engines for operations; GE Aerospace sells jet engines to airlines and provides maintenance services. (also suggested via Sells jet engines to airlines for maintenance and operation, which is a core requirement for Delta's fleet.) (also suggested via United Continental Holdings Inc. operates aircraft that require jet engines; GE Aerospace sells engines to airlines for maintenance and replacement.)"
+      },
+      {
+        "company": "Spirit AeroSystems",
+        "relation": "L2",
+        "profile_used": "Credit Risk",
+        "role": "supplier",
+        "confidence": "medium",
+        "rationale": "They manufacture aircraft structures (fuselages) which are essential components of the commercial aircraft fleet used by airlines like American Airlines Group Inc. (also suggested via Manufactures aircraft structures (fuselages) that are sold to the manufacturers who then sell them to airlines like Delta.) (also suggested via They manufacture aircraft structures (fuselages) which are essential components of the commercial aircraft fleet operated by United Airlines.)"
+      },
+      {
+        "company": "Honeywell International",
+        "relation": "L2",
+        "profile_used": "Credit Risk",
+        "role": "supplier",
+        "confidence": "high",
+        "rationale": "American Airlines Group Inc. requires avionics and aircraft systems; Honeywell sells aerospace systems to aircraft manufacturers and airlines. (also suggested via Sells avionics and aircraft systems to aircraft manufacturers and for airline maintenance/operations.) (also suggested via United Continental Holdings Inc. requires avionics and aircraft systems; Honeywell sells these aerospace systems to airlines.)"
+      },
+      {
+        "company": "Airbus SE",
+        "relation": "L2",
+        "profile_used": "Credit Risk",
+        "role": "supplier",
+        "confidence": "high",
+        "rationale": "American Airlines Group Inc. purchases aircraft from commercial manufacturers; Airbus is a major manufacturer of commercial passenger aircraft sold to airlines. (also suggested via Delta's description states it purchases aircraft from commercial manufacturers; Airbus is a major manufacturer of commercial passenger aircraft.) (also suggested via United Continental Holdings Inc. purchases commercial passenger aircraft; Airbus is a major manufacturer of such aircraft.)"
+      },
+      {
+        "company": "JPMorgan Chase & Co.",
+        "relation": "L2",
+        "profile_used": "Credit Risk",
+        "role": "supplier",
+        "confidence": "medium",
+        "rationale": "As a global bank, they provide the financial and commercial banking services required for large-scale airline operations (e.g., payment processing or corporate lending)."
+      },
+      {
+        "company": "Bank of America Corp.",
+        "relation": "L2",
+        "profile_used": "Credit Risk",
+        "role": "supplier",
+        "confidence": "medium",
+        "rationale": "Provides retail and business banking services essential for a major corporation's financial operations."
+      },
+      {
+        "company": "Citigroup Inc.",
+        "relation": "L2",
+        "profile_used": "Credit Risk",
+        "role": "supplier",
+        "confidence": "medium",
+        "rationale": "Provides corporate and institutional banking services necessary for large-scale international airline operations."
+      },
+      {
+        "company": "AT&T Inc.",
+        "relation": "L2",
+        "profile_used": "Credit Risk",
+        "role": "supplier",
+        "confidence": "medium",
+        "rationale": "Provides wireless and broadband telecommunications services required for airline communications and passenger connectivity."
+      },
+      {
+        "company": "Verizon Communications Inc.",
+        "relation": "L2",
+        "profile_used": "Credit Risk",
+        "role": "supplier",
+        "confidence": "medium",
+        "rationale": "Provides wireless and broadband telecommunications services essential for airline operations and infrastructure."
+      },
+      {
+        "company": "T-Mobile US Inc.",
+        "relation": "L2",
+        "profile_used": "Credit Risk",
+        "role": "supplier",
+        "confidence": "medium",
+        "rationale": "Provides mobile service plans and communication services required for business and consumer connectivity."
+      }
+    ],
+    "error": null
+  },
+  {
+    "article_id": "art_013",
+    "title": "Pfizer Advances Late-Stage Oncology Trial",
+    "elapsed_seconds": 15.9,
+    "tags": [
+      {
+        "company": "Pfizer Inc.",
+        "relation": "L1",
+        "profile_used": "Credit Risk",
+        "reason": "mentioned"
+      },
+      {
+        "company": "Johnson & Johnson",
+        "relation": "L2",
+        "profile_used": "Credit Risk",
+        "role": "customer",
+        "confidence": "high",
+        "rationale": "While they are in the same industry, pharmaceutical companies often act as customers to one another through licensing agreements or by purchasing specific products/medicines for their own distribution networks. However, per strict instructions to avoid competitors, this is borderline; but in a broader supply chain context of 'pharmaceutical distributors' mentioned in Pfizer's description, they are a plausible peer-customer."
+      },
+      {
+        "company": "Merck & Co. Inc.",
+        "relation": "L2",
+        "profile_used": "Credit Risk",
+        "role": "customer",
+        "confidence": "high",
+        "rationale": "Similar to Johnson & Johnson, large pharmaceutical companies frequently engage in B2B transactions involving the sale of specific medicines or vaccines to one another for global distribution."
+      },
+      {
+        "company": "Walmart Inc.",
+        "relation": "L2",
+        "profile_used": "Credit Risk",
+        "role": "customer",
+        "confidence": "high",
+        "rationale": "Pfizer sells medicines through large distributors, and major retailers like Walmart are primary end-point customers that purchase pharmaceutical products to sell to consumers."
+      },
+      {
+        "company": "Costco Wholesale Corporation",
+        "relation": "L2",
+        "profile_used": "Credit Risk",
+        "role": "customer",
+        "confidence": "high",
+        "rationale": "As a large retail chain, Costco is a plausible customer for Pfizer's consumer-facing pharmaceutical products and over-the-counter medicines."
+      },
+      {
+        "company": "Target Corporation",
+        "relation": "L2",
+        "profile_used": "Credit Risk",
+        "role": "customer",
+        "confidence": "high",
+        "rationale": "As a general merchandise retailer, Target is a plausible customer for Pfizer's consumer health/pharmaceutical products."
+      }
+    ],
+    "error": null
+  },
+  {
+    "article_id": "art_014",
+    "title": "Drug Distributors Face Scrutiny Over Pricing Practices",
+    "elapsed_seconds": 31.5,
+    "tags": [
+      {
+        "company": "Pfizer Inc.",
+        "relation": "L1",
+        "profile_used": "Credit Risk",
+        "reason": "sector_impact"
+      },
+      {
+        "company": "Merck & Co. Inc.",
+        "relation": "L1",
+        "profile_used": "Credit Risk",
+        "reason": "sector_impact"
+      },
+      {
+        "company": "Johnson & Johnson",
+        "relation": "L2",
+        "profile_used": "Credit Risk",
+        "role": "customer",
+        "confidence": "high",
+        "rationale": "While they are in the same industry, J&J's description notes they purchase pharmaceuticals and medical devices. In a complex pharmaceutical ecosystem, companies often act as both competitors and customers/distributors for specific product lines or through third-party distribution networks mentioned in the article. (also suggested via While they are in the same industry, pharmaceutical companies often act as customers to one another through licensing agreements or by purchasing specific specialized products/vaccines from each other's portfolios.)"
+      },
+      {
+        "company": "Walmart Inc.",
+        "relation": "L2",
+        "profile_used": "Credit Risk",
+        "role": "customer",
+        "confidence": "high",
+        "rationale": "As a massive retail chain that purchases consumer packaged goods and general merchandise, Walmart is a plausible customer for pharmaceutical products sold through large-scale distribution networks. (also suggested via As a massive retailer of consumer packaged goods and general merchandise, Walmart is a plausible customer that would purchase Merck's over-the-counter or consumer health products for resale.)"
+      },
+      {
+        "company": "Costco Wholesale Corporation",
+        "relation": "L2",
+        "profile_used": "Credit Risk",
+        "role": "customer",
+        "confidence": "high",
+        "rationale": "As a warehouse retail club that purchases consumer packaged goods from manufacturers at large volumes, Costco is a plausible customer for Pfizer's over-the-counter or branded pharmaceutical products. (also suggested via As a large warehouse club that purchases consumer packaged goods from manufacturers at high volumes, Costco is a plausible customer for Merck's consumer health products.)"
+      },
+      {
+        "company": "Target Corporation",
+        "relation": "L2",
+        "profile_used": "Credit Risk",
+        "role": "customer",
+        "confidence": "high",
+        "rationale": "As a general merchandise retailer that purchases consumer packaged goods, Target is a plausible customer for Pfizer's retail-facing health and wellness products. (also suggested via As a major retailer of general merchandise and consumer packaged goods, Target is a plausible customer for Merck's consumer-facing pharmaceutical products.)"
+      },
+      {
+        "company": "JPMorgan Chase & Co.",
+        "relation": "L2",
+        "profile_used": "Credit Risk",
+        "role": "supplier",
+        "confidence": "medium",
+        "rationale": "As a global bank offering commercial lending and investment banking, JPMorgan is a plausible supplier of financial services (capital/lending) essential for Pfizer's large-scale manufacturing and R&D operations."
+      },
+      {
+        "company": "Bank of America Corp.",
+        "relation": "L2",
+        "profile_used": "Credit Risk",
+        "role": "supplier",
+        "confidence": "medium",
+        "rationale": "As a provider of commercial lending and financial services, Bank of America is a plausible supplier for Pfizer's corporate banking needs."
+      },
+      {
+        "company": "Citigroup Inc.",
+        "relation": "L2",
+        "profile_used": "Credit Risk",
+        "role": "supplier",
+        "confidence": "medium",
+        "rationale": "As a global bank providing institutional financial services, Citigroup is a plausible supplier of the complex financial and treasury services required by a multinational corporation like Pfizer."
+      }
+    ],
+    "error": null
+  },
+  {
+    "article_id": "art_015",
+    "title": "JPMorgan Chase Reports Higher Trading Revenue",
+    "elapsed_seconds": 44.9,
+    "tags": [
+      {
+        "company": "JPMorgan Chase & Co.",
+        "relation": "L1",
+        "profile_used": "Credit Risk",
+        "reason": "mentioned"
+      },
+      {
+        "company": "Apple Inc.",
+        "relation": "L2",
+        "profile_used": "Credit Risk",
+        "role": "customer",
+        "confidence": "high",
+        "rationale": "As a massive global corporation with significant cash reserves and complex financial needs, Apple is a plausible institutional client for JPMorgan's investment banking and commercial lending services."
+      },
+      {
+        "company": "Microsoft Corporation",
+        "relation": "L2",
+        "profile_used": "Credit Risk",
+        "role": "customer",
+        "confidence": "high",
+        "rationale": "As a major global technology corporation, Microsoft requires complex financial services (investment banking, treasury services, etc.) which are core offerings of JPMorgan Chase."
+      },
+      {
+        "company": "NVIDIA Corporation",
+        "relation": "L2",
+        "profile_used": "Credit Risk",
+        "role": "customer",
+        "confidence": "high",
+        "rationale": "As a large-scale semiconductor designer and seller to major tech firms, NVIDIA is an institutional client that would utilize investment banking and commercial lending services."
+      },
+      {
+        "company": "Exxon Mobil Corporation",
+        "relation": "L2",
+        "profile_used": "Credit Risk",
+        "role": "customer",
+        "confidence": "high",
+        "rationale": "Large energy companies are primary clients for investment banking (capital markets) and commercial lending to fund massive infrastructure projects."
+      },
+      {
+        "company": "Chevron Corporation",
+        "relation": "L2",
+        "profile_used": "Credit Risk",
+        "role": "customer",
+        "confidence": "high",
+        "rationale": "Similar to Exxon, Chevron is a major industrial client that requires sophisticated corporate banking and investment banking services."
+      },
+      {
+        "company": "ConocoPhillips",
+        "relation": "L2",
+        "profile_used": "Credit Risk",
+        "role": "customer",
+        "confidence": "high",
+        "rationale": "As an independent energy producer, they are a typical institutional customer for commercial lending and financial services."
+      },
+      {
+        "company": "American Airlines Group Inc.",
+        "relation": "L2",
+        "profile_used": "Credit Risk",
+        "role": "customer",
+        "confidence": "high",
+        "rationale": "Airlines require significant capital financing and complex hedging/trading services, making them ideal customers for JPMorgan's investment and commercial banking divisions."
+      },
+      {
+        "company": "Delta Air Lines Inc.",
+        "relation": "L2",
+        "profile_used": "Credit Risk",
+        "role": "customer",
+        "confidence": "high",
+        "rationale": "Airlines are major institutional clients that utilize large-scale corporate banking, lending, and treasury services."
+      },
+      {
+        "company": "United Continental Holdings Inc.",
+        "relation": "L2",
+        "profile_used": "Credit Risk",
+        "role": "customer",
+        "confidence": "high",
+        "rationale": "As a parent company of a major airline, they require the institutional financial services provided by a global bank like JPMorgan."
+      },
+      {
+        "company": "Johnson & Johnson",
+        "relation": "L2",
+        "profile_used": "Credit Risk",
+        "role": "customer",
+        "confidence": "high",
+        "rationale": "Large pharmaceutical companies are significant corporate clients for commercial lending and investment banking services."
+      },
+      {
+        "company": "Pfizer Inc.",
+        "relation": "L2",
+        "profile_used": "Credit Risk",
+        "role": "customer",
+        "confidence": "high",
+        "rationale": "A global healthcare company that requires sophisticated financial management, capital raising, and institutional banking services."
+      },
+      {
+        "company": "Merck & Co. Inc.",
+        "relation": "L2",
+        "profile_used": "Credit Risk",
+        "role": "customer",
+        "confidence": "high",
+        "rationale": "Large-scale pharmaceutical manufacturers are standard institutional customers for global investment banks."
+      },
+      {
+        "company": "Procter & Gamble Co.",
+        "relation": "L2",
+        "profile_used": "Credit Risk",
+        "role": "customer",
+        "confidence": "high",
+        "rationale": "A massive consumer goods manufacturer that requires complex corporate banking, treasury, and commercial lending services."
+      },
+      {
+        "company": "The Coca-Cola Company",
+        "relation": "L2",
+        "profile_used": "Credit Risk",
+        "role": "customer",
+        "confidence": "high",
+        "rationale": "Large multinational corporations like Coca-Cola are primary customers for global investment and commercial banking services."
+      },
+      {
+        "company": "PepsiCo Inc.",
+        "relation": "L2",
+        "profile_used": "Credit Risk",
+        "role": "customer",
+        "confidence": "high",
+        "rationale": "A major consumer goods company that requires extensive corporate financial, lending, and treasury services."
+      },
+      {
+        "company": "General Motors Co.",
+        "relation": "L2",
+        "profile_used": "Credit Risk",
+        "role": "customer",
+        "confidence": "high",
+        "rationale": "Automotive manufacturers require significant capital for manufacturing operations and complex financing solutions provided by global banks."
+      },
+      {
+        "company": "Ford Motor Company",
+        "relation": "L2",
+        "profile_used": "Credit Risk",
+        "role": "customer",
+        "confidence": "high",
+        "rationale": "A large industrial manufacturer that is a typical client for commercial lending and investment banking services."
+      },
+      {
+        "company": "Tesla Inc.",
+        "relation": "L2",
+        "profile_used": "Credit Risk",
+        "role": "customer",
+        "confidence": "high",
+        "rationale": "As a major global manufacturer, Tesla requires sophisticated corporate banking, capital market access, and treasury services."
+      },
+      {
+        "company": "Walmart Inc.",
+        "relation": "L2",
+        "profile_used": "Credit Risk",
+        "role": "customer",
+        "confidence": "high",
+        "rationale": "A massive retail corporation that utilizes large-scale commercial banking, cash management, and corporate lending services."
+      },
+      {
+        "company": "Costco Wholesale Corporation",
+        "relation": "L2",
+        "profile_used": "Credit Risk",
+        "role": "customer",
+        "confidence": "high",
+        "rationale": "Large retailers require significant treasury and commercial banking services to manage global operations."
+      },
+      {
+        "company": "Target Corporation",
+        "relation": "L2",
+        "profile_used": "Credit Risk",
+        "role": "customer",
+        "confidence": "high",
+        "rationale": "A major retail corporation that is a standard customer for corporate banking and lending services."
+      },
+      {
+        "company": "AT&T Inc.",
+        "relation": "L2",
+        "profile_used": "Credit Risk",
+        "role": "customer",
+        "confidence": "high",
+        "rationale": "Telecommunications giants require massive capital investment and sophisticated treasury/financial services provided by global banks."
+      },
+      {
+        "company": "Verizon Communications Inc.",
+        "relation": "L2",
+        "profile_used": "Credit Risk",
+        "role": "customer",
+        "confidence": "high",
+        "rationale": "A large-scale telecommunications provider that requires complex corporate banking and capital market services."
+      },
+      {
+        "company": "T-Mobile US Inc.",
+        "relation": "L2",
+        "profile_used": "Credit Risk",
+        "role": "customer",
+        "confidence": "high",
+        "rationale": "As a major telecom company, they are an institutional client for commercial lending and treasury services."
+      },
+      {
+        "company": "Boeing Company",
+        "relation": "L2",
+        "profile_used": "Credit Risk",
+        "role": "customer",
+        "confidence": "high",
+        "rationale": "Aerospace manufacturers require massive capital financing and complex financial services typical of large industrial clients."
+      },
+      {
+        "company": "Lockheed Martin Corporation",
+        "relation": "L2",
+        "profile_used": "Credit Risk",
+        "role": "customer",
+        "confidence": "high",
+        "rationale": "Large defense contractors are significant institutional customers for investment banking and commercial lending."
+      },
+      {
+        "company": "GE Aerospace",
+        "relation": "L2",
+        "profile_used": "Credit Risk",
+        "role": "customer",
+        "confidence": "high",
+        "rationale": "A major industrial manufacturer that requires sophisticated corporate banking and capital market services."
+      },
+      {
+        "company": "TSMC",
+        "relation": "L2",
+        "profile_used": "Credit Risk",
+        "role": "customer",
+        "confidence": "high",
+        "rationale": "As a massive global technology manufacturing company, TSMC is a prime candidate for institutional banking and large-scale corporate lending."
+      },
+      {
+        "company": "Foxconn",
+        "relation": "L2",
+        "profile_used": "Credit Risk",
+        "role": "customer",
+        "confidence": "high",
+        "rationale": "A major electronics manufacturer that requires complex treasury and commercial banking services to manage global operations."
+      },
+      {
+        "company": "Spirit AeroSystems",
+        "relation": "L2",
+        "profile_used": "Credit Risk",
+        "role": "customer",
+        "confidence": "high",
+        "rationale": "An industrial aerospace manufacturer that is a typical customer for corporate lending and financial services."
+      },
+      {
+        "company": "Honeywell International",
+        "relation": "L2",
+        "profile_used": "Credit Risk",
+        "role": "customer",
+        "confidence": "high",
+        "rationale": "A large diversified industrial company requiring sophisticated commercial and investment banking services."
+      },
+      {
+        "company": "Airbus SE",
+        "relation": "L2",
+        "profile_used": "Credit Risk",
+        "role": "customer",
+        "confidence": "high",
+        "rationale": "As a major global aerospace manufacturer, Airbus is a significant institutional client for corporate banking and capital markets."
+      }
+    ],
+    "error": null
+  },
+  {
+    "article_id": "art_016",
+    "title": "Regional Banks Brace for Tighter Capital Requirements",
+    "elapsed_seconds": 125.6,
+    "tags": [
+      {
+        "company": "JPMorgan Chase & Co.",
+        "relation": "L1",
+        "profile_used": "Credit Risk",
+        "reason": "sector_impact"
+      },
+      {
+        "company": "Bank of America Corp.",
+        "relation": "L1",
+        "profile_used": "Credit Risk",
+        "reason": "sector_impact"
+      },
+      {
+        "company": "Citigroup Inc.",
+        "relation": "L1",
+        "profile_used": "Credit Risk",
+        "reason": "sector_impact"
+      },
+      {
+        "company": "Apple Inc.",
+        "relation": "L2",
+        "profile_used": "Credit Risk",
+        "role": "customer",
+        "confidence": "high",
+        "rationale": "As a large corporation with significant cash reserves and complex global operations, Apple is a plausible institutional client for JPMorgan's investment banking and commercial lending services. (also suggested via As a major corporation with significant cash reserves and consumer-facing operations, Apple is a plausible customer for Bank of America's institutional financial services and wealth management.) (also suggested via Citigroup serves retail and corporate banking clients. Apple is a massive global corporation that requires institutional banking services, payroll management, and consumer financial products for its employees and ecosystem.)"
+      },
+      {
+        "company": "Microsoft Corporation",
+        "relation": "L2",
+        "profile_used": "Credit Risk",
+        "role": "customer",
+        "confidence": "high",
+        "rationale": "As a massive global technology corporation, Microsoft requires complex financial services, including treasury management, investment banking, and commercial lending, which are core to JPMorgan's business. (also suggested via As a massive global technology corporation, Microsoft requires complex institutional financial services, treasury management, and corporate banking provided by major banks like Bank of America.) (also suggested via Citigroup's description states they purchase technology consulting and IT infrastructure services. Microsoft is a major provider of cloud computing (Azure) and software services which are essential for banking IT infrastructure.)"
+      },
+      {
+        "company": "NVIDIA Corporation",
+        "relation": "L2",
+        "profile_used": "Credit Risk",
+        "role": "customer",
+        "confidence": "high",
+        "rationale": "As a major global technology company, NVIDIA is a plausible institutional client for JPMorgan's investment banking and corporate financial services. (also suggested via As a large-scale technology company with significant global operations, NVIDIA is a plausible customer for Bank of America's institutional and corporate banking services.)"
+      },
+      {
+        "company": "Exxon Mobil Corporation",
+        "relation": "L2",
+        "profile_used": "Credit Risk",
+        "role": "customer",
+        "confidence": "high",
+        "rationale": "Large energy companies are primary clients for commercial lending, capital markets (investment banking), and complex treasury services provided by global banks. (also suggested via Large energy corporations require extensive commercial banking, institutional financial services, and complex lending/financing solutions provided by major national banks.) (also suggested via Citigroup serves corporate banking clients. Exxon Mobil is a major global corporation that requires complex institutional banking, trade finance, and treasury services.)"
+      },
+      {
+        "company": "Chevron Corporation",
+        "relation": "L2",
+        "profile_used": "Credit Risk",
+        "role": "customer",
+        "confidence": "high",
+        "rationale": "Similar to Exxon Mobil, Chevron is a massive corporate entity that utilizes investment banking and commercial lending services for large-scale operations. (also suggested via Similar to Exxon Mobil, Chevron is a massive industrial entity that utilizes institutional financial services and corporate banking for its global operations.) (also suggested via Citigroup serves corporate banking clients. Chevron is a large-scale industrial corporation that requires institutional financial services for global operations.)"
+      },
+      {
+        "company": "ConocoPhillips",
+        "relation": "L2",
+        "profile_used": "Credit Risk",
+        "role": "customer",
+        "confidence": "high",
+        "rationale": "As an independent energy producer, ConocoPhillips requires corporate banking and financial services to manage its capital-intensive operations. (also suggested via As an independent energy producer, ConocoPhillips requires commercial banking and institutional financial services to manage large-scale capital expenditures and operations.) (also suggested via Citigroup serves corporate banking clients. ConocoPhillips is a large energy company requiring commercial and institutional banking services.)"
+      },
+      {
+        "company": "American Airlines Group Inc.",
+        "relation": "L2",
+        "profile_used": "Credit Risk",
+        "role": "customer",
+        "confidence": "high",
+        "rationale": "Airlines are major users of commercial lending for aircraft acquisition and investment banking for complex financing structures. (also suggested via Airlines require significant corporate banking, revolving credit lines, and institutional financial services to manage high-volume transactions and capital intensive operations.) (also suggested via Citigroup serves retail and corporate banking clients. Major airlines are significant corporate clients for large banks regarding lending, leasing, and international settlements.)"
+      },
+      {
+        "company": "Delta Air Lines Inc.",
+        "relation": "L2",
+        "profile_used": "Credit Risk",
+        "role": "customer",
+        "confidence": "high",
+        "rationale": "Large airlines require significant corporate banking, credit facilities, and treasury services to manage global operations. (also suggested via Airlines are major users of commercial banking, treasury services, and institutional financial products to manage fuel hedging and large-scale operational costs.) (also suggested via Citigroup serves retail and corporate banking clients. Delta is a major corporation requiring institutional banking services for its global operations.)"
+      },
+      {
+        "company": "United Continental Holdings Inc.",
+        "relation": "L2",
+        "profile_used": "Credit Risk",
+        "role": "customer",
+        "confidence": "high",
+        "rationale": "As a major carrier, United requires the commercial lending and investment banking services offered by a global bank like JPMorgan. (also suggested via As a major airline parent company, it requires sophisticated corporate banking and institutional financial services for its diverse business needs.) (also suggested via Citigroup serves retail and corporate banking clients. United Airlines is a large-scale corporate entity requiring commercial banking services.)"
+      },
+      {
+        "company": "Johnson & Johnson",
+        "relation": "L2",
+        "profile_used": "Credit Risk",
+        "role": "customer",
+        "confidence": "high",
+        "rationale": "Large pharmaceutical companies are typical institutional clients for investment banking (M&A) and commercial lending services. (also suggested via Large pharmaceutical companies are primary customers for institutional financial services, managing massive global cash flows and corporate lending needs.) (also suggested via Citigroup serves corporate banking clients. As a massive global pharmaceutical company, J&J requires institutional and corporate banking services.)"
+      },
+      {
+        "company": "Pfizer Inc.",
+        "relation": "L2",
+        "profile_used": "Credit Risk",
+        "role": "customer",
+        "confidence": "high",
+        "rationale": "As a global healthcare leader, Pfizer is a plausible client for JPMorgan's corporate and investment banking divisions. (also suggested via A major global healthcare company that requires complex commercial banking and institutional financial services to support its large-scale operations.) (also suggested via Citigroup serves corporate banking clients. Pfizer is a large-scale global corporation requiring complex financial and institutional banking services.)"
+      },
+      {
+        "company": "Merck & Co. Inc.",
+        "relation": "L2",
+        "profile_used": "Credit Risk",
+        "role": "customer",
+        "confidence": "high",
+        "rationale": "Large-scale pharmaceutical companies require the sophisticated financial services provided by global investment banks. (also suggested via As a major pharmaceutical manufacturer, Merck is a plausible customer for Bank of America's institutional and corporate banking services.) (also suggested via Citigroup serves corporate banking clients. Merck is a major pharmaceutical company that requires commercial and institutional banking.)"
+      },
+      {
+        "company": "Procter & Gamble Co.",
+        "relation": "L2",
+        "profile_used": "Credit Risk",
+        "role": "customer",
+        "confidence": "high",
+        "rationale": "A massive consumer goods manufacturer requires extensive commercial banking, treasury, and potentially investment banking services. (also suggested via A massive consumer goods company requiring sophisticated treasury management, commercial banking, and institutional financial services for global operations.) (also suggested via Citigroup serves retail and corporate banking clients. P&G is a massive consumer goods corporation requiring extensive commercial banking services.)"
+      },
+      {
+        "company": "The Coca-Cola Company",
+        "relation": "L2",
+        "profile_used": "Credit Risk",
+        "role": "customer",
+        "confidence": "high",
+        "rationale": "Large multinational corporations like Coca-Cola are primary customers for global bank's commercial and investment banking arms. (also suggested via Large multinational beverage companies are significant customers of major banks for corporate banking and institutional financial services.) (also suggested via Citigroup serves retail and corporate banking clients. Coca-Cola is a global enterprise that requires institutional banking for its international operations.)"
+      },
+      {
+        "company": "PepsiCo Inc.",
+        "relation": "L2",
+        "profile_used": "Credit Risk",
+        "role": "customer",
+        "confidence": "high",
+        "rationale": "As a major global consumer goods company, PepsiCo is a typical client for corporate lending and financial services. (also suggested via A large-scale consumer goods company that utilizes commercial banking, treasury services, and institutional financial products.) (also suggested via Citigroup serves retail and corporate banking clients. PepsiCo is a large-scale global corporation requiring commercial banking services.)"
+      },
+      {
+        "company": "General Motors Co.",
+        "relation": "L2",
+        "profile_used": "Credit Risk",
+        "role": "customer",
+        "confidence": "high",
+        "rationale": "Automotive manufacturers require significant commercial lending and complex financing solutions provided by global banks. (also suggested via Automotive manufacturers require extensive commercial lending, corporate banking, and institutional services to manage manufacturing and supply chain costs.) (also suggested via Citigroup serves retail and corporate banking clients. GM is a major manufacturer that requires large-scale corporate lending and institutional banking.)"
+      },
+      {
+        "company": "Ford Motor Company",
+        "relation": "L2",
+        "profile_used": "Credit Risk",
+        "role": "customer",
+        "confidence": "high",
+        "rationale": "Large industrial/automotive companies are major clients for corporate banking and investment banking services. (also suggested via As a major manufacturer, Ford is a plausible customer for Bank of America's institutional financial services and corporate banking divisions.) (also suggested via Citigroup serves retail and corporate banking clients. Ford is a massive industrial corporation requiring commercial banking services.)"
+      },
+      {
+        "company": "Tesla Inc.",
+        "relation": "L2",
+        "profile_used": "Credit Risk",
+        "role": "customer",
+        "confidence": "high",
+        "rationale": "As a large-scale manufacturer, Tesla requires commercial lending and sophisticated treasury/financial services. (also suggested via A large-scale manufacturing company that requires commercial banking, treasury management, and institutional financial services for its global operations.) (also suggested via Citigroup serves retail and corporate banking clients. Tesla is a large-scale manufacturer that requires institutional and corporate banking services.)"
+      },
+      {
+        "company": "Walmart Inc.",
+        "relation": "L2",
+        "profile_used": "Credit Risk",
+        "role": "customer",
+        "confidence": "high",
+        "rationale": "Retail giants require massive commercial banking operations, including cash management and supply chain financing. (also suggested via As one of the world's largest retailers, Walmart is a massive customer for commercial banking and treasury management services.) (also suggested via Citigroup serves retail and corporate banking clients. Walmart is one of the world's largest corporations, requiring massive institutional banking and treasury services.)"
+      },
+      {
+        "company": "Costco Wholesale Corporation",
+        "relation": "L2",
+        "profile_used": "Credit Risk",
+        "role": "customer",
+        "confidence": "high",
+        "rationale": "Large retailers are major customers for corporate banking services and payment processing solutions. (also suggested via Large retail chains require sophisticated corporate banking and institutional financial services to manage high-volume transactions and supply chain financing.) (also suggested via Citigroup serves retail and corporate banking clients. Costco is a large-scale retailer that requires commercial banking services.)"
+      },
+      {
+        "company": "Target Corporation",
+        "relation": "L2",
+        "profile_used": "Credit Risk",
+        "role": "customer",
+        "confidence": "high",
+        "rationale": "As a large retailer, Target is a plausible customer for commercial lending and treasury management services. (also suggested via A major retailer that requires commercial banking, treasury management, and corporate financial services for its operations.) (also suggested via Citigroup serves retail and corporate banking clients. Target is a major corporation requiring institutional financial services.)"
+      },
+      {
+        "company": "AT&T Inc.",
+        "relation": "L2",
+        "profile_used": "Credit Risk",
+        "role": "customer",
+        "confidence": "high",
+        "rationale": "Telecommunications companies require significant capital expenditure financing and corporate banking services. (also suggested via Telecommunications giants require complex institutional financial services and large-scale commercial banking to manage infrastructure investments.) (also suggested via Citigroup serves retail and corporate banking clients. AT&T is a massive telecommunications company that requires large-scale commercial banking.)"
+      },
+      {
+        "company": "Verizon Communications Inc.",
+        "relation": "L2",
+        "profile_used": "Credit Risk",
+        "role": "customer",
+        "confidence": "high",
+        "rationale": "Large telecom providers are major clients for investment banking (debt issuance) and commercial lending. (also suggested via A major telecommunications provider that is a plausible customer for Bank of America's corporate and institutional banking services.) (also suggested via Citigroup serves retail and corporate banking clients. Verizon is a major corporation requiring institutional financial services.)"
+      },
+      {
+        "company": "T-Mobile US Inc.",
+        "relation": "L2",
+        "profile_used": "Credit Risk",
+        "role": "customer",
+        "confidence": "high",
+        "rationale": "As a large telecommunications provider, T-Mobile is a plausible customer for corporate banking services. (also suggested via As a large telecom company, T-Mobile requires commercial banking and treasury management services for its business operations.) (also suggested via Citigroup serves retail and corporate banking clients. T-Mobile is a large enterprise that requires commercial banking services.)"
+      },
+      {
+        "company": "Boeing Company",
+        "relation": "L2",
+        "profile_used": "Credit Risk",
+        "role": "customer",
+        "confidence": "high",
+        "rationale": "Aerospace manufacturers require massive commercial lending and complex financing structures for their operations. (also suggested via Large aerospace manufacturers require significant corporate lending, institutional financial services, and complex treasury management.) (also suggested via Citigroup serves corporate banking clients. Boeing is a massive aerospace manufacturer requiring complex institutional and corporate banking.)"
+      },
+      {
+        "company": "Lockheed Martin Corporation",
+        "relation": "L2",
+        "profile_used": "Credit Risk",
+        "role": "customer",
+        "confidence": "high",
+        "rationale": "Large defense contractors are major institutional clients for corporate banking and investment banking services. (also suggested via A major defense contractor that requires sophisticated commercial banking and institutional financial services to manage large government contracts.) (also suggested via Citigroup serves corporate banking clients. Lockheed Martin is a major defense contractor requiring large-scale commercial banking services.)"
+      },
+      {
+        "company": "GE Aerospace",
+        "relation": "L2",
+        "profile_used": "Credit Risk",
+        "role": "customer",
+        "confidence": "high",
+        "rationale": "Industrial/aerospace companies require the commercial lending and treasury services provided by global banks. (also suggested via As a large industrial/aerospace company, GE Aerospace is a plausible customer for Bank of America's corporate and institutional banking services.) (also suggested via Citigroup serves corporate banking clients. GE Aerospace is a significant industrial company requiring institutional banking.)"
+      },
+      {
+        "company": "TSMC",
+        "relation": "L2",
+        "profile_used": "Credit Risk",
+        "role": "customer",
+        "confidence": "high",
+        "rationale": "As a massive semiconductor manufacturer, TSMC is a major institutional client for corporate banking and investment banking. (also suggested via A massive global technology manufacturer that requires sophisticated commercial banking, treasury management, and institutional financial services.)"
+      },
+      {
+        "company": "Foxconn",
+        "relation": "L2",
+        "profile_used": "Credit Risk",
+        "role": "customer",
+        "confidence": "high",
+        "rationale": "Large-scale manufacturing service providers require significant commercial banking and treasury services. (also suggested via As a major electronics manufacturing service provider, Foxconn is a plausible customer for Bank of America's corporate banking and institutional services.)"
+      },
+      {
+        "company": "Spirit AeroSystems",
+        "relation": "L2",
+        "profile_used": "Credit Risk",
+        "role": "customer",
+        "confidence": "high",
+        "rationale": "Aerospace manufacturers are typical customers for the commercial lending and financial services of a global bank. (also suggested via An aerospace manufacturer that requires commercial banking and treasury management to support its manufacturing operations.)"
+      },
+      {
+        "company": "Honeywell International",
+        "relation": "L2",
+        "profile_used": "Credit Risk",
+        "role": "customer",
+        "confidence": "high",
+        "rationale": "Large industrial conglomerates require complex corporate banking, treasury, and investment banking services. (also suggested via A large industrial technology company requiring sophisticated corporate banking and institutional financial services.)"
+      },
+      {
+        "company": "Airbus SE",
+        "relation": "L2",
+        "profile_used": "Credit Risk",
+        "role": "customer",
+        "confidence": "high",
+        "rationale": "As a major aerospace manufacturer, Airbus is a primary client for commercial lending and complex financing. (also suggested via As a major global aerospace manufacturer, Airbus is a significant customer for large-scale commercial and institutional banking services.) (also suggested via Citigroup serves corporate banking clients. Airbus is a major global manufacturer requiring large-scale commercial and institutional banking.)"
+      }
+    ],
+    "error": null
+  },
+  {
+    "article_id": "art_017",
+    "title": "Procter & Gamble Raises Prices Amid Input Cost Pressure",
+    "elapsed_seconds": 12.6,
+    "tags": [
+      {
+        "company": "Procter & Gamble Co.",
+        "relation": "L1",
+        "profile_used": "Credit Risk",
+        "reason": "mentioned"
+      },
+      {
+        "company": "Walmart Inc.",
+        "relation": "L2",
+        "profile_used": "Credit Risk",
+        "role": "customer",
+        "confidence": "high",
+        "rationale": "Procter & Gamble sells products through large retail chains, and Walmart is a major global retailer that purchases consumer packaged goods from manufacturers."
+      },
+      {
+        "company": "Costco Wholesale Corporation",
+        "relation": "L2",
+        "profile_used": "Credit Risk",
+        "role": "customer",
+        "confidence": "high",
+        "rationale": "Procter & Gamble sells through large retail chains, and Costco is a major warehouse club that purchases consumer packaged goods from manufacturers at large volumes."
+      },
+      {
+        "company": "Target Corporation",
+        "relation": "L2",
+        "profile_used": "Credit Risk",
+        "role": "customer",
+        "confidence": "high",
+        "rationale": "Procter & Gamble sells through large retail chains, and Target is a major general merchandise retailer that purchases consumer packaged goods from manufacturers."
+      }
+    ],
+    "error": null
+  },
+  {
+    "article_id": "art_018",
+    "title": "Major Retailers Push Back on Consumer Goods Price Increases",
+    "elapsed_seconds": 99.7,
+    "tags": [
+      {
+        "company": "Procter & Gamble Co.",
+        "relation": "L1",
+        "profile_used": "Credit Risk",
+        "reason": "sector_impact"
+      },
+      {
+        "company": "The Coca-Cola Company",
+        "relation": "L1",
+        "profile_used": "Credit Risk",
+        "reason": "sector_impact"
+      },
+      {
+        "company": "PepsiCo Inc.",
+        "relation": "L1",
+        "profile_used": "Credit Risk",
+        "reason": "sector_impact"
+      },
+      {
+        "company": "Walmart Inc.",
+        "relation": "L1",
+        "profile_used": "Credit Risk",
+        "reason": "mentioned"
+      },
+      {
+        "company": "Costco Wholesale Corporation",
+        "relation": "L1",
+        "profile_used": "Credit Risk",
+        "reason": "mentioned"
+      },
+      {
+        "company": "Target Corporation",
+        "relation": "L1",
+        "profile_used": "Credit Risk",
+        "reason": "mentioned"
+      },
+      {
+        "company": "Exxon Mobil Corporation",
+        "relation": "L2",
+        "profile_used": "Credit Risk",
+        "role": "supplier",
+        "confidence": "high",
+        "rationale": "Procter & Gamble purchases raw chemical ingredients for its household and personal care products. Exxon Mobil produces refined petrochemical products which are essential raw materials in the manufacturing of detergents and cleaning agents. (also suggested via The Coca-Cola Company operates a massive global logistics and distribution network for its beverages; energy companies like Exxon Mobil provide the fuel products necessary for such transportation operations.)"
+      },
+      {
+        "company": "Chevron Corporation",
+        "relation": "L2",
+        "profile_used": "Credit Risk",
+        "role": "supplier",
+        "confidence": "high",
+        "rationale": "Similar to Exxon Mobil, Chevron is an integrated oil and gas company that sells petrochemical products used as raw materials in the production of P&G's chemical-based consumer goods. (also suggested via Similar to Exxon Mobil, Chevron provides fuel and petrochemical products which are essential for the transportation of Coca-Cola's finished goods and packaging materials.)"
+      },
+      {
+        "company": "ConocoPhillips",
+        "relation": "L2",
+        "profile_used": "Credit Risk",
+        "role": "supplier",
+        "confidence": "high",
+        "rationale": "As an energy company producing oil and natural gas, their products serve as the feedstock for the petrochemical industry, which supplies the raw chemical ingredients P&G requires. (also suggested via As an energy company, they provide the fuel products required for the large-scale distribution and logistics operations of a global beverage manufacturer.)"
+      },
+      {
+        "company": "American Airlines Group Inc.",
+        "relation": "L2",
+        "profile_used": "Credit Risk",
+        "role": "customer",
+        "confidence": "high",
+        "rationale": "The Coca-Cola Company sells finished beverages through 'food service partners.' Airlines are major food service partners that purchase beverages to serve to passengers on flights."
+      },
+      {
+        "company": "Delta Air Lines Inc.",
+        "relation": "L2",
+        "profile_used": "Credit Risk",
+        "role": "customer",
+        "confidence": "high",
+        "rationale": "Airlines act as food service partners, purchasing beverage products for in-flight service and airport concessions."
+      },
+      {
+        "company": "United Continental Holdings Inc.",
+        "relation": "L2",
+        "profile_used": "Credit Risk",
+        "role": "customer",
+        "confidence": "high",
+        "rationale": "As a major passenger carrier, they are a food service partner that would purchase beverages for onboard consumption."
+      },
+      {
+        "company": "JPMorgan Chase & Co.",
+        "relation": "L2",
+        "profile_used": "Credit Risk",
+        "role": "supplier",
+        "confidence": "high",
+        "rationale": "As a global bank providing commercial lending and financial services, JPMorgan Chase is a plausible provider of banking/financial services to a large corporation like Walmart. (also suggested via Large corporations like Coca-Cola require global banking, commercial lending, and investment banking services to manage their massive international financial operations.) (also suggested via Target requires banking and financial services (commercial lending, payment processing) to operate its retail business.)"
+      },
+      {
+        "company": "Bank of America Corp.",
+        "relation": "L2",
+        "profile_used": "Credit Risk",
+        "role": "supplier",
+        "confidence": "high",
+        "rationale": "Walmart requires retail and commercial banking services for its massive global operations. (also suggested via Coca-Cola requires retail and institutional financial services for its global business operations.) (also suggested via As a major corporation, Target utilizes large banks for retail banking and financial services necessary for daily operations.)"
+      },
+      {
+        "company": "Citigroup Inc.",
+        "relation": "L2",
+        "profile_used": "Credit Risk",
+        "role": "supplier",
+        "confidence": "high",
+        "rationale": "Walmart utilizes large-scale corporate banking and financial services provided by global banks like Citigroup. (also suggested via As a global bank, Citigroup provides the necessary international banking and financial infrastructure required by a multinational corporation like Coca-Cola.) (also suggested via Target requires the global banking and institutional financial services provided by major banks to manage its large-scale corporate finances.)"
+      },
+      {
+        "company": "Apple Inc.",
+        "relation": "L2",
+        "profile_used": "Credit Risk",
+        "role": "supplier",
+        "confidence": "high",
+        "rationale": "Walmart's description includes purchasing general merchandise and consumer goods; Apple sells finished consumer electronics which are standard inventory for large retail chains like Walmart. (also suggested via Target Corporation purchases general merchandise and consumer goods; Apple sells finished consumer electronics (iPhone, Mac) which are standard items for a large retail chain's inventory.)"
+      },
+      {
+        "company": "Microsoft Corporation",
+        "relation": "L2",
+        "profile_used": "Credit Risk",
+        "role": "supplier",
+        "confidence": "high",
+        "rationale": "Walmart is a massive global retailer that requires software and hardware (like Surface devices) for its business operations and consumer sales. (also suggested via Target requires software and hardware (like Surface devices) for its business operations and potentially for resale as consumer electronics.)"
+      },
+      {
+        "company": "Johnson & Johnson",
+        "relation": "L2",
+        "profile_used": "Credit Risk",
+        "role": "supplier",
+        "confidence": "high",
+        "rationale": "Walmart purchases consumer packaged goods; Johnson & Johnson manufactures pharmaceuticals and medical products that are standard retail items for Walmart's pharmacies and general merchandise sections. (also suggested via Costco sells general merchandise and groceries; J&J manufactures pharmaceuticals and medical devices which are standard consumer/healthcare goods sold through retail channels.) (also suggested via Target purchases consumer packaged goods; Johnson & Johnson manufactures health/personal care products that are standard inventory for a general merchandise retailer.)"
+      },
+      {
+        "company": "Pfizer Inc.",
+        "relation": "L2",
+        "profile_used": "Credit Risk",
+        "role": "supplier",
+        "confidence": "high",
+        "rationale": "Walmart purchases consumer packaged goods; Pfizer manufactures medicines which are sold through Walmart's retail pharmacy locations. (also suggested via Costco sells general merchandise; Pfizer is a manufacturer of medicines and vaccines which are typically distributed to large retailers/pharmacies.) (also suggested via As a retailer of consumer packaged goods, Target may sell over-the-counter pharmaceutical products manufactured by Pfizer.)"
+      },
+      {
+        "company": "Merck & Co. Inc.",
+        "relation": "L2",
+        "profile_used": "Credit Risk",
+        "role": "supplier",
+        "confidence": "high",
+        "rationale": "As a manufacturer of pharmaceuticals, Merck's products are items that large retail chains like Walmart purchase to sell to consumers. (also suggested via Costco sells general merchandise; Merck is a manufacturer of pharmaceuticals and vaccines sold through major distributors to retail outlets.) (also suggested via Similar to Pfizer, Merck's consumer health products are plausible inventory for a large-scale general merchandise retailer.)"
+      },
+      {
+        "company": "AT&T Inc.",
+        "relation": "L2",
+        "profile_used": "Credit Risk",
+        "role": "supplier",
+        "confidence": "high",
+        "rationale": "Walmart requires telecommunications and broadband services for its massive network of stores and corporate operations. (also suggested via As a large retailer, Target requires telecommunications and broadband services for its store operations and corporate infrastructure.)"
+      },
+      {
+        "company": "Verizon Communications Inc.",
+        "relation": "L2",
+        "profile_used": "Credit Risk",
+        "role": "supplier",
+        "confidence": "high",
+        "rationale": "Walmart utilizes wireless and broadband communication services to maintain its retail and logistics infrastructure. (also suggested via Target requires wireless and broadband communication services to maintain connectivity across its retail locations.)"
+      },
+      {
+        "company": "T-Mobile US Inc.",
+        "relation": "L2",
+        "profile_used": "Credit Risk",
+        "role": "supplier",
+        "confidence": "high",
+        "rationale": "Walmart requires mobile service plans for its workforce and operational connectivity. (also suggested via Target utilizes telecommunications services for its business operations and mobile connectivity needs.)"
+      }
+    ],
+    "error": null
+  },
+  {
+    "article_id": "art_019",
+    "title": "Tesla Ramps Battery Production at New Facility",
+    "elapsed_seconds": 11.3,
+    "tags": [
+      {
+        "company": "Tesla Inc.",
+        "relation": "L1",
+        "profile_used": "Credit Risk",
+        "reason": "mentioned"
+      },
+      {
+        "company": "TSMC",
+        "relation": "L2",
+        "profile_used": "Credit Risk",
+        "role": "supplier",
+        "confidence": "high",
+        "rationale": "Tesla designs and manufactures electric vehicles which require semiconductor chips. TSMC is a major foundry that sells chip manufacturing capacity to technology and hardware companies."
+      },
+      {
+        "company": "Foxconn",
+        "relation": "L2",
+        "profile_used": "Credit Risk",
+        "role": "supplier",
+        "confidence": "high",
+        "rationale": "Tesla manufactures complex electronic systems for its vehicles. Foxconn provides electronics manufacturing and assembly services on contract for other companies."
+      }
+    ],
+    "error": null
+  },
+  {
+    "article_id": "art_020",
+    "title": "Automakers Navigate Semiconductor Supply Volatility",
+    "elapsed_seconds": 43.8,
+    "tags": [
+      {
+        "company": "General Motors Co.",
+        "relation": "L1",
+        "profile_used": "Credit Risk",
+        "reason": "sector_impact"
+      },
+      {
+        "company": "Ford Motor Company",
+        "relation": "L1",
+        "profile_used": "Credit Risk",
+        "reason": "sector_impact"
+      },
+      {
+        "company": "Tesla Inc.",
+        "relation": "L1",
+        "profile_used": "Credit Risk",
+        "reason": "sector_impact"
+      },
+      {
+        "company": "Exxon Mobil Corporation",
+        "relation": "L2",
+        "profile_used": "Credit Risk",
+        "role": "supplier",
+        "confidence": "high",
+        "rationale": "As an energy company that sells refined fuel products to transportation companies, they are a plausible supplier of fuel for GM's internal combustion engine vehicles. (also suggested via Ford manufactures vehicles that require fuel; energy companies like Exxon Mobil provide the refined fuel products used by Ford's customers.)"
+      },
+      {
+        "company": "Chevron Corporation",
+        "relation": "L2",
+        "profile_used": "Credit Risk",
+        "role": "supplier",
+        "confidence": "high",
+        "rationale": "As an integrated oil and gas company that sells fuel products to transportation customers, they are a plausible supplier of fuel for GM's vehicles. (also suggested via As an integrated oil and gas company, Chevron provides fuel products essential for the operation of the vehicles Ford manufactures.)"
+      },
+      {
+        "company": "ConocoPhillips",
+        "relation": "L2",
+        "profile_used": "Credit Risk",
+        "role": "supplier",
+        "confidence": "high",
+        "rationale": "As an energy company selling crude oil and natural gas to refiners, they are a plausible upstream supplier in the fuel supply chain for GM's vehicles. (also suggested via Provides energy resources/fuels that are a primary requirement for the consumer use of Ford's internal combustion engine vehicles.)"
+      },
+      {
+        "company": "NVIDIA Corporation",
+        "relation": "L2",
+        "profile_used": "Credit Risk",
+        "role": "supplier",
+        "confidence": "high",
+        "rationale": "The article content highlights that automakers are navigating semiconductor supply volatility. As a designer of AI accelerator chips and GPUs, NVIDIA is a plausible supplier of the advanced computing hardware/chips required for Tesla's vehicle software and autonomous driving systems. (also suggested via The article notes automakers are navigating semiconductor volatility. As a designer of high-end chips, NVIDIA is part of the broader semiconductor ecosystem that automotive manufacturers rely on for electronics.)"
+      },
+      {
+        "company": "TSMC",
+        "relation": "L2",
+        "profile_used": "Credit Risk",
+        "role": "supplier",
+        "confidence": "high",
+        "rationale": "The article notes automakers are navigating semiconductor supply volatility. TSMC is a major semiconductor foundry that sells chip manufacturing capacity to technology companies, which in turn provide the electronics/chips Ford requires for its vehicles. (also suggested via As a semiconductor foundry that sells chip manufacturing capacity to technology companies, they are a critical supplier in the semiconductor supply chain mentioned in the article as vital to automakers.) (also suggested via The article content notes that automakers are facing semiconductor supply issues. As a major semiconductor foundry that sells chip manufacturing capacity to technology companies, TSMC is a critical supplier of the chips used in Tesla's electronic systems.)"
+      },
+      {
+        "company": "Walmart Inc.",
+        "relation": "L2",
+        "profile_used": "Credit Risk",
+        "role": "customer",
+        "confidence": "medium",
+        "rationale": "Large retailers often purchase vehicles for their own corporate fleets or rental/logistics operations, making them plausible fleet customers. (also suggested via Ford's description mentions selling to 'fleet/rental customers.' Large retail corporations like Walmart often purchase large fleets of vehicles for logistics and operations.)"
+      },
+      {
+        "company": "Costco Wholesale Corporation",
+        "relation": "L2",
+        "profile_used": "Credit Risk",
+        "role": "customer",
+        "confidence": "medium",
+        "rationale": "Similar to Walmart, large warehouse clubs often act as fleet customers for corporate vehicle needs. (also suggested via Similar to Walmart, large-scale retailers are plausible fleet customers that purchase vehicles in bulk for business operations.)"
+      },
+      {
+        "company": "Target Corporation",
+        "relation": "L2",
+        "profile_used": "Credit Risk",
+        "role": "customer",
+        "confidence": "medium",
+        "rationale": "Large retail corporations are plausible fleet/corporate customers for automotive manufacturers."
+      },
+      {
+        "company": "Foxconn",
+        "relation": "L2",
+        "profile_used": "Credit Risk",
+        "role": "supplier",
+        "confidence": "medium",
+        "rationale": "Tesla manufactures complex electronics and hardware. Foxconn provides electronics manufacturing and assembly services on contract, making them a plausible supplier for Tesla's electronic components or sub-assemblies."
+      },
+      {
+        "company": "JPMorgan Chase & Co.",
+        "relation": "L2",
+        "profile_used": "Credit Risk",
+        "role": "supplier",
+        "confidence": "medium",
+        "rationale": "As a global bank offering commercial lending and investment banking, JPMorgan is a plausible supplier of financial services (such as financing for manufacturing operations or capital markets access) to a large corporation like Tesla."
+      },
+      {
+        "company": "Bank of America Corp.",
+        "relation": "L2",
+        "profile_used": "Credit Risk",
+        "role": "supplier",
+        "confidence": "medium",
+        "rationale": "Similar to JPMorgan, Bank of America provides commercial and institutional financial services that are standard business requirements for a large-scale manufacturer like Tesla."
+      },
+      {
+        "company": "Citigroup Inc.",
+        "relation": "L2",
+        "profile_used": "Credit Risk",
+        "role": "supplier",
+        "confidence": "medium",
+        "rationale": "As an institution providing corporate banking services, Citigroup is a plausible supplier of the financial infrastructure and commercial banking services required for Tesla's global operations."
+      }
+    ],
+    "error": null
+  },
+  {
+    "article_id": "art_021",
+    "title": "Walmart Reports Strong Grocery Segment Growth",
+    "elapsed_seconds": 25.4,
+    "tags": [
+      {
+        "company": "Walmart Inc.",
+        "relation": "L1",
+        "profile_used": "Credit Risk",
+        "reason": "mentioned"
+      },
+      {
+        "company": "Apple Inc.",
+        "relation": "L2",
+        "profile_used": "Credit Risk",
+        "role": "supplier",
+        "confidence": "high",
+        "rationale": "Walmart's description includes purchasing general merchandise. Apple sells consumer electronics (iPhone, Mac) which are standard general merchandise items sold through retail partners."
+      },
+      {
+        "company": "Microsoft Corporation",
+        "relation": "L2",
+        "profile_used": "Credit Risk",
+        "role": "supplier",
+        "confidence": "high",
+        "rationale": "Walmart purchases general merchandise and technology products; Microsoft sells hardware (Surface, Xbox) that fits into Walmart's electronics/general merchandise inventory."
+      },
+      {
+        "company": "Johnson & Johnson",
+        "relation": "L2",
+        "profile_used": "Credit Risk",
+        "role": "supplier",
+        "confidence": "high",
+        "rationale": "Walmart purchases consumer packaged goods and general merchandise. Johnson & Johnson manufactures medical devices and consumer health products sold in retail environments."
+      },
+      {
+        "company": "Pfizer Inc.",
+        "relation": "L2",
+        "profile_used": "Credit Risk",
+        "role": "supplier",
+        "confidence": "medium",
+        "rationale": "As a major retailer of pharmacy goods, Walmart is a primary outlet for pharmaceutical companies to reach consumers through their pharmacy segments."
+      },
+      {
+        "company": "Merck & Co. Inc.",
+        "relation": "L2",
+        "profile_used": "Credit Risk",
+        "role": "supplier",
+        "confidence": "medium",
+        "rationale": "Similar to Pfizer, Merck's pharmaceutical products are distributed through large retail chains like Walmart."
+      },
+      {
+        "company": "JPMorgan Chase & Co.",
+        "relation": "L2",
+        "profile_used": "Credit Risk",
+        "role": "supplier",
+        "confidence": "high",
+        "rationale": "Walmart is a massive global corporation that requires banking, commercial lending, and financial services provided by major banks."
+      },
+      {
+        "company": "Bank of America Corp.",
+        "relation": "L2",
+        "profile_used": "Credit Risk",
+        "role": "supplier",
+        "confidence": "high",
+        "rationale": "As a large-scale retailer, Walmart utilizes retail and commercial banking services for its massive operational needs."
+      },
+      {
+        "company": "Citigroup Inc.",
+        "relation": "L2",
+        "profile_used": "Credit Risk",
+        "role": "supplier",
+        "confidence": "high",
+        "rationale": "Walmart requires the global banking and institutional financial services provided by large-scale international banks to manage its complex operations."
+      },
+      {
+        "company": "Procter & Gamble Co.",
+        "relation": "L2",
+        "profile_used": "Credit Risk",
+        "role": "supplier",
+        "confidence": "high",
+        "rationale": "P&G manufactures household and personal care products (Tide, Gillette) which are core consumer packaged goods that Walmart purchases to sell to consumers."
+      },
+      {
+        "company": "The Coca-Cola Company",
+        "relation": "L2",
+        "profile_used": "Credit Risk",
+        "role": "supplier",
+        "confidence": "high",
+        "rationale": "Coca-Cola manufactures beverages that are sold through retail chains; Walmart is a primary retail outlet for their products."
+      },
+      {
+        "company": "PepsiCo Inc.",
+        "relation": "L2",
+        "profile_used": "Credit Risk",
+        "role": "supplier",
+        "confidence": "high",
+        "rationale": "PepsiCo manufactures snacks and beverages which are core consumer packaged goods sold by Walmart in its grocery and warehouse segments."
+      },
+      {
+        "company": "AT&T Inc.",
+        "relation": "L2",
+        "profile_used": "Credit Risk",
+        "role": "supplier",
+        "confidence": "high",
+        "rationale": "Walmart requires telecommunications, broadband, and wireless services to operate its massive network of stores and digital infrastructure."
+      },
+      {
+        "company": "Verizon Communications Inc.",
+        "relation": "L2",
+        "profile_used": "Credit Risk",
+        "role": "supplier",
+        "confidence": "high",
+        "rationale": "Walmart utilizes wireless and broadband communication services for its retail operations and corporate connectivity."
+      },
+      {
+        "company": "T-Mobile US Inc.",
+        "relation": "L2",
+        "profile_used": "Credit Risk",
+        "role": "supplier",
+        "confidence": "high",
+        "rationale": "Walmart requires mobile service plans and telecommunications infrastructure to support its business communications and consumer-facing services."
+      }
+    ],
+    "error": null
+  },
+  {
+    "article_id": "art_022",
+    "title": "Retail Sector Prepares for Competitive Holiday Discounting",
+    "elapsed_seconds": 63.6,
+    "tags": [
+      {
+        "company": "Walmart Inc.",
+        "relation": "L1",
+        "profile_used": "Credit Risk",
+        "reason": "sector_impact"
+      },
+      {
+        "company": "Costco Wholesale Corporation",
+        "relation": "L1",
+        "profile_used": "Credit Risk",
+        "reason": "sector_impact"
+      },
+      {
+        "company": "Target Corporation",
+        "relation": "L1",
+        "profile_used": "Credit Risk",
+        "reason": "sector_impact"
+      },
+      {
+        "company": "Apple Inc.",
+        "relation": "L2",
+        "profile_used": "Credit Risk",
+        "role": "supplier",
+        "confidence": "high",
+        "rationale": "Walmart's description states it purchases general merchandise; Apple sells finished consumer electronics (iPhone, Mac) which are standard inventory for large discount retailers. (also suggested via Costco sells general merchandise and consumer electronics; Apple is a manufacturer of consumer electronics that sells through retail partners.) (also suggested via Target purchases general merchandise and consumer electronics to sell to consumers; Apple sells finished devices (iPhone, Mac) through retail partners.)"
+      },
+      {
+        "company": "Microsoft Corporation",
+        "relation": "L2",
+        "profile_used": "Credit Risk",
+        "role": "supplier",
+        "confidence": "high",
+        "rationale": "Walmart requires software and hardware services for its global retail operations; Microsoft provides software and consumer devices (Surface) that fit Walmart's general merchandise category. (also suggested via Costco sells general merchandise including software/electronics; Microsoft is a provider of hardware and software products sold through retail channels.) (also suggested via Target sells consumer goods; Microsoft provides hardware (Surface) and software that can be sold in a general merchandise retail environment.)"
+      },
+      {
+        "company": "Johnson & Johnson",
+        "relation": "L2",
+        "profile_used": "Credit Risk",
+        "role": "supplier",
+        "confidence": "high",
+        "rationale": "Walmart purchases consumer packaged goods and medical products; Johnson & Johnson manufactures pharmaceuticals and medical devices sold through retail chains. (also suggested via Target purchases consumer packaged goods; Johnson & Johnson manufactures medical/consumer health products that are standard inventory for a general merchandise retailer.)"
+      },
+      {
+        "company": "Pfizer Inc.",
+        "relation": "L2",
+        "profile_used": "Credit Risk",
+        "role": "supplier",
+        "confidence": "high",
+        "rationale": "Walmart sells consumer health products; Pfizer is a major manufacturer of medicines that are distributed to large retailers. (also suggested via As a general merchandise retailer, Target often carries over-the-counter health products manufactured by pharmaceutical companies like Pfizer.)"
+      },
+      {
+        "company": "Merck & Co. Inc.",
+        "relation": "L2",
+        "profile_used": "Credit Risk",
+        "role": "supplier",
+        "confidence": "high",
+        "rationale": "As a provider of pharmaceuticals and animal health products, Merck's goods are typical inventory for Walmart's pharmacy and general merchandise departments. (also suggested via Similar to Pfizer, Merck produces consumer health products that are sold through large retail chains.)"
+      },
+      {
+        "company": "JPMorgan Chase & Co.",
+        "relation": "L2",
+        "profile_used": "Credit Risk",
+        "role": "supplier",
+        "confidence": "high",
+        "rationale": "Walmart is a massive global corporation that requires banking, commercial lending, and financial services to manage its operations. (also suggested via As a global bank, it provides financial services (banking/commercial lending) which are essential business operations for a large corporation like Costco.) (also suggested via Target requires banking and financial services for its massive operations; JPMorgan provides commercial/corporate banking services.)"
+      },
+      {
+        "company": "Bank of America Corp.",
+        "relation": "L2",
+        "profile_used": "Credit Risk",
+        "role": "supplier",
+        "confidence": "high",
+        "rationale": "As a major U.S. bank, it provides the retail and commercial banking services necessary for Walmart's massive scale of operations. (also suggested via Provides retail and commercial banking services necessary for the daily financial operations of a major retailer.) (also suggested via As a major corporation, Target utilizes retail and commercial banking services provided by large financial institutions like Bank of America.)"
+      },
+      {
+        "company": "Citigroup Inc.",
+        "relation": "L2",
+        "profile_used": "Credit Risk",
+        "role": "supplier",
+        "confidence": "high",
+        "rationale": "Walmart requires global banking and institutional financial services to support its international retail presence. (also suggested via Provides banking and institutional financial services required for large-scale corporate operations.) (also suggested via Target requires the corporate and institutional banking services offered by global banks to manage its business operations.)"
+      },
+      {
+        "company": "Procter & Gamble Co.",
+        "relation": "L2",
+        "profile_used": "Credit Risk",
+        "role": "supplier",
+        "confidence": "high",
+        "rationale": "P&G manufactures household and personal care products (Tide, Gillette) which are core consumer packaged goods purchased by Walmart for resale. (also suggested via Costco purchases consumer packaged goods from manufacturers; P&G is a manufacturer of household and personal care products sold through large retail chains.) (also suggested via P&G is a major manufacturer of household and personal care products (Tide, Gillette) which are core consumer packaged goods sold by Target.)"
+      },
+      {
+        "company": "The Coca-Cola Company",
+        "relation": "L2",
+        "profile_used": "Credit Risk",
+        "role": "supplier",
+        "confidence": "high",
+        "rationale": "Coca-Cola sells finished beverages through retail chains; these are essential grocery/beverage items for Walmart's stores. (also suggested via Costco sells groceries/beverages; Coca-Cola is a manufacturer of beverages that sells finished products through retail chains.) (also suggested via Target sells beverages; Coca-Cola manufactures finished beverages that are distributed to and sold through retail chains.)"
+      },
+      {
+        "company": "PepsiCo Inc.",
+        "relation": "L2",
+        "profile_used": "Credit Risk",
+        "role": "supplier",
+        "confidence": "high",
+        "rationale": "PepsiCo manufactures snacks and beverages that are standard inventory for Walmart's grocery and warehouse club segments. (also suggested via Costco sells groceries/snacks; PepsiCo manufactures beverages and snacks specifically sold through warehouse club chains.) (also suggested via PepsiCo manufactures snacks and beverages which are primary consumer packaged goods sold by Target.)"
+      },
+      {
+        "company": "AT&T Inc.",
+        "relation": "L2",
+        "profile_used": "Credit Risk",
+        "role": "supplier",
+        "confidence": "high",
+        "rationale": "Walmart requires telecommunications, broadband, and wireless services to operate its global network of stores and digital platforms. (also suggested via Costco requires telecommunications, broadband, and wireless services to operate its retail locations and digital infrastructure.) (also suggested via Target requires telecommunications, broadband, and wireless services to operate its stores and digital infrastructure.)"
+      },
+      {
+        "company": "Verizon Communications Inc.",
+        "relation": "L2",
+        "profile_used": "Credit Risk",
+        "role": "supplier",
+        "confidence": "high",
+        "rationale": "Provides essential communication and internet services required for Walmart's retail and corporate infrastructure. (also suggested via Provides essential wireless and broadband communication services required for Costco's business operations.) (also suggested via Target utilizes wireless and broadband communication services for business operations.)"
+      },
+      {
+        "company": "T-Mobile US Inc.",
+        "relation": "L2",
+        "profile_used": "Credit Risk",
+        "role": "supplier",
+        "confidence": "high",
+        "rationale": "Provides wireless communication services necessary for Walmart's mobile operations and connectivity needs. (also suggested via Provides mobile service plans and telecommunications infrastructure necessary for retail operations.) (also suggested via Target requires mobile service plans and telecommunications infrastructure to support its retail and corporate connectivity.)"
+      }
+    ],
+    "error": null
+  },
+  {
+    "article_id": "art_023",
+    "title": "AT&T Expands 5G Network Coverage in Rural Markets",
+    "elapsed_seconds": 44.4,
+    "tags": [
+      {
+        "company": "AT&T Inc.",
+        "relation": "L1",
+        "profile_used": "Credit Risk",
+        "reason": "mentioned"
+      },
+      {
+        "company": "Apple Inc.",
+        "relation": "L2",
+        "profile_used": "Credit Risk",
+        "role": "customer",
+        "confidence": "high",
+        "rationale": "As a provider of wireless and broadband services, AT&T is a plausible customer for Apple's consumer electronics (iPhones) to facilitate mobile connectivity, or more accurately, Apple's devices are the primary hardware used to consume AT&T's telecommunications services."
+      },
+      {
+        "company": "Microsoft Corporation",
+        "relation": "L2",
+        "profile_used": "Credit Risk",
+        "role": "customer",
+        "confidence": "high",
+        "rationale": "Microsoft is a massive enterprise with significant business and consumer user bases that require the wireless, broadband, and telecommunications services provided by AT&T."
+      },
+      {
+        "company": "NVIDIA Corporation",
+        "relation": "L2",
+        "profile_used": "Credit Risk",
+        "role": "supplier",
+        "confidence": "medium",
+        "rationale": "As AT&T expands its 5G network and infrastructure (as noted in the article), they require high-performance computing hardware and AI accelerators to manage data traffic and network intelligence."
+      },
+      {
+        "company": "American Airlines Group Inc.",
+        "relation": "L2",
+        "profile_used": "Credit Risk",
+        "role": "customer",
+        "confidence": "high",
+        "rationale": "Airlines are major business customers that require telecommunications services for passenger Wi-Fi, crew communications, and internal logistics/operations."
+      },
+      {
+        "company": "Delta Air Lines Inc.",
+        "relation": "L2",
+        "profile_used": "Credit Risk",
+        "role": "customer",
+        "confidence": "high",
+        "rationale": "Similar to American Airlines, Delta is a large enterprise customer that relies on telecommunications services for operational connectivity and in-flight passenger services."
+      },
+      {
+        "company": "United Continental Holdings Inc.",
+        "relation": "L2",
+        "profile_used": "Credit Risk",
+        "role": "customer",
+        "confidence": "high",
+        "rationale": "As a major carrier, United Airlines requires extensive wireless and broadband infrastructure to support its global operations and customer connectivity."
+      },
+      {
+        "company": "Johnson & Johnson",
+        "relation": "L2",
+        "profile_used": "Credit Risk",
+        "role": "customer",
+        "confidence": "high",
+        "rationale": "Large pharmaceutical corporations are significant business customers that require telecommunications, data services, and broadband for their global manufacturing and distribution networks."
+      },
+      {
+        "company": "Pfizer Inc.",
+        "relation": "L2",
+        "profile_used": "Credit Risk",
+        "role": "customer",
+        "confidence": "high",
+        "rationale": "As a large-scale enterprise, Pfizer requires robust telecommunications and data services to support its research, manufacturing, and global sales operations."
+      },
+      {
+        "company": "Merck & Co. Inc.",
+        "relation": "L2",
+        "profile_used": "Credit Risk",
+        "role": "customer",
+        "confidence": "high",
+        "rationale": "Large pharmaceutical companies are standard enterprise customers for telecommunications and broadband services to maintain global connectivity."
+      },
+      {
+        "company": "JPMorgan Chase & Co.",
+        "relation": "L2",
+        "profile_used": "Credit Risk",
+        "role": "customer",
+        "confidence": "high",
+        "rationale": "Financial institutions require highly reliable, secure, and widespread telecommunications and data services for banking operations and digital customer interfaces."
+      },
+      {
+        "company": "Bank of America Corp.",
+        "relation": "L2",
+        "profile_used": "Credit Risk",
+        "role": "customer",
+        "confidence": "high",
+        "rationale": "As a major bank, they are a significant enterprise customer for telecommunications infrastructure to support retail banking and digital services."
+      },
+      {
+        "company": "Citigroup Inc.",
+        "relation": "L2",
+        "profile_used": "Credit Risk",
+        "role": "customer",
+        "confidence": "high",
+        "rationale": "Global banks require extensive telecommunications networks to facilitate international transactions and secure data transmission."
+      },
+      {
+        "company": "Procter & Gamble Co.",
+        "relation": "L2",
+        "profile_used": "Credit Risk",
+        "role": "customer",
+        "confidence": "high",
+        "rationale": "A massive consumer goods manufacturer requires significant telecommunications and broadband services for supply chain management and global corporate operations."
+      },
+      {
+        "company": "The Coca-Cola Company",
+        "relation": "L2",
+        "profile_used": "Credit Risk",
+        "role": "customer",
+        "confidence": "high",
+        "rationale": "Large-scale manufacturing and distribution companies like Coca-Cola are major enterprise customers for telecommunications services."
+      },
+      {
+        "company": "PepsiCo Inc.",
+        "relation": "L2",
+        "profile_used": "Credit Risk",
+        "role": "customer",
+        "confidence": "high",
+        "rationale": "As a global food and beverage company, PepsiCo requires extensive communication networks to manage its vast logistics and retail distribution chains."
+      },
+      {
+        "company": "General Motors Co.",
+        "relation": "L2",
+        "profile_used": "Credit Risk",
+        "role": "customer",
+        "confidence": "high",
+        "rationale": "Automotive manufacturers require telecommunications for factory automation, supply chain coordination, and increasingly, connected vehicle services."
+      },
+      {
+        "company": "Ford Motor Company",
+        "relation": "L2",
+        "profile_used": "Credit Risk",
+        "role": "customer",
+        "confidence": "high",
+        "rationale": "Like GM, Ford is a large enterprise customer that utilizes telecommunications for manufacturing operations and connected car technology."
+      },
+      {
+        "company": "Tesla Inc.",
+        "relation": "L2",
+        "profile_used": "Credit Risk",
+        "role": "customer",
+        "confidence": "high",
+        "rationale": "Tesla's business model relies heavily on connectivity for vehicle software updates, autonomous driving data, and energy management systems."
+      },
+      {
+        "company": "Walmart Inc.",
+        "relation": "L2",
+        "profile_used": "Credit Risk",
+        "role": "customer",
+        "confidence": "high",
+        "rationale": "Retail giants require massive telecommunications and broadband infrastructure to manage inventory, point-of-sale systems, and logistics across thousands of locations."
+      },
+      {
+        "company": "Costco Wholesale Corporation",
+        "relation": "L2",
+        "profile_used": "Credit Risk",
+        "role": "customer",
+        "confidence": "high",
+        "rationale": "Large retail chains are significant enterprise customers for broadband and wireless services to run their stores and supply chain operations."
+      },
+      {
+        "company": "Target Corporation",
+        "relation": "L2",
+        "profile_used": "Credit Risk",
+        "role": "customer",
+        "confidence": "high",
+        "rationale": "Retailers require robust telecommunications networks for store operations, e-commerce fulfillment, and logistics management."
+      },
+      {
+        "company": "Boeing Company",
+        "relation": "L2",
+        "profile_used": "Credit Risk",
+        "role": "customer",
+        "confidence": "high",
+        "rationale": "Aerospace companies are large enterprise customers that require extensive telecommunications services for manufacturing and global operations."
+      },
+      {
+        "company": "Lockheed Martin Corporation",
+        "relation": "L2",
+        "profile_used": "Credit Risk",
+        "role": "customer",
+        "confidence": "high",
+        "rationale": "Defense contractors require highly secure and reliable telecommunications infrastructure to support their large-scale engineering and manufacturing projects."
+      },
+      {
+        "company": "GE Aerospace",
+        "relation": "L2",
+        "profile_used": "Credit Risk",
+        "role": "customer",
+        "confidence": "high",
+        "rationale": "Industrial manufacturers of this scale are significant enterprise customers for telecommunications and data services."
+      },
+      {
+        "company": "TSMC",
+        "relation": "L2",
+        "profile_used": "Credit Risk",
+        "role": "supplier",
+        "confidence": "medium",
+        "rationale": "As a semiconductor manufacturer, TSMC is a supplier to the companies that build the network equipment AT&T purchases (like Cisco or Nokia), making them an indirect but essential part of AT&T's supply chain for hardware components."
+      },
+      {
+        "company": "Foxconn",
+        "relation": "L2",
+        "profile_used": "Credit Risk",
+        "role": "supplier",
+        "confidence": "medium",
+        "rationale": "As a major electronics manufacturer, Foxconn produces the hardware devices that drive demand for AT&T's wireless and broadband services."
+      },
+      {
+        "company": "Spirit AeroSystems",
+        "relation": "L2",
+        "profile_used": "Credit Risk",
+        "role": "customer",
+        "confidence": "high",
+        "rationale": "Large-scale aerospace manufacturing requires significant telecommunications infrastructure for operations and logistics."
+      },
+      {
+        "company": "Honeywell International",
+        "relation": "L2",
+        "profile_used": "Credit Risk",
+        "role": "customer",
+        "confidence": "high",
+        "rationale": "Industrial technology companies are large enterprise customers requiring extensive communication networks for their global operations."
+      },
+      {
+        "company": "Airbus SE",
+        "relation": "L2",
+        "profile_used": "Credit Risk",
+        "role": "customer",
+        "confidence": "high",
+        "rationale": "Large aerospace manufacturers require significant telecommunications and data services to support manufacturing and global logistics."
+      }
+    ],
+    "error": null
+  },
+  {
+    "article_id": "art_024",
+    "title": "Telecom Equipment Makers See Order Backlogs Ease",
+    "elapsed_seconds": 88.0,
+    "tags": [
+      {
+        "company": "AT&T Inc.",
+        "relation": "L1",
+        "profile_used": "Credit Risk",
+        "reason": "sector_impact"
+      },
+      {
+        "company": "Verizon Communications Inc.",
+        "relation": "L1",
+        "profile_used": "Credit Risk",
+        "reason": "sector_impact"
+      },
+      {
+        "company": "T-Mobile US Inc.",
+        "relation": "L1",
+        "profile_used": "Credit Risk",
+        "reason": "sector_impact"
+      },
+      {
+        "company": "Apple Inc.",
+        "relation": "L2",
+        "profile_used": "Credit Risk",
+        "role": "customer",
+        "confidence": "high",
+        "rationale": "As a technology company that sells consumer electronics like the iPhone, Apple requires wireless and broadband services to enable device connectivity for its users. (also suggested via As a provider of wireless communications and broadband services, Verizon is a primary service provider for Apple's iPhone users (consumers) and potentially enterprise clients.) (also suggested via While Apple is a technology company, its business description notes it sells finished devices (like the iPhone) to consumers and retail partners. T-Mobile's description states they sell mobile service plans to consumers; in practice, these devices require cellular service from providers like T-Mobile to function as intended.)"
+      },
+      {
+        "company": "Microsoft Corporation",
+        "relation": "L2",
+        "profile_used": "Credit Risk",
+        "role": "customer",
+        "confidence": "high",
+        "rationale": "Microsoft operates cloud computing (Azure) and software services which require extensive telecommunications, broadband, and network infrastructure to function and deliver services. (also suggested via As an enterprise customer, Microsoft requires extensive broadband and wireless connectivity to support its global operations and cloud services.) (also suggested via T-Mobile sells mobile service plans to businesses. Microsoft is a major provider of software and cloud services to businesses, which typically require cellular data connectivity for their employees' mobile devices.)"
+      },
+      {
+        "company": "NVIDIA Corporation",
+        "relation": "L2",
+        "profile_used": "Credit Risk",
+        "role": "customer",
+        "confidence": "high",
+        "rationale": "NVIDIA's business involves building AI infrastructure for cloud providers; these data centers require high-speed telecommunications and broadband connectivity. (also suggested via While NVIDIA is a chip designer, their massive data center and AI infrastructure operations require high-speed broadband and telecommunications connectivity provided by companies like Verizon.)"
+      },
+      {
+        "company": "American Airlines Group Inc.",
+        "relation": "L2",
+        "profile_used": "Credit Risk",
+        "role": "customer",
+        "confidence": "high",
+        "rationale": "Airlines require wireless and broadband services for passenger in-flight Wi-Fi, operational communications, and corporate logistics. (also suggested via Airlines are major enterprise customers that require wireless and broadband services for flight operations, passenger Wi-Fi, and corporate connectivity.)"
+      },
+      {
+        "company": "Delta Air Lines Inc.",
+        "relation": "L2",
+        "profile_used": "Credit Risk",
+        "role": "customer",
+        "confidence": "high",
+        "rationale": "Airlines are major consumers of telecommunications services for both passenger connectivity and internal flight operations. (also suggested via Airlines are major enterprise customers that require wireless and broadband services for flight operations, passenger Wi-Fi, and corporate connectivity.)"
+      },
+      {
+        "company": "United Continental Holdings Inc.",
+        "relation": "L2",
+        "profile_used": "Credit Risk",
+        "role": "customer",
+        "confidence": "high",
+        "rationale": "As a major air carrier, they require wireless/broadband services for operational management and customer-facing connectivity. (also suggested via Airlines are major enterprise customers that require wireless and broadband services for flight operations, passenger Wi-Fi, and corporate connectivity.)"
+      },
+      {
+        "company": "Johnson & Johnson",
+        "relation": "L2",
+        "profile_used": "Credit Risk",
+        "role": "customer",
+        "confidence": "medium",
+        "rationale": "Large pharmaceutical companies are massive business entities that consume telecommunications, broadband, and wireless services for global operations."
+      },
+      {
+        "company": "Pfizer Inc.",
+        "relation": "L2",
+        "profile_used": "Credit Risk",
+        "role": "customer",
+        "confidence": "medium",
+        "rationale": "As a large-scale manufacturer and distributor of medicines, Pfizer requires robust telecommunications infrastructure for logistics and corporate communications."
+      },
+      {
+        "company": "Merck & Co. Inc.",
+        "relation": "L2",
+        "profile_used": "Credit Risk",
+        "role": "customer",
+        "confidence": "medium",
+        "rationale": "Like other large corporations, Merck is a consumer of enterprise-level communication and broadband services."
+      },
+      {
+        "company": "JPMorgan Chase & Co.",
+        "relation": "L2",
+        "profile_used": "Credit Risk",
+        "role": "customer",
+        "confidence": "high",
+        "rationale": "Banking institutions rely heavily on secure, high-speed telecommunications and broadband infrastructure for digital banking and global transactions. (also suggested via Large financial institutions are major enterprise customers requiring highly reliable broadband and wireless communication services for global operations.)"
+      },
+      {
+        "company": "Bank of America Corp.",
+        "relation": "L2",
+        "profile_used": "Credit Risk",
+        "role": "customer",
+        "confidence": "high",
+        "rationale": "As a major financial services provider, they are heavy consumers of the telecommunications and data services AT&T provides to its business clients. (also suggested via Large financial institutions are major enterprise customers requiring highly reliable broadband and wireless communication services for global operations.)"
+      },
+      {
+        "company": "Citigroup Inc.",
+        "relation": "L2",
+        "profile_used": "Credit Risk",
+        "role": "customer",
+        "confidence": "high",
+        "rationale": "Global banks require extensive wireless and broadband connectivity to maintain their digital infrastructure and customer-facing services. (also suggested via Large financial institutions are major enterprise customers requiring highly reliable broadband and wireless communication services for global operations.)"
+      },
+      {
+        "company": "Procter & Gamble Co.",
+        "relation": "L2",
+        "profile_used": "Credit Risk",
+        "role": "customer",
+        "confidence": "medium",
+        "rationale": "A massive consumer goods manufacturer requires telecommunications for supply chain management, corporate operations, and logistics. (also suggested via As a large consumer goods manufacturer, P&G is an enterprise customer that requires telecommunications and broadband services for its manufacturing plants and corporate offices.)"
+      },
+      {
+        "company": "The Coca-Cola Company",
+        "relation": "L2",
+        "profile_used": "Credit Risk",
+        "role": "customer",
+        "confidence": "medium",
+        "rationale": "Large-scale manufacturing and distribution companies require communication services to manage global supply chains. (also suggested via As a large consumer goods manufacturer, Coca-Cola is an enterprise customer that requires telecommunications and broadband services for its global operations.)"
+      },
+      {
+        "company": "PepsiCo Inc.",
+        "relation": "L2",
+        "profile_used": "Credit Risk",
+        "role": "customer",
+        "confidence": "medium",
+        "rationale": "As a large consumer goods company, they are a typical business customer for telecommunications and broadband services. (also suggested via As a large consumer goods manufacturer, PepsiCo is an enterprise customer that requires telecommunications and broadband services for its global operations.)"
+      },
+      {
+        "company": "General Motors Co.",
+        "relation": "L2",
+        "profile_used": "Credit Risk",
+        "role": "customer",
+        "confidence": "high",
+        "rationale": "Automotive manufacturers require extensive connectivity for manufacturing plants, logistics, and increasingly, connected vehicle services. (also suggested via Automotive manufacturers are large enterprise customers requiring extensive wireless and broadband connectivity for manufacturing facilities and corporate offices.)"
+      },
+      {
+        "company": "Ford Motor Company",
+        "relation": "L2",
+        "profile_used": "Credit Risk",
+        "role": "customer",
+        "confidence": "high",
+        "rationale": "Similar to GM, Ford requires telecommunications for industrial operations and the connectivity features of modern vehicles. (also suggested via Automotive manufacturers are large enterprise customers requiring extensive wireless and broadband connectivity for manufacturing facilities and corporate offices.)"
+      },
+      {
+        "company": "Tesla Inc.",
+        "relation": "L2",
+        "profile_used": "Credit Risk",
+        "role": "customer",
+        "confidence": "high",
+        "rationale": "Tesla's business model relies heavily on connected technology (vehicles, energy storage) which requires wireless and broadband infrastructure. (also suggested via Automotive and energy companies require significant telecommunications infrastructure for manufacturing, logistics, and connected vehicle services.)"
+      },
+      {
+        "company": "Walmart Inc.",
+        "relation": "L2",
+        "profile_used": "Credit Risk",
+        "role": "customer",
+        "confidence": "high",
+        "rationale": "Retail giants require massive telecommunications and data networks to manage inventory, point-of-sale systems, and logistics across thousands of locations. (also suggested via Large retail chains are massive enterprise customers requiring extensive broadband and wireless connectivity for store operations, supply chain management, and logistics.) (also suggested via T-Mobile sells mobile service plans to businesses. Large retail corporations like Walmart are significant business customers that require wireless communication services for their operations and employees.)"
+      },
+      {
+        "company": "Costco Wholesale Corporation",
+        "relation": "L2",
+        "profile_used": "Credit Risk",
+        "role": "customer",
+        "confidence": "high",
+        "rationale": "Large retail chains are significant customers for broadband and wireless services to run their stores and supply chain operations. (also suggested via Large retail chains are massive enterprise customers requiring extensive broadband and wireless connectivity for store operations, supply chain management, and logistics.) (also suggested via As a massive retail entity, Costco is a plausible business customer that would purchase wireless communication services for its various locations and staff.)"
+      },
+      {
+        "company": "Target Corporation",
+        "relation": "L2",
+        "profile_used": "Credit Risk",
+        "role": "customer",
+        "confidence": "high",
+        "rationale": "Retailers require robust telecommunications infrastructure for store operations, e-commerce, and logistics management. (also suggested via Large retail chains are massive enterprise customers requiring extensive broadband and wireless connectivity for store operations, supply chain management, and logistics.) (also suggested via Similar to Walmart, Target is a large retail corporation that acts as a business customer for telecommunications services to support its corporate and store operations.)"
+      },
+      {
+        "company": "Boeing Company",
+        "relation": "L2",
+        "profile_used": "Credit Risk",
+        "role": "customer",
+        "confidence": "medium",
+        "rationale": "Aerospace manufacturers are large enterprise customers that utilize extensive communication and data services for global operations. (also suggested via Aerospace manufacturers are large enterprise customers that require telecommunications services for manufacturing plants and corporate operations.)"
+      },
+      {
+        "company": "Lockheed Martin Corporation",
+        "relation": "L2",
+        "profile_used": "Credit Risk",
+        "role": "customer",
+        "confidence": "medium",
+        "rationale": "Defense contractors require highly secure telecommunications and broadband infrastructure to support their large-scale manufacturing and government contracts. (also suggested via Aerospace and defense companies are large enterprise customers requiring secure telecommunications and broadband connectivity for their operations.)"
+      },
+      {
+        "company": "GE Aerospace",
+        "relation": "L2",
+        "profile_used": "Credit Risk",
+        "role": "customer",
+        "confidence": "medium",
+        "rationale": "Industrial manufacturers of this scale are standard enterprise customers for telecommunications services. (also suggested via Industrial/aerospace manufacturers are large enterprise customers that require telecommunications services for manufacturing plants and corporate offices.)"
+      },
+      {
+        "company": "Spirit AeroSystems",
+        "relation": "L2",
+        "profile_used": "Credit Risk",
+        "role": "customer",
+        "confidence": "medium",
+        "rationale": "As a specialized manufacturer, they require communication and data infrastructure to manage complex production and supply chains. (also suggested via Aerospace manufacturers are large enterprise customers that require telecommunications services for manufacturing plants and corporate operations.)"
+      },
+      {
+        "company": "Honeywell International",
+        "relation": "L2",
+        "profile_used": "Credit Risk",
+        "role": "customer",
+        "confidence": "medium",
+        "rationale": "A large industrial technology company that requires extensive telecommunications for its global manufacturing and service operations. (also suggested via Industrial technology companies are large enterprise customers requiring telecommunications services for their global manufacturing and corporate sites.)"
+      },
+      {
+        "company": "Airbus SE",
+        "relation": "L2",
+        "profile_used": "Credit Risk",
+        "role": "customer",
+        "confidence": "medium",
+        "rationale": "Large aerospace manufacturers are significant enterprise customers of telecommunications services. (also suggested via Aerospace manufacturers are large enterprise customers that require telecommunications services for manufacturing plants and corporate operations.)"
+      },
+      {
+        "company": "TSMC",
+        "relation": "L2",
+        "profile_used": "Credit Risk",
+        "role": "customer",
+        "confidence": "medium",
+        "rationale": "Large-scale semiconductor manufacturers require significant broadband and wireless connectivity to manage complex, automated manufacturing facilities."
+      },
+      {
+        "company": "Foxconn",
+        "relation": "L2",
+        "profile_used": "Credit Risk",
+        "role": "customer",
+        "confidence": "medium",
+        "rationale": "Electronics manufacturing services providers are large enterprise customers requiring extensive telecommunications for their global assembly plants."
+      }
+    ],
+    "error": null
+  },
+  {
+    "article_id": "art_025",
+    "title": "Boeing Secures Large Aircraft Order From Asian Carrier",
+    "elapsed_seconds": 15.9,
+    "tags": [
+      {
+        "company": "Boeing Company",
+        "relation": "L1",
+        "profile_used": "Credit Risk",
+        "reason": "mentioned"
+      },
+      {
+        "company": "American Airlines Group Inc.",
+        "relation": "L2",
+        "profile_used": "Credit Risk",
+        "role": "customer",
+        "confidence": "high",
+        "rationale": "The company's description states it purchases aircraft from commercial aircraft manufacturers, making it a direct customer of Boeing."
+      },
+      {
+        "company": "Delta Air Lines Inc.",
+        "relation": "L2",
+        "profile_used": "Credit Risk",
+        "role": "customer",
+        "confidence": "high",
+        "rationale": "The company's description states it purchases aircraft from commercial aircraft manufacturers, making it a direct customer of Boeing."
+      },
+      {
+        "company": "United Continental Holdings Inc.",
+        "relation": "L2",
+        "profile_used": "Credit Risk",
+        "role": "customer",
+        "confidence": "high",
+        "rationale": "The company's description states it purchases aircraft from commercial aircraft manufacturers, making it a direct customer of Boeing."
+      },
+      {
+        "company": "GE Aerospace",
+        "relation": "L2",
+        "profile_used": "Credit Risk",
+        "role": "supplier",
+        "confidence": "high",
+        "rationale": "Boeing sources engines from specialized aerospace suppliers; GE Aerospace manufactures jet engines for commercial aircraft and sells them to aircraft manufacturers."
+      },
+      {
+        "company": "Spirit AeroSystems",
+        "relation": "L2",
+        "profile_used": "Credit Risk",
+        "role": "supplier",
+        "confidence": "high",
+        "rationale": "Boeing sources major structural components; Spirit AeroSystems manufactures aircraft structures, including fuselages, for commercial aircraft manufacturers."
+      },
+      {
+        "company": "Honeywell International",
+        "relation": "L2",
+        "profile_used": "Credit Risk",
+        "role": "supplier",
+        "confidence": "high",
+        "rationale": "Boeing sources avionics and specialized systems; Honeywell manufactures avionics and aircraft systems and sells them to aircraft manufacturers."
+      }
+    ],
+    "error": null
+  },
+  {
+    "article_id": "art_026",
+    "title": "Defense Spending Bill Advances, Boosting Aerospace Outlook",
+    "elapsed_seconds": 85.1,
+    "tags": [
+      {
+        "company": "Boeing Company",
+        "relation": "L1",
+        "profile_used": "Credit Risk",
+        "reason": "sector_impact"
+      },
+      {
+        "company": "Lockheed Martin Corporation",
+        "relation": "L1",
+        "profile_used": "Credit Risk",
+        "reason": "sector_impact"
+      },
+      {
+        "company": "GE Aerospace",
+        "relation": "L1",
+        "profile_used": "Credit Risk",
+        "reason": "sector_impact"
+      },
+      {
+        "company": "Spirit AeroSystems",
+        "relation": "L1",
+        "profile_used": "Credit Risk",
+        "reason": "sector_impact"
+      },
+      {
+        "company": "Honeywell International",
+        "relation": "L1",
+        "profile_used": "Credit Risk",
+        "reason": "sector_impact"
+      },
+      {
+        "company": "Airbus SE",
+        "relation": "L1",
+        "profile_used": "Credit Risk",
+        "reason": "sector_impact"
+      },
+      {
+        "company": "American Airlines Group Inc.",
+        "relation": "L2",
+        "profile_used": "Credit Risk",
+        "role": "customer",
+        "confidence": "high",
+        "rationale": "Boeing sells commercial passenger aircraft to airlines; American Airlines is a major U.S. passenger airline that purchases aircraft from manufacturers. (also suggested via GE Aerospace sells engines to airlines for maintenance and operation; American Airlines is a major passenger airline that operates aircraft.) (also suggested via Honeywell sells aerospace systems and avionics to aircraft manufacturers, who then sell them to airlines. As an airline that purchases aircraft, American Airlines is a plausible end-user/customer of Honeywell's aviation technologies.) (also suggested via Airbus sells aircraft primarily to airlines; American Airlines is an airline that purchases aircraft from commercial aircraft manufacturers.)"
+      },
+      {
+        "company": "Delta Air Lines Inc.",
+        "relation": "L2",
+        "profile_used": "Credit Risk",
+        "role": "customer",
+        "confidence": "high",
+        "rationale": "Boeing sells commercial passenger aircraft to airlines; Delta Air Lines is a major U.S. passenger airline that purchases aircraft from manufacturers. (also suggested via GE Aerospace sells engines to airlines for maintenance and operation; Delta Air Lines is a major passenger airline that operates aircraft.) (also suggested via As a major airline that purchases aircraft, Delta Air Lines is a plausible customer for Honeywell's avionics and aircraft systems.) (also suggested via Airbus sells aircraft primarily to airlines; Delta Air Lines is an airline that purchases aircraft from commercial aircraft manufacturers.)"
+      },
+      {
+        "company": "United Continental Holdings Inc.",
+        "relation": "L2",
+        "profile_used": "Credit Risk",
+        "role": "customer",
+        "confidence": "high",
+        "rationale": "Boeing sells commercial passenger aircraft to airlines; United Airlines is a major U.S. passenger carrier that purchases aircraft from manufacturers. (also suggested via GE Aerospace sells engines to airlines for maintenance and operation; United Airlines is a major passenger carrier that operates aircraft.) (also suggested via As an airline that purchases aircraft, United Airlines is a plausible customer for Honeywell's aerospace and avionics systems.) (also suggested via Airbus sells aircraft primarily to airlines; United Airlines (parent) is an airline that purchases aircraft from commercial aircraft manufacturers.)"
+      },
+      {
+        "company": "Exxon Mobil Corporation",
+        "relation": "L2",
+        "profile_used": "Credit Risk",
+        "role": "supplier",
+        "confidence": "medium",
+        "rationale": "Boeing's commercial aircraft require fuel for operation; Exxon Mobil sells refined fuel products to airlines (which are Boeing's customers, but the relationship between energy providers and the aviation ecosystem is a standard part of normal business operations)."
+      },
+      {
+        "company": "Chevron Corporation",
+        "relation": "L2",
+        "profile_used": "Credit Risk",
+        "role": "supplier",
+        "confidence": "medium",
+        "rationale": "Boeing's commercial aircraft require fuel for operation; Chevron sells fuel and petrochemical products to transportation companies/airlines."
+      },
+      {
+        "company": "ConocoPhillips",
+        "relation": "L2",
+        "profile_used": "Credit Risk",
+        "role": "supplier",
+        "confidence": "medium",
+        "rationale": "Boeing's commercial aircraft require fuel for operation; ConocoPhillips sells energy products that feed into the aviation fuel supply chain."
+      },
+      {
+        "company": "NVIDIA Corporation",
+        "relation": "L2",
+        "profile_used": "Credit Risk",
+        "role": "supplier",
+        "confidence": "high",
+        "rationale": "Lockheed Martin purchases specialized electronics and components for defense systems. NVIDIA's AI accelerator chips and high-performance computing technology are critical components used in modern advanced defense and aerospace electronic systems."
+      },
+      {
+        "company": "TSMC",
+        "relation": "L2",
+        "profile_used": "Credit Risk",
+        "role": "supplier",
+        "confidence": "high",
+        "rationale": "Lockheed Martin's description states they purchase specialized electronics. As a leading semiconductor foundry, TSMC provides the essential chip manufacturing services required for the advanced electronic components used in aerospace and defense systems."
+      }
+    ],
+    "error": null
+  },
+  {
+    "article_id": "art_027",
+    "title": "GE Aerospace Reports Engine Order Backlog at Record High",
+    "elapsed_seconds": 17.7,
+    "tags": [
+      {
+        "company": "GE Aerospace",
+        "relation": "L1",
+        "profile_used": "Credit Risk",
+        "reason": "mentioned"
+      },
+      {
+        "company": "American Airlines Group Inc.",
+        "relation": "L2",
+        "profile_used": "Credit Risk",
+        "role": "customer",
+        "confidence": "high",
+        "rationale": "GE Aerospace sells engines to airlines for maintenance and fleet rebuilding; American Airlines is a major passenger airline that purchases aircraft/engines."
+      },
+      {
+        "company": "Delta Air Lines Inc.",
+        "relation": "L2",
+        "profile_used": "Credit Risk",
+        "role": "customer",
+        "confidence": "high",
+        "rationale": "GE Aerospace sells engines to airlines for maintenance and fleet rebuilding; Delta Air Lines is a major passenger airline that purchases aircraft/engines."
+      },
+      {
+        "company": "United Continental Holdings Inc.",
+        "relation": "L2",
+        "profile_used": "Credit Risk",
+        "role": "customer",
+        "confidence": "high",
+        "rationale": "GE Aerospace sells engines to airlines for maintenance and fleet rebuilding; United Airlines is a major passenger airline that purchases aircraft/engines."
+      },
+      {
+        "company": "Boeing Company",
+        "relation": "L2",
+        "profile_used": "Credit Risk",
+        "role": "customer",
+        "confidence": "high",
+        "rationale": "The article states GE Aerospace's backlog reflects demand from aircraft manufacturers; Boeing is a major commercial aircraft manufacturer that sources engines from suppliers."
+      },
+      {
+        "company": "Lockheed Martin Corporation",
+        "relation": "L2",
+        "profile_used": "Credit Risk",
+        "role": "customer",
+        "confidence": "high",
+        "rationale": "GE Aerospace manufactures jet engines for military aircraft; Lockheed Martin designs and manufactures aerospace and defense systems, often requiring propulsion systems."
+      },
+      {
+        "company": "Spirit AeroSystems",
+        "relation": "L2",
+        "profile_used": "Credit Risk",
+        "role": "supplier",
+        "confidence": "medium",
+        "rationale": "Spirit AeroSystems manufactures aircraft structures (fuselages) for aircraft manufacturers; while GE Aerospace is an engine maker, they operate within the same integrated supply chain of aerospace parts and components mentioned in their description."
+      },
+      {
+        "company": "Honeywell International",
+        "relation": "L2",
+        "profile_used": "Credit Risk",
+        "role": "supplier",
+        "confidence": "medium",
+        "rationale": "GE Aerospace purchases precision components; Honeywell manufactures avionics and aircraft systems, which are often integrated with GE engines in aerospace manufacturing."
+      }
+    ],
+    "error": null
+  },
+  {
+    "article_id": "art_028",
+    "title": "Global Shipping Rates Ease as Port Congestion Clears",
+    "elapsed_seconds": 4.1,
+    "tags": [],
+    "error": null
+  },
+  {
+    "article_id": "art_029",
+    "title": "Currency Volatility Weighs on Multinational Earnings Outlook",
+    "elapsed_seconds": 4.0,
+    "tags": [],
+    "error": null
+  },
+  {
+    "article_id": "art_030",
+    "title": "Business Groups Comment on Proposed Trade Policy Changes",
+    "elapsed_seconds": 4.0,
+    "tags": [],
+    "error": null
+  }
+]
