@@ -6,7 +6,45 @@ AI-powered financial news company tagging
 
 import json
 import streamlit as st
+import os
 from datetime import datetime
+import pandas as pd
+import altair as alt
+
+def load_feedback():
+    path = "data/feedback.json"
+    if os.path.exists(path):
+        with open(path, "r") as f:
+            return json.load(f)
+    return {}
+
+def save_feedback(feedback):
+    with open("data/feedback.json", "w") as f:
+        json.dump(feedback, f, indent=2)
+
+def feedback_key(article_id, company, relation):
+    return f"{article_id}::{company}::{relation}"
+
+def feedback_summary_data():
+    feedback = load_feedback()
+    counts = {"L1": {"Correct": 0, "Incorrect": 0}, "L2": {"Correct": 0, "Incorrect": 0}}
+    for key, entry in feedback.items():
+        parts = key.split("::")
+        if len(parts) != 3:
+            continue
+        _, _, relation = parts
+        if relation not in counts:
+            continue
+        label = "Correct" if entry.get("correct") else "Incorrect"
+        counts[relation][label] += 1
+    return pd.DataFrame(counts).T  # rows: L1, L2 — columns: Correct, Incorrect
+
+def load_feedback():
+    path = "data/feedback.json"
+    if os.path.exists(path):
+        with open(path, "r") as f:
+            return json.load(f)
+    return {}
 
 st.set_page_config(page_title="Company Intelligence", page_icon="📊", layout="wide")
 
@@ -270,14 +308,59 @@ if filtered_articles:
                 if item.get("evidence"):
                     st.write(f"**Evidence**: {item['evidence'][:200]}...")
                 break
-        
+
         st.markdown("---")
-        
+
         if raw_article and raw_article.get("content"):
             st.write("**Full Article Text:**")
             st.text(raw_article.get("content", ""))
         else:
             st.write("Article text unavailable")
+
+        # Feedback mechanism
+        feedback = load_feedback()
+        fb_key = feedback_key(article_id, selected_company_name, current_row.get("Level", ""))
+        existing = feedback.get(fb_key)
+
+        st.write("**Feedback:**")
+        if existing:
+            status = "✅ Correct" if existing["correct"] else "❌ Incorrect"
+            st.caption(f"Previously marked: {status}")
+
+        fb_col1, fb_col2 = st.columns(2)
+        with fb_col1:
+            if st.button("✅ Correct", key=f"correct_{fb_key}"):
+                feedback[fb_key] = {"correct": True, "timestamp": datetime.now().isoformat()}
+                save_feedback(feedback)
+                st.rerun()
+        with fb_col2:
+            if st.button("❌ Incorrect", key=f"incorrect_{fb_key}"):
+                feedback[fb_key] = {"correct": False, "timestamp": datetime.now().isoformat()}
+                save_feedback(feedback)
+                st.rerun()
+
+        st.markdown("---")
+        
+        with st.expander("📊 Feedback Summary (All Companies)", expanded=False):
+            summary_df = feedback_summary_data()
+            if summary_df.sum().sum() == 0:
+                st.info("No feedback recorded yet.")
+            else:
+                long_df = summary_df.reset_index().rename(columns={"index": "Relation"})
+                long_df = long_df.melt(id_vars="Relation", var_name="Outcome", value_name="Count")
+
+                chart = alt.Chart(long_df).mark_bar().encode(
+                    x=alt.X("Relation:N", title=None),
+                    xOffset="Outcome:N",
+                    y=alt.Y("Count:Q"),
+                    color=alt.Color(
+                        "Outcome:N",
+                        scale=alt.Scale(domain=["Correct", "Incorrect"], range=["#2ecc71", "#999999"]),
+                        legend=alt.Legend(title=None)
+                    )
+                ).properties(height=250)
+
+                st.altair_chart(chart, use_container_width=True)
         
         st.markdown('</div>', unsafe_allow_html=True)
     else: st.info("No news matches the selected filters.")
