@@ -1,0 +1,1060 @@
+[
+  {
+    "article_id": "art_001",
+    "l1": [
+      {
+        "company": "NVIDIA Corporation",
+        "reason": "mentioned"
+      }
+    ],
+    "l2": [
+      {
+        "company": "Microsoft Corporation",
+        "role": "customer",
+        "confidence": "high",
+        "rationale": "NVIDIA's subject description states they sell chips primarily to cloud computing providers for AI infrastructure. Microsoft, through its Azure cloud services, is a major cloud provider and a primary target for NVIDIA's AI accelerators."
+      },
+      {
+        "company": "TSMC",
+        "role": "supplier",
+        "confidence": "high",
+        "rationale": "NVIDIA designs chips but manufactures them under contract via semiconductor foundries. TSMC is a leading semiconductor foundry that provides manufacturing services to chip designers."
+      }
+    ]
+  },
+  {
+    "article_id": "art_002",
+    "l1": [
+      {
+        "company": "Chevron Corporation",
+        "reason": "sector_impact"
+      },
+      {
+        "company": "Exxon Mobil Corporation",
+        "reason": "sector_impact"
+      },
+      {
+        "company": "ConocoPhillips",
+        "reason": "sector_impact"
+      }
+    ],
+    "l2": [
+      {
+        "company": "Delta Air Lines Inc.",
+        "role": "customer",
+        "confidence": "high",
+        "rationale": "Airlines are major transportation customers that purchase jet fuel from integrated oil and gas companies like Chevron."
+      },
+      {
+        "company": "United Continental Holdings Inc.",
+        "role": "customer",
+        "confidence": "high",
+        "rationale": "Airlines are major transportation customers that purchase jet fuel from integrated oil and gas companies like Chevron."
+      },
+      {
+        "company": "American Airlines Group Inc.",
+        "role": "customer",
+        "confidence": "high",
+        "rationale": "Airlines are major transportation customers that purchase jet fuel from integrated oil and gas companies like Chevron."
+      }
+    ]
+  },
+  {
+    "article_id": "art_003",
+    "l1": [
+      {
+        "company": "TSMC",
+        "reason": "mentioned"
+      }
+    ],
+    "l2": [
+      {
+        "company": "Apple Inc.",
+        "role": "customer",
+        "confidence": "high",
+        "rationale": "Apple designs semiconductor chips for its various electronic devices (iPhone, Mac, etc.) and utilizes contract manufacturers/foundries like TSMC to produce them."
+      },
+      {
+        "company": "NVIDIA Corporation",
+        "role": "customer",
+        "confidence": "high",
+        "rationale": "NVIDIA is a fabless semiconductor company that designs GPUs and AI chips, which are manufactured under contract by foundries such as TSMC."
+      },
+      {
+        "company": "Tesla Inc.",
+        "role": "customer",
+        "confidence": "high",
+        "rationale": "Tesla designs its own specialized automotive and AI-related semiconductor chips, which require manufacturing services from a foundry like TSMC."
+      }
+    ]
+  },
+  {
+    "article_id": "art_004",
+    "l1": [
+      {
+        "company": "Boeing Company",
+        "reason": "mentioned"
+      },
+      {
+        "company": "Spirit AeroSystems",
+        "reason": "sector_impact"
+      }
+    ],
+    "l2": [
+      {
+        "company": "GE Aerospace",
+        "role": "supplier",
+        "confidence": "high",
+        "rationale": "GE Aerospace manufactures jet engines and sells them to aircraft manufacturers like Boeing."
+      },
+      {
+        "company": "Honeywell International",
+        "role": "supplier",
+        "confidence": "high",
+        "rationale": "Honeywell manufactures avionics and aerospace systems that are sold to aircraft manufacturers such as Boeing."
+      },
+      {
+        "company": "Delta Air Lines Inc.",
+        "role": "customer",
+        "confidence": "high",
+        "rationale": "Delta is a major airline that purchases commercial aircraft from manufacturers like Boeing."
+      },
+      {
+        "company": "American Airlines Group Inc.",
+        "role": "customer",
+        "confidence": "high",
+        "rationale": "American Airlines is a major carrier that purchases commercial aircraft from manufacturers like Boeing."
+      },
+      {
+        "company": "United Continental Holdings Inc.",
+        "role": "customer",
+        "confidence": "high",
+        "rationale": "United Airlines is a major passenger carrier that purchases aircraft from commercial manufacturers like Boeing."
+      },
+      {
+        "company": "Airbus SE",
+        "role": "customer",
+        "confidence": "medium",
+        "rationale": "Spirit AeroSystems is a manufacturer of aircraft structures that sells structural assemblies to aircraft manufacturers, and Airbus SE is an aircraft manufacturer that sources structural components from aerospace suppliers."
+      }
+    ]
+  },
+  {
+    "article_id": "art_005",
+    "l1": [
+      {
+        "company": "PepsiCo Inc.",
+        "reason": "sector_impact"
+      },
+      {
+        "company": "Procter & Gamble Co.",
+        "reason": "sector_impact"
+      },
+      {
+        "company": "The Coca-Cola Company",
+        "reason": "sector_impact"
+      }
+    ],
+    "l2": [
+      {
+        "company": "Walmart Inc.",
+        "role": "customer",
+        "confidence": "high",
+        "rationale": "PepsiCo sells its products through large retail and warehouse club chains, and Walmart is a major global retailer that purchases consumer packaged goods from manufacturers."
+      },
+      {
+        "company": "Target Corporation",
+        "role": "customer",
+        "confidence": "high",
+        "rationale": "PepsiCo sells its products through large retail and warehouse club chains, and Target is a major general merchandise discount retailer that purchases consumer packaged goods."
+      },
+      {
+        "company": "Costco Wholesale Corporation",
+        "role": "customer",
+        "confidence": "high",
+        "rationale": "PepsiCo sells its products through large retail and warehouse club chains, and Costco is a membership-based warehouse retail club that purchases consumer packaged goods from manufacturers at large volumes."
+      }
+    ]
+  },
+  {
+    "article_id": "art_006",
+    "l1": [
+      {
+        "company": "Apple Inc.",
+        "reason": "mentioned"
+      }
+    ],
+    "l2": [
+      {
+        "company": "Foxconn",
+        "role": "supplier",
+        "confidence": "high",
+        "rationale": "Apple's description states they purchase device assembly services from contract manufacturers, and Foxconn is a major provider of electronics manufacturing and assembly services on contract."
+      },
+      {
+        "company": "TSMC",
+        "role": "supplier",
+        "confidence": "high",
+        "rationale": "Apple's description states they purchase semiconductor chips, and TSMC is a leading semiconductor foundry that manufactures chips for technology companies."
+      },
+      {
+        "company": "Walmart Inc.",
+        "role": "customer",
+        "confidence": "high",
+        "rationale": "Apple sells finished devices through retail partners; Walmart is a major global retailer that carries consumer electronics."
+      },
+      {
+        "company": "Target Corporation",
+        "role": "customer",
+        "confidence": "high",
+        "rationale": "Target is a large-scale retail partner that sells various consumer goods and electronics, serving as a distribution channel for Apple products."
+      }
+    ]
+  },
+  {
+    "article_id": "art_007",
+    "l1": [
+      {
+        "company": "Microsoft Corporation",
+        "reason": "mentioned"
+      }
+    ],
+    "l2": [
+      {
+        "company": "NVIDIA Corporation",
+        "role": "supplier",
+        "confidence": "high",
+        "rationale": "Microsoft is expanding its data center capacity to meet demand for AI and cloud workloads, and NVIDIA specializes in designing the GPUs and AI accelerator chips required for such infrastructure."
+      }
+    ]
+  },
+  {
+    "article_id": "art_008",
+    "l1": [
+      {
+        "company": "TSMC",
+        "reason": "sector_impact"
+      },
+      {
+        "company": "NVIDIA Corporation",
+        "reason": "sector_impact"
+      }
+    ],
+    "l2": [
+      {
+        "company": "Apple Inc.",
+        "role": "customer",
+        "confidence": "high",
+        "rationale": "Apple designs its own proprietary semiconductor chips for products like the iPhone and Mac, which are manufactured by foundries like TSMC."
+      },
+      {
+        "company": "Microsoft Corporation",
+        "role": "customer",
+        "confidence": "high",
+        "rationale": "Microsoft designs custom silicon for its cloud infrastructure (Azure) and hardware products, making them a customer of semiconductor foundries."
+      },
+      {
+        "company": "Tesla Inc.",
+        "role": "customer",
+        "confidence": "high",
+        "rationale": "Tesla develops advanced AI systems (such as Full Self-Driving) and energy storage solutions that require significant computational power and high-performance AI accelerators."
+      }
+    ]
+  },
+  {
+    "article_id": "art_009",
+    "l1": [
+      {
+        "company": "Chevron Corporation",
+        "reason": "mentioned"
+      }
+    ],
+    "l2": [
+      {
+        "company": "Delta Air Lines Inc.",
+        "role": "customer",
+        "confidence": "high",
+        "rationale": "Chevron is an integrated oil and gas company that sells fuel to transportation customers. Delta Air Lines, as a major airline, is a primary purchaser of jet fuel from energy companies."
+      },
+      {
+        "company": "United Continental Holdings Inc.",
+        "role": "customer",
+        "confidence": "high",
+        "rationale": "Chevron sells refined fuel products to transportation customers. United Airlines (the parent company) is a major airline that purchases jet fuel from energy companies."
+      },
+      {
+        "company": "American Airlines Group Inc.",
+        "role": "customer",
+        "confidence": "high",
+        "rationale": "Chevron sells refined fuel products to transportation customers. American Airlines is a major airline that purchases jet fuel from energy companies."
+      }
+    ]
+  },
+  {
+    "article_id": "art_010",
+    "l1": [
+      {
+        "company": "ConocoPhillips",
+        "reason": "sector_impact"
+      },
+      {
+        "company": "Chevron Corporation",
+        "reason": "sector_impact"
+      },
+      {
+        "company": "Exxon Mobil Corporation",
+        "reason": "sector_impact"
+      }
+    ],
+    "l2": [
+      {
+        "company": "United Continental Holdings Inc.",
+        "role": "customer",
+        "confidence": "high",
+        "rationale": "The candidate description explicitly states that United Continental Holdings Inc. purchases jet fuel from energy companies, and ConocoPhillips is an energy company that produces the oil and natural gas used in fuel production."
+      },
+      {
+        "company": "Delta Air Lines Inc.",
+        "role": "customer",
+        "confidence": "high",
+        "rationale": "The candidate description explicitly states that Delta Air Lines Inc. purchases jet fuel from energy companies, making them a plausible customer in the supply chain of an energy company like ConocoPhillips."
+      },
+      {
+        "company": "American Airlines Group Inc.",
+        "role": "customer",
+        "confidence": "high",
+        "rationale": "American Airlines is a major carrier that purchases jet fuel from energy companies, which aligns with Chevron's business of selling fuel to transportation customers."
+      }
+    ]
+  },
+  {
+    "article_id": "art_011",
+    "l1": [
+      {
+        "company": "Delta Air Lines Inc.",
+        "reason": "mentioned"
+      }
+    ],
+    "l2": [
+      {
+        "company": "Boeing Company",
+        "role": "supplier",
+        "confidence": "high",
+        "rationale": "Boeing is a major manufacturer of commercial passenger aircraft, which are primary assets purchased by airlines like Delta Air Lines."
+      },
+      {
+        "company": "Airbus SE",
+        "role": "supplier",
+        "confidence": "high",
+        "rationale": "Airbus designs and manufactures commercial aircraft, making them a key supplier to the airline industry."
+      },
+      {
+        "company": "GE Aerospace",
+        "role": "supplier",
+        "confidence": "high",
+        "rationale": "GE Aerospace sells jet engines to airlines for both new aircraft and maintenance services."
+      },
+      {
+        "company": "Exxon Mobil Corporation",
+        "role": "supplier",
+        "confidence": "high",
+        "rationale": "Exxon Mobil produces refined fuel products, which are a critical operational requirement for airlines."
+      },
+      {
+        "company": "Chevron Corporation",
+        "role": "supplier",
+        "confidence": "high",
+        "rationale": "Chevron sells fuel and petrochemical products to transportation companies, including airlines."
+      }
+    ]
+  },
+  {
+    "article_id": "art_012",
+    "l1": [
+      {
+        "company": "Delta Air Lines Inc.",
+        "reason": "sector_impact"
+      },
+      {
+        "company": "American Airlines Group Inc.",
+        "reason": "sector_impact"
+      },
+      {
+        "company": "United Continental Holdings Inc.",
+        "reason": "sector_impact"
+      }
+    ],
+    "l2": [
+      {
+        "company": "Boeing Company",
+        "role": "supplier",
+        "confidence": "high",
+        "rationale": "Delta Air Lines is an airline, and Boeing is a major manufacturer of commercial passenger aircraft that sells to airlines."
+      },
+      {
+        "company": "Airbus SE",
+        "role": "supplier",
+        "confidence": "high",
+        "rationale": "Airbus is a primary manufacturer of commercial passenger aircraft that sells to airline companies like Delta."
+      },
+      {
+        "company": "GE Aerospace",
+        "role": "supplier",
+        "confidence": "high",
+        "rationale": "GE Aerospace manufactures jet engines and provides maintenance services for airlines, which is a core operational requirement for Delta."
+      },
+      {
+        "company": "Exxon Mobil Corporation",
+        "role": "supplier",
+        "confidence": "high",
+        "rationale": "Delta Air Lines requires significant amounts of jet fuel; Exxon Mobil sells refined fuel products to airlines and transportation companies."
+      },
+      {
+        "company": "Chevron Corporation",
+        "role": "supplier",
+        "confidence": "high",
+        "rationale": "Chevron is an integrated energy company that sells fuel products to transportation customers, including airlines."
+      }
+    ]
+  },
+  {
+    "article_id": "art_013",
+    "l1": [
+      {
+        "company": "Pfizer Inc.",
+        "reason": "mentioned"
+      }
+    ],
+    "l2": []
+  },
+  {
+    "article_id": "art_014",
+    "l1": [],
+    "l2": []
+  },
+  {
+    "article_id": "art_015",
+    "l1": [
+      {
+        "company": "JPMorgan Chase & Co.",
+        "reason": "mentioned"
+      }
+    ],
+    "l2": [
+      {
+        "company": "Apple Inc.",
+        "role": "customer",
+        "confidence": "high",
+        "rationale": "As a large global technology corporation, Apple is a plausible corporate and institutional client for JPMorgan Chase's investment and commercial banking services."
+      },
+      {
+        "company": "Walmart Inc.",
+        "role": "customer",
+        "confidence": "high",
+        "rationale": "As a massive multinational retail corporation, Walmart is a plausible corporate client that would utilize JPMorgan Chase's treasury, commercial lending, and financial services."
+      },
+      {
+        "company": "Ford Motor Company",
+        "role": "customer",
+        "confidence": "high",
+        "rationale": "As a major global automotive manufacturer, Ford is a plausible corporate client for JPMorgan Chase's commercial banking and industrial financing services."
+      }
+    ]
+  },
+  {
+    "article_id": "art_016",
+    "l1": [
+      {
+        "company": "Bank of America Corp.",
+        "reason": "sector_impact"
+      },
+      {
+        "company": "JPMorgan Chase & Co.",
+        "reason": "sector_impact"
+      },
+      {
+        "company": "Citigroup Inc.",
+        "reason": "sector_impact"
+      }
+    ],
+    "l2": [
+      {
+        "company": "Microsoft Corporation",
+        "role": "supplier",
+        "confidence": "high",
+        "rationale": "Bank of America's description states that it purchases technology services, and Microsoft is a provider of software and cloud computing services (Azure), which are core components of modern banking technology infrastructure."
+      }
+    ]
+  },
+  {
+    "article_id": "art_017",
+    "l1": [
+      {
+        "company": "Procter & Gamble Co.",
+        "reason": "mentioned"
+      }
+    ],
+    "l2": [
+      {
+        "company": "Walmart Inc.",
+        "role": "customer",
+        "confidence": "high",
+        "rationale": "Walmart is a major retail chain that purchases consumer packaged goods from manufacturers like Procter & Gamble to sell to consumers."
+      },
+      {
+        "company": "Target Corporation",
+        "role": "customer",
+        "confidence": "high",
+        "rationale": "Target is a large retailer that carries household and personal care products manufactured by companies like Procter & Gamble."
+      },
+      {
+        "company": "Costco Wholesale Corporation",
+        "role": "customer",
+        "confidence": "high",
+        "rationale": "Costco is a warehouse club retailer that purchases consumer packaged goods from manufacturers to sell to its members."
+      }
+    ]
+  },
+  {
+    "article_id": "art_018",
+    "l1": [
+      {
+        "company": "Target Corporation",
+        "reason": "sector_impact"
+      },
+      {
+        "company": "Walmart Inc.",
+        "reason": "sector_impact"
+      },
+      {
+        "company": "PepsiCo Inc.",
+        "reason": "sector_impact"
+      },
+      {
+        "company": "Costco Wholesale Corporation",
+        "reason": "sector_impact"
+      },
+      {
+        "company": "Procter & Gamble Co.",
+        "reason": "sector_impact"
+      },
+      {
+        "company": "The Coca-Cola Company",
+        "reason": "sector_impact"
+      }
+    ],
+    "l2": []
+  },
+  {
+    "article_id": "art_019",
+    "l1": [
+      {
+        "company": "Tesla Inc.",
+        "reason": "mentioned"
+      }
+    ],
+    "l2": [
+      {
+        "company": "TSMC",
+        "role": "supplier",
+        "confidence": "high",
+        "rationale": "Tesla designs its own specialized hardware and electronic systems (such as FSD chips) for its vehicles, and TSMC is a semiconductor foundry that manufactures chips for technology and hardware companies that design their own components."
+      }
+    ]
+  },
+  {
+    "article_id": "art_020",
+    "l1": [
+      {
+        "company": "General Motors Co.",
+        "reason": "sector_impact"
+      },
+      {
+        "company": "Tesla Inc.",
+        "reason": "sector_impact"
+      },
+      {
+        "company": "Ford Motor Company",
+        "reason": "sector_impact"
+      }
+    ],
+    "l2": [
+      {
+        "company": "TSMC",
+        "role": "supplier",
+        "confidence": "high",
+        "rationale": "The article discusses how automakers are navigating volatility in the semiconductor supply chain; as a major manufacturer of semiconductor chips, TSMC is a key supplier within the semiconductor industry that supports automotive manufacturing."
+      }
+    ]
+  },
+  {
+    "article_id": "art_021",
+    "l1": [
+      {
+        "company": "Walmart Inc.",
+        "reason": "mentioned"
+      }
+    ],
+    "l2": [
+      {
+        "company": "PepsiCo Inc.",
+        "role": "supplier",
+        "confidence": "high",
+        "rationale": "Walmart is a major retailer that purchases consumer packaged goods; PepsiCo manufactures beverages and snack foods specifically intended for sale through large retail chains."
+      },
+      {
+        "company": "The Coca-Cola Company",
+        "role": "supplier",
+        "confidence": "high",
+        "rationale": "Walmart is a major retailer that purchases consumer packaged goods; The Coca-Cola Company manufactures beverages sold through retail chains."
+      },
+      {
+        "company": "Procter & Gamble Co.",
+        "role": "supplier",
+        "confidence": "high",
+        "rationale": "Walmart is a major retailer that purchases household and personal care products; Procter & Gamble manufactures these goods (such as Tide and Gillette) for sale in large retail chains."
+      }
+    ]
+  },
+  {
+    "article_id": "art_022",
+    "l1": [
+      {
+        "company": "Target Corporation",
+        "reason": "sector_impact"
+      },
+      {
+        "company": "Walmart Inc.",
+        "reason": "sector_impact"
+      },
+      {
+        "company": "Costco Wholesale Corporation",
+        "reason": "sector_impact"
+      }
+    ],
+    "l2": [
+      {
+        "company": "PepsiCo Inc.",
+        "role": "supplier",
+        "confidence": "high",
+        "rationale": "PepsiCo manufactures beverages and snack foods that are sold through large retail chains, which is Target's primary business model."
+      },
+      {
+        "company": "The Coca-Cola Company",
+        "role": "supplier",
+        "confidence": "high",
+        "rationale": "Coca-Cola manufactures beverages distributed through retail chains, making them a supplier of consumer packaged goods to Target."
+      },
+      {
+        "company": "Procter & Gamble Co.",
+        "role": "supplier",
+        "confidence": "high",
+        "rationale": "P&G manufactures household and personal care products sold through large retail chains, which are core consumer packaged goods for Target."
+      },
+      {
+        "company": "Apple Inc.",
+        "role": "supplier",
+        "confidence": "high",
+        "rationale": "Apple sells its consumer electronics through various retail partners, including large retailers like Walmart."
+      },
+      {
+        "company": "Microsoft Corporation",
+        "role": "supplier",
+        "confidence": "high",
+        "rationale": "Microsoft sells software and hardware through various retail channels to consumers."
+      }
+    ]
+  },
+  {
+    "article_id": "art_023",
+    "l1": [
+      {
+        "company": "AT&T Inc.",
+        "reason": "mentioned"
+      }
+    ],
+    "l2": [
+      {
+        "company": "Tesla Inc.",
+        "role": "customer",
+        "confidence": "high",
+        "rationale": "As an automotive manufacturer, Tesla requires cellular connectivity for its connected vehicle services and software updates, making it a plausible enterprise customer for AT&T's telecommunications services."
+      },
+      {
+        "company": "Ford Motor Company",
+        "role": "customer",
+        "confidence": "high",
+        "rationale": "Automotive companies like Ford are significant business customers of telecommunications providers to support connected vehicle technology and fleet management services."
+      },
+      {
+        "company": "General Motors Co.",
+        "role": "customer",
+        "confidence": "high",
+        "rationale": "Like other automotive manufacturers, General Motors requires robust cellular data services for its vehicles' integrated telematics and connectivity features."
+      },
+      {
+        "company": "Exxon Mobil Corporation",
+        "role": "customer",
+        "confidence": "medium",
+        "rationale": "The article highlights AT&T's expansion into rural markets; energy companies like Exxon Mobil often operate in remote or rural areas and require reliable telecommunications for field operations and infrastructure monitoring."
+      }
+    ]
+  },
+  {
+    "article_id": "art_024",
+    "l1": [],
+    "l2": []
+  },
+  {
+    "article_id": "art_025",
+    "l1": [
+      {
+        "company": "Boeing Company",
+        "reason": "mentioned"
+      }
+    ],
+    "l2": [
+      {
+        "company": "GE Aerospace",
+        "role": "supplier",
+        "confidence": "high",
+        "rationale": "GE Aerospace designs and sells jet engines to aircraft manufacturers like Boeing."
+      },
+      {
+        "company": "Spirit AeroSystems",
+        "role": "supplier",
+        "confidence": "high",
+        "rationale": "Spirit AeroSystems manufactures structural assemblies, such as fuselages, for commercial aircraft manufacturers like Boeing."
+      },
+      {
+        "company": "Delta Air Lines Inc.",
+        "role": "customer",
+        "confidence": "high",
+        "rationale": "Delta Air Lines is a major airline that purchases aircraft from commercial manufacturers like Boeing."
+      },
+      {
+        "company": "Honeywell International",
+        "role": "supplier",
+        "confidence": "high",
+        "rationale": "Honeywell manufactures and sells avionics and aerospace systems to aircraft manufacturers like Boeing."
+      },
+      {
+        "company": "American Airlines Group Inc.",
+        "role": "customer",
+        "confidence": "high",
+        "rationale": "American Airlines is a major airline that purchases aircraft from commercial manufacturers like Boeing."
+      },
+      {
+        "company": "United Continental Holdings Inc.",
+        "role": "customer",
+        "confidence": "high",
+        "rationale": "United Airlines (part of United Continental) is a passenger carrier that purchases aircraft from commercial manufacturers like Boeing."
+      }
+    ]
+  },
+  {
+    "article_id": "art_026",
+    "l1": [
+      {
+        "company": "Lockheed Martin Corporation",
+        "reason": "sector_impact"
+      },
+      {
+        "company": "Boeing Company",
+        "reason": "sector_impact"
+      },
+      {
+        "company": "GE Aerospace",
+        "reason": "sector_impact"
+      },
+      {
+        "company": "Airbus SE",
+        "reason": "sector_impact"
+      },
+      {
+        "company": "Spirit AeroSystems",
+        "reason": "sector_impact"
+      },
+      {
+        "company": "Honeywell International",
+        "reason": "sector_impact"
+      }
+    ],
+    "l2": [
+      {
+        "company": "Delta Air Lines Inc.",
+        "role": "customer",
+        "confidence": "high",
+        "rationale": "Delta Air Lines is a major airline that purchases aircraft from commercial manufacturers like Boeing."
+      },
+      {
+        "company": "American Airlines Group Inc.",
+        "role": "customer",
+        "confidence": "high",
+        "rationale": "American Airlines is a major airline that purchases aircraft from commercial manufacturers like Boeing."
+      },
+      {
+        "company": "United Continental Holdings Inc.",
+        "role": "customer",
+        "confidence": "high",
+        "rationale": "United Airlines is a major airline that purchases aircraft from commercial manufacturers like Boeing."
+      }
+    ]
+  },
+  {
+    "article_id": "art_027",
+    "l1": [
+      {
+        "company": "GE Aerospace",
+        "reason": "mentioned"
+      }
+    ],
+    "l2": [
+      {
+        "company": "Airbus SE",
+        "role": "customer",
+        "confidence": "high",
+        "rationale": "As an aircraft manufacturer, Airbus is a primary customer for GE Aerospace's jet engines, as noted in the subject description and article regarding engine order backlogs."
+      },
+      {
+        "company": "Boeing Company",
+        "role": "customer",
+        "confidence": "high",
+        "rationale": "As an aircraft manufacturer, Boeing is a primary customer for GE Aerospace's jet engines, as noted in the subject description and article regarding engine order backlogs."
+      },
+      {
+        "company": "Lockheed Martin Corporation",
+        "role": "customer",
+        "confidence": "high",
+        "rationale": "As a manufacturer of defense systems and aircraft, Lockheed Martin is a plausible customer for GE Aerospace's military jet engines."
+      },
+      {
+        "company": "Delta Air Lines Inc.",
+        "role": "customer",
+        "confidence": "high",
+        "rationale": "Airlines are explicitly identified in the subject description and article as customers that purchase engines and maintenance services from GE Aerospace."
+      },
+      {
+        "company": "American Airlines Group Inc.",
+        "role": "customer",
+        "confidence": "high",
+        "rationale": "Airlines are explicitly identified in the subject description and article as customers that purchase engines and maintenance services from GE Aerospace."
+      },
+      {
+        "company": "United Continental Holdings Inc.",
+        "role": "customer",
+        "confidence": "high",
+        "rationale": "Airlines are explicitly identified in the subject description and article as customers that purchase engines and maintenance services from GE Aerospace."
+      }
+    ]
+  },
+  {
+    "article_id": "art_028",
+    "l1": [],
+    "l2": []
+  },
+  {
+    "article_id": "art_029",
+    "l1": [
+      {
+        "company": "JPMorgan Chase & Co.",
+        "reason": "sector_impact"
+      },
+      {
+        "company": "Citigroup Inc.",
+        "reason": "sector_impact"
+      },
+      {
+        "company": "Apple Inc.",
+        "reason": "sector_impact"
+      },
+      {
+        "company": "Procter & Gamble Co.",
+        "reason": "sector_impact"
+      },
+      {
+        "company": "PepsiCo Inc.",
+        "reason": "sector_impact"
+      }
+    ],
+    "l2": [
+      {
+        "company": "Microsoft Corporation",
+        "role": "customer",
+        "confidence": "high",
+        "rationale": "As a massive multinational technology company, Microsoft requires complex treasury and financial services to manage global operations and currency exposure, which are core services provided by JPMorgan Chase."
+      },
+      {
+        "company": "Walmart Inc.",
+        "role": "customer",
+        "confidence": "high",
+        "rationale": "As a large multinational retailer with significant overseas revenue, Walmart is a prime candidate for the commercial and investment banking services used to manage international cash flows and currency volatility."
+      },
+      {
+        "company": "The Coca-Cola Company",
+        "role": "customer",
+        "confidence": "high",
+        "rationale": "As a global consumer goods company, The Coca-Cola Company requires sophisticated banking services to manage the risks of currency volatility mentioned in the article."
+      },
+      {
+        "company": "Pfizer Inc.",
+        "role": "customer",
+        "confidence": "high",
+        "rationale": "As a large multinational pharmaceutical company, Pfizer utilizes global banking services for international trade and treasury management."
+      },
+      {
+        "company": "Exxon Mobil Corporation",
+        "role": "customer",
+        "confidence": "high",
+        "rationale": "A major energy multinational with extensive global operations that requires complex financial, lending, and currency hedging services provided by a global bank like JPMorgan Chase."
+      },
+      {
+        "company": "Foxconn",
+        "role": "supplier",
+        "confidence": "high",
+        "rationale": "Apple's description states it purchases device assembly services from contract manufacturers, and Foxconn is described as providing electronics manufacturing and assembly services on contract."
+      },
+      {
+        "company": "TSMC",
+        "role": "supplier",
+        "confidence": "high",
+        "rationale": "Apple's description states it purchases semiconductor chips; TSMC is a foundry that manufactures semiconductor chips on contract for companies that design their own chips."
+      },
+      {
+        "company": "Target Corporation",
+        "role": "customer",
+        "confidence": "high",
+        "rationale": "Procter & Gamble sells its products through large retail chains, and Target is a major discount retailer that purchases consumer packaged goods from manufacturers."
+      },
+      {
+        "company": "Costco Wholesale Corporation",
+        "role": "customer",
+        "confidence": "high",
+        "rationale": "Procter & Gamble sells its products through large retail chains, and Costco is a major warehouse retailer that purchases consumer packaged goods from manufacturers at large volumes."
+      }
+    ]
+  },
+  {
+    "article_id": "art_030",
+    "l1": [
+      {
+        "company": "Target Corporation",
+        "reason": "sector_impact"
+      },
+      {
+        "company": "General Motors Co.",
+        "reason": "sector_impact"
+      },
+      {
+        "company": "PepsiCo Inc.",
+        "reason": "sector_impact"
+      },
+      {
+        "company": "The Coca-Cola Company",
+        "reason": "sector_impact"
+      },
+      {
+        "company": "Procter & Gamble Co.",
+        "reason": "sector_impact"
+      },
+      {
+        "company": "Boeing Company",
+        "reason": "sector_impact"
+      },
+      {
+        "company": "Merck & Co. Inc.",
+        "reason": "sector_impact"
+      },
+      {
+        "company": "Pfizer Inc.",
+        "reason": "sector_impact"
+      },
+      {
+        "company": "TSMC",
+        "reason": "sector_impact"
+      },
+      {
+        "company": "Honeywell International",
+        "reason": "sector_impact"
+      },
+      {
+        "company": "Airbus SE",
+        "reason": "sector_impact"
+      },
+      {
+        "company": "Costco Wholesale Corporation",
+        "reason": "sector_impact"
+      },
+      {
+        "company": "Walmart Inc.",
+        "reason": "sector_impact"
+      },
+      {
+        "company": "Johnson & Johnson",
+        "reason": "sector_impact"
+      }
+    ],
+    "l2": [
+      {
+        "company": "Apple Inc.",
+        "role": "supplier",
+        "confidence": "high",
+        "rationale": "Target is a major retailer of consumer electronics, and Apple's products (iPhone, iPad) are standard merchandise sold through large-scale retail partners."
+      },
+      {
+        "company": "Microsoft Corporation",
+        "role": "supplier",
+        "confidence": "high",
+        "rationale": "Target is a retailer of general merchandise and electronics; Microsoft's hardware (Xbox) and software are common consumer products sold in major retail chains."
+      },
+      {
+        "company": "Chevron Corporation",
+        "role": "supplier",
+        "confidence": "high",
+        "rationale": "Procter & Gamble manufactures consumer goods requiring chemical ingredients and packaging; Chevron explicitly states it sells petrochemical products to industrial customers."
+      },
+      {
+        "company": "GE Aerospace",
+        "role": "supplier",
+        "confidence": "high",
+        "rationale": "GE Aerospace manufactures jet engines and sells them to aircraft manufacturers, which is a core component of Boeing's production."
+      },
+      {
+        "company": "Spirit AeroSystems",
+        "role": "supplier",
+        "confidence": "high",
+        "rationale": "Spirit AeroSystems manufactures aircraft structures like fuselages and sells them to commercial aircraft manufacturers such as Boeing."
+      },
+      {
+        "company": "Delta Air Lines Inc.",
+        "role": "customer",
+        "confidence": "high",
+        "rationale": "Delta Air Lines is a major airline that purchases aircraft from commercial aircraft manufacturers like Boeing."
+      },
+      {
+        "company": "American Airlines Group Inc.",
+        "role": "customer",
+        "confidence": "high",
+        "rationale": "American Airlines is a major airline that purchases aircraft from commercial aircraft manufacturers like Boeing."
+      },
+      {
+        "company": "United Continental Holdings Inc.",
+        "role": "customer",
+        "confidence": "high",
+        "rationale": "United Continental Holdings (parent of United Airlines) is a major carrier that purchases aircraft from commercial aircraft manufacturers like Boeing."
+      },
+      {
+        "company": "NVIDIA Corporation",
+        "role": "customer",
+        "confidence": "high",
+        "rationale": "NVIDIA designs GPUs and AI accelerator chips that are manufactured under contract by semiconductor foundries."
+      },
+      {
+        "company": "Lockheed Martin Corporation",
+        "role": "customer",
+        "confidence": "high",
+        "rationale": "Honeywell manufactures and sells aerospace systems to aircraft manufacturers, and Lockheed Martin is a major designer and manufacturer of aerospace and defense systems."
+      }
+    ]
+  }
+]

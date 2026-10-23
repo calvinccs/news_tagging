@@ -1,0 +1,14 @@
+{
+  "started_at": "2026-10-22T17:18:41.930465+00:00",
+  "finished_at": "2026-10-22T18:29:26.696342+00:00",
+  "articles": 30,
+  "companies": 35,
+  "embedding_model": "BAAI/bge-small-en-v1.5",
+  "llm_model": "gemma-4-26b-a4b-it-qat",
+  "l1_top_k": 50,
+  "l1_min_similarity": 0,
+  "l1_max_llm_calls": 25,
+  "l2_top_k": 50,
+  "l2_min_similarity": 0.45,
+  "l2_max_llm_calls": 25
+}

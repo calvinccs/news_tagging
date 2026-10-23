@@ -1,0 +1,67 @@
+{
+  "test_info": {
+    "description": "Testing tagging of 10 articles using Credit Risk profile only",
+    "timestamp": "2026-06-11T15:00:00Z",
+    "profile_used": "Credit Risk"
+  },
+  "articles_tested": 10,
+  "results": [
+    {
+      "article_id": "art_001",
+      "title": "NVIDIA Unveils Next-Generation AI Accelerator at Developer Conference",
+      "tags_found": 4
+    },
+    {
+      "article_id": "art_002", 
+      "title": "Tensions in Strait of Hormuz Disrupt Regional Oil Shipping",
+      "tags_found": 19
+    },
+    {
+      "article_id": "art_003",
+      "title": "TSMC Reports Capacity Constraints Amid Surging Chip Demand",
+      "tags_found": 10
+    },
+    {
+      "article_id": "art_004", 
+      "title": "Boeing Announces Delivery Delays for Widebody Aircraft Program",
+      "tags_found": 11
+    },
+    {
+      "article_id": "art_005",
+      "title": "Consumer Packaged Goods Sector Sees Mixed Earnings Amid Input Cost Pressure",
+      "tags_found": 12
+    },
+    {
+      "article_id": "art_006", 
+      "title": "Apple Reports Strong iPhone Sales Ahead of Holiday Quarter",
+      "tags_found": 1
+    },
+    {
+      "article_id": "art_007",
+      "title": "Microsoft Expands Data Center Footprint to Meet Cloud Demand",
+      "tags_found": 13
+    },
+    {
+      "article_id": "art_008", 
+      "title": "Semiconductor Sector Faces Export Licensing Uncertainty",
+      "tags_found": 12
+    },
+    {
+      "article_id": "art_009",
+      "title": "Chevron Announces New Deepwater Drilling Project",
+      "tags_found": 15
+    },
+    {
+      "article_id": "art_010", 
+      "title": "Oil Prices Climb on Renewed Supply Concerns",
+      "tags_found": 12
+    }
+  ],
+  "summary": {
+    "total_articles_tested": 10,
+    "total_tags_found": 97,
+    "average_tags_per_article": 9.7,
+    "l1_tags_total": 20,
+    "l2_tags_total": 77
+  }
+}

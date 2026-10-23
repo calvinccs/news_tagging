@@ -1,0 +1,3182 @@
+[
+  {
+    "article_id": "art_001",
+    "l1_candidates": 25,
+    "candidates": [
+      {
+        "company": "NVIDIA Corporation",
+        "similarity": 0.7840402126312256
+      },
+      {
+        "company": "Microsoft Corporation",
+        "similarity": 0.5777508020401001
+      },
+      {
+        "company": "TSMC",
+        "similarity": 0.552899181842804
+      },
+      {
+        "company": "Spirit AeroSystems",
+        "similarity": 0.5400640964508057
+      },
+      {
+        "company": "Apple Inc.",
+        "similarity": 0.5225446224212646
+      },
+      {
+        "company": "Foxconn",
+        "similarity": 0.5161094665527344
+      },
+      {
+        "company": "Lockheed Martin Corporation",
+        "similarity": 0.5123789310455322
+      },
+      {
+        "company": "Honeywell International",
+        "similarity": 0.5111293792724609
+      },
+      {
+        "company": "Chevron Corporation",
+        "similarity": 0.510630190372467
+      },
+      {
+        "company": "GE Aerospace",
+        "similarity": 0.5091261267662048
+      },
+      {
+        "company": "ConocoPhillips",
+        "similarity": 0.49947410821914673
+      },
+      {
+        "company": "Delta Air Lines Inc.",
+        "similarity": 0.49642884731292725
+      },
+      {
+        "company": "Tesla Inc.",
+        "similarity": 0.49557530879974365
+      },
+      {
+        "company": "Target Corporation",
+        "similarity": 0.4945639371871948
+      },
+      {
+        "company": "Boeing Company",
+        "similarity": 0.4939536452293396
+      },
+      {
+        "company": "Pfizer Inc.",
+        "similarity": 0.48762160539627075
+      },
+      {
+        "company": "Airbus SE",
+        "similarity": 0.48741471767425537
+      },
+      {
+        "company": "JPMorgan Chase & Co.",
+        "similarity": 0.48698097467422485
+      },
+      {
+        "company": "AT&T Inc.",
+        "similarity": 0.48681238293647766
+      },
+      {
+        "company": "Exxon Mobil Corporation",
+        "similarity": 0.4852336049079895
+      },
+      {
+        "company": "United Continental Holdings Inc.",
+        "similarity": 0.48413920402526855
+      },
+      {
+        "company": "Citigroup Inc.",
+        "similarity": 0.4829860031604767
+      },
+      {
+        "company": "Verizon Communications Inc.",
+        "similarity": 0.4829411804676056
+      },
+      {
+        "company": "American Airlines Group Inc.",
+        "similarity": 0.4807632267475128
+      },
+      {
+        "company": "Bank of America Corp.",
+        "similarity": 0.4782862067222595
+      }
+    ]
+  },
+  {
+    "article_id": "art_002",
+    "l1_candidates": 25,
+    "candidates": [
+      {
+        "company": "Chevron Corporation",
+        "similarity": 0.5571005344390869
+      },
+      {
+        "company": "Exxon Mobil Corporation",
+        "similarity": 0.5428959131240845
+      },
+      {
+        "company": "ConocoPhillips",
+        "similarity": 0.5124105215072632
+      },
+      {
+        "company": "Delta Air Lines Inc.",
+        "similarity": 0.5112618207931519
+      },
+      {
+        "company": "GE Aerospace",
+        "similarity": 0.5091410875320435
+      },
+      {
+        "company": "Airbus SE",
+        "similarity": 0.505390465259552
+      },
+      {
+        "company": "Spirit AeroSystems",
+        "similarity": 0.4929865896701813
+      },
+      {
+        "company": "Boeing Company",
+        "similarity": 0.4922257661819458
+      },
+      {
+        "company": "TSMC",
+        "similarity": 0.49157044291496277
+      },
+      {
+        "company": "United Continental Holdings Inc.",
+        "similarity": 0.48683446645736694
+      },
+      {
+        "company": "Honeywell International",
+        "similarity": 0.47665828466415405
+      },
+      {
+        "company": "American Airlines Group Inc.",
+        "similarity": 0.4728848934173584
+      },
+      {
+        "company": "Lockheed Martin Corporation",
+        "similarity": 0.4696941673755646
+      },
+      {
+        "company": "Merck & Co. Inc.",
+        "similarity": 0.46585190296173096
+      },
+      {
+        "company": "Foxconn",
+        "similarity": 0.46524250507354736
+      },
+      {
+        "company": "AT&T Inc.",
+        "similarity": 0.46058791875839233
+      },
+      {
+        "company": "Verizon Communications Inc.",
+        "similarity": 0.46051159501075745
+      },
+      {
+        "company": "T-Mobile US Inc.",
+        "similarity": 0.45468419790267944
+      },
+      {
+        "company": "General Motors Co.",
+        "similarity": 0.45361652970314026
+      },
+      {
+        "company": "NVIDIA Corporation",
+        "similarity": 0.4423132836818695
+      },
+      {
+        "company": "Pfizer Inc.",
+        "similarity": 0.4420437216758728
+      },
+      {
+        "company": "JPMorgan Chase & Co.",
+        "similarity": 0.44117170572280884
+      },
+      {
+        "company": "Procter & Gamble Co.",
+        "similarity": 0.4376888871192932
+      },
+      {
+        "company": "Johnson & Johnson",
+        "similarity": 0.43766796588897705
+      },
+      {
+        "company": "Target Corporation",
+        "similarity": 0.4331250488758087
+      }
+    ]
+  },
+  {
+    "article_id": "art_003",
+    "l1_candidates": 25,
+    "candidates": [
+      {
+        "company": "TSMC",
+        "similarity": 0.7613527774810791
+      },
+      {
+        "company": "NVIDIA Corporation",
+        "similarity": 0.5982354283332825
+      },
+      {
+        "company": "Foxconn",
+        "similarity": 0.5940567255020142
+      },
+      {
+        "company": "Honeywell International",
+        "similarity": 0.557576060295105
+      },
+      {
+        "company": "AT&T Inc.",
+        "similarity": 0.5544232726097107
+      },
+      {
+        "company": "Verizon Communications Inc.",
+        "similarity": 0.5534489154815674
+      },
+      {
+        "company": "Microsoft Corporation",
+        "similarity": 0.5529367923736572
+      },
+      {
+        "company": "Apple Inc.",
+        "similarity": 0.5521037578582764
+      },
+      {
+        "company": "T-Mobile US Inc.",
+        "similarity": 0.5445438623428345
+      },
+      {
+        "company": "JPMorgan Chase & Co.",
+        "similarity": 0.5341660976409912
+      },
+      {
+        "company": "Chevron Corporation",
+        "similarity": 0.532574474811554
+      },
+      {
+        "company": "Lockheed Martin Corporation",
+        "similarity": 0.5324732661247253
+      },
+      {
+        "company": "Tesla Inc.",
+        "similarity": 0.5312386155128479
+      },
+      {
+        "company": "Exxon Mobil Corporation",
+        "similarity": 0.5305516123771667
+      },
+      {
+        "company": "GE Aerospace",
+        "similarity": 0.5302976965904236
+      },
+      {
+        "company": "Target Corporation",
+        "similarity": 0.5259310603141785
+      },
+      {
+        "company": "Spirit AeroSystems",
+        "similarity": 0.525684654712677
+      },
+      {
+        "company": "Delta Air Lines Inc.",
+        "similarity": 0.5223555564880371
+      },
+      {
+        "company": "General Motors Co.",
+        "similarity": 0.5140653848648071
+      },
+      {
+        "company": "Citigroup Inc.",
+        "similarity": 0.5133764147758484
+      },
+      {
+        "company": "Pfizer Inc.",
+        "similarity": 0.5116510391235352
+      },
+      {
+        "company": "Bank of America Corp.",
+        "similarity": 0.5071263313293457
+      },
+      {
+        "company": "The Coca-Cola Company",
+        "similarity": 0.5059643387794495
+      },
+      {
+        "company": "Procter & Gamble Co.",
+        "similarity": 0.5057193636894226
+      },
+      {
+        "company": "Airbus SE",
+        "similarity": 0.5042747855186462
+      }
+    ]
+  },
+  {
+    "article_id": "art_004",
+    "l1_candidates": 25,
+    "candidates": [
+      {
+        "company": "Boeing Company",
+        "similarity": 0.6439688205718994
+      },
+      {
+        "company": "Spirit AeroSystems",
+        "similarity": 0.6174431443214417
+      },
+      {
+        "company": "Airbus SE",
+        "similarity": 0.5986663699150085
+      },
+      {
+        "company": "Delta Air Lines Inc.",
+        "similarity": 0.5986537933349609
+      },
+      {
+        "company": "American Airlines Group Inc.",
+        "similarity": 0.5803473591804504
+      },
+      {
+        "company": "GE Aerospace",
+        "similarity": 0.5770078301429749
+      },
+      {
+        "company": "Honeywell International",
+        "similarity": 0.5712277293205261
+      },
+      {
+        "company": "Lockheed Martin Corporation",
+        "similarity": 0.5607184171676636
+      },
+      {
+        "company": "United Continental Holdings Inc.",
+        "similarity": 0.5478048920631409
+      },
+      {
+        "company": "Foxconn",
+        "similarity": 0.5323946475982666
+      },
+      {
+        "company": "TSMC",
+        "similarity": 0.517625093460083
+      },
+      {
+        "company": "Ford Motor Company",
+        "similarity": 0.5175876617431641
+      },
+      {
+        "company": "NVIDIA Corporation",
+        "similarity": 0.5061934590339661
+      },
+      {
+        "company": "Target Corporation",
+        "similarity": 0.49991968274116516
+      },
+      {
+        "company": "AT&T Inc.",
+        "similarity": 0.49157366156578064
+      },
+      {
+        "company": "General Motors Co.",
+        "similarity": 0.4908762574195862
+      },
+      {
+        "company": "Verizon Communications Inc.",
+        "similarity": 0.48649704456329346
+      },
+      {
+        "company": "Pfizer Inc.",
+        "similarity": 0.4852169156074524
+      },
+      {
+        "company": "JPMorgan Chase & Co.",
+        "similarity": 0.4843909442424774
+      },
+      {
+        "company": "Exxon Mobil Corporation",
+        "similarity": 0.48433685302734375
+      },
+      {
+        "company": "Microsoft Corporation",
+        "similarity": 0.48409727215766907
+      },
+      {
+        "company": "Walmart Inc.",
+        "similarity": 0.4821472764015198
+      },
+      {
+        "company": "Costco Wholesale Corporation",
+        "similarity": 0.47995316982269287
+      },
+      {
+        "company": "Bank of America Corp.",
+        "similarity": 0.4778164327144623
+      },
+      {
+        "company": "Johnson & Johnson",
+        "similarity": 0.47675836086273193
+      }
+    ]
+  },
+  {
+    "article_id": "art_005",
+    "l1_candidates": 25,
+    "candidates": [
+      {
+        "company": "PepsiCo Inc.",
+        "similarity": 0.6797894239425659
+      },
+      {
+        "company": "Target Corporation",
+        "similarity": 0.673099160194397
+      },
+      {
+        "company": "Procter & Gamble Co.",
+        "similarity": 0.6713021993637085
+      },
+      {
+        "company": "Costco Wholesale Corporation",
+        "similarity": 0.6684170961380005
+      },
+      {
+        "company": "Walmart Inc.",
+        "similarity": 0.6556205153465271
+      },
+      {
+        "company": "The Coca-Cola Company",
+        "similarity": 0.6504195928573608
+      },
+      {
+        "company": "Merck & Co. Inc.",
+        "similarity": 0.6271816492080688
+      },
+      {
+        "company": "Apple Inc.",
+        "similarity": 0.6192299127578735
+      },
+      {
+        "company": "Foxconn",
+        "similarity": 0.6096330285072327
+      },
+      {
+        "company": "General Motors Co.",
+        "similarity": 0.6081555485725403
+      },
+      {
+        "company": "Chevron Corporation",
+        "similarity": 0.6075608730316162
+      },
+      {
+        "company": "TSMC",
+        "similarity": 0.6032158136367798
+      },
+      {
+        "company": "Tesla Inc.",
+        "similarity": 0.6009498238563538
+      },
+      {
+        "company": "Pfizer Inc.",
+        "similarity": 0.6006515026092529
+      },
+      {
+        "company": "Exxon Mobil Corporation",
+        "similarity": 0.5881270170211792
+      },
+      {
+        "company": "ConocoPhillips",
+        "similarity": 0.5874228477478027
+      },
+      {
+        "company": "Johnson & Johnson",
+        "similarity": 0.5841488838195801
+      },
+      {
+        "company": "Lockheed Martin Corporation",
+        "similarity": 0.5830522775650024
+      },
+      {
+        "company": "Ford Motor Company",
+        "similarity": 0.582550585269928
+      },
+      {
+        "company": "United Continental Holdings Inc.",
+        "similarity": 0.5818725228309631
+      },
+      {
+        "company": "JPMorgan Chase & Co.",
+        "similarity": 0.5813994407653809
+      },
+      {
+        "company": "Delta Air Lines Inc.",
+        "similarity": 0.5790756940841675
+      },
+      {
+        "company": "AT&T Inc.",
+        "similarity": 0.5774787664413452
+      },
+      {
+        "company": "Honeywell International",
+        "similarity": 0.5759800672531128
+      },
+      {
+        "company": "Microsoft Corporation",
+        "similarity": 0.5751569271087646
+      }
+    ]
+  },
+  {
+    "article_id": "art_006",
+    "l1_candidates": 25,
+    "candidates": [
+      {
+        "company": "Apple Inc.",
+        "similarity": 0.643376886844635
+      },
+      {
+        "company": "Citigroup Inc.",
+        "similarity": 0.5669451355934143
+      },
+      {
+        "company": "AT&T Inc.",
+        "similarity": 0.5636926889419556
+      },
+      {
+        "company": "PepsiCo Inc.",
+        "similarity": 0.5536360740661621
+      },
+      {
+        "company": "Target Corporation",
+        "similarity": 0.5533065795898438
+      },
+      {
+        "company": "Walmart Inc.",
+        "similarity": 0.5433026552200317
+      },
+      {
+        "company": "American Airlines Group Inc.",
+        "similarity": 0.5393799543380737
+      },
+      {
+        "company": "Tesla Inc.",
+        "similarity": 0.5369563102722168
+      },
+      {
+        "company": "The Coca-Cola Company",
+        "similarity": 0.5367650985717773
+      },
+      {
+        "company": "T-Mobile US Inc.",
+        "similarity": 0.5366467833518982
+      },
+      {
+        "company": "Verizon Communications Inc.",
+        "similarity": 0.5298978090286255
+      },
+      {
+        "company": "Bank of America Corp.",
+        "similarity": 0.528200626373291
+      },
+      {
+        "company": "JPMorgan Chase & Co.",
+        "similarity": 0.5241808891296387
+      },
+      {
+        "company": "Ford Motor Company",
+        "similarity": 0.5136894583702087
+      },
+      {
+        "company": "Pfizer Inc.",
+        "similarity": 0.5127896070480347
+      },
+      {
+        "company": "Procter & Gamble Co.",
+        "similarity": 0.5094658732414246
+      },
+      {
+        "company": "United Continental Holdings Inc.",
+        "similarity": 0.5070288181304932
+      },
+      {
+        "company": "TSMC",
+        "similarity": 0.5067832469940186
+      },
+      {
+        "company": "NVIDIA Corporation",
+        "similarity": 0.5062013268470764
+      },
+      {
+        "company": "Lockheed Martin Corporation",
+        "similarity": 0.5031582117080688
+      },
+      {
+        "company": "Honeywell International",
+        "similarity": 0.5010008811950684
+      },
+      {
+        "company": "General Motors Co.",
+        "similarity": 0.5007269978523254
+      },
+      {
+        "company": "Merck & Co. Inc.",
+        "similarity": 0.5005502700805664
+      },
+      {
+        "company": "Foxconn",
+        "similarity": 0.49955272674560547
+      },
+      {
+        "company": "Microsoft Corporation",
+        "similarity": 0.49740633368492126
+      }
+    ]
+  },
+  {
+    "article_id": "art_007",
+    "l1_candidates": 25,
+    "candidates": [
+      {
+        "company": "Microsoft Corporation",
+        "similarity": 0.6997169256210327
+      },
+      {
+        "company": "NVIDIA Corporation",
+        "similarity": 0.6139078140258789
+      },
+      {
+        "company": "Verizon Communications Inc.",
+        "similarity": 0.5515176057815552
+      },
+      {
+        "company": "TSMC",
+        "similarity": 0.5400299429893494
+      },
+      {
+        "company": "Honeywell International",
+        "similarity": 0.5342609882354736
+      },
+      {
+        "company": "Delta Air Lines Inc.",
+        "similarity": 0.5313867926597595
+      },
+      {
+        "company": "United Continental Holdings Inc.",
+        "similarity": 0.5278828144073486
+      },
+      {
+        "company": "Spirit AeroSystems",
+        "similarity": 0.5272865295410156
+      },
+      {
+        "company": "AT&T Inc.",
+        "similarity": 0.5232074856758118
+      },
+      {
+        "company": "Bank of America Corp.",
+        "similarity": 0.5184207558631897
+      },
+      {
+        "company": "Boeing Company",
+        "similarity": 0.5167543292045593
+      },
+      {
+        "company": "Foxconn",
+        "similarity": 0.5158364176750183
+      },
+      {
+        "company": "American Airlines Group Inc.",
+        "similarity": 0.5123504400253296
+      },
+      {
+        "company": "Lockheed Martin Corporation",
+        "similarity": 0.5092204809188843
+      },
+      {
+        "company": "Apple Inc.",
+        "similarity": 0.5084965229034424
+      },
+      {
+        "company": "Tesla Inc.",
+        "similarity": 0.508359432220459
+      },
+      {
+        "company": "T-Mobile US Inc.",
+        "similarity": 0.5052351951599121
+      },
+      {
+        "company": "Costco Wholesale Corporation",
+        "similarity": 0.503180205821991
+      },
+      {
+        "company": "Merck & Co. Inc.",
+        "similarity": 0.5006729960441589
+      },
+      {
+        "company": "Exxon Mobil Corporation",
+        "similarity": 0.49990832805633545
+      },
+      {
+        "company": "Target Corporation",
+        "similarity": 0.4978853166103363
+      },
+      {
+        "company": "Chevron Corporation",
+        "similarity": 0.49492979049682617
+      },
+      {
+        "company": "Walmart Inc.",
+        "similarity": 0.49410921335220337
+      },
+      {
+        "company": "ConocoPhillips",
+        "similarity": 0.49336951971054077
+      },
+      {
+        "company": "JPMorgan Chase & Co.",
+        "similarity": 0.49308112263679504
+      }
+    ]
+  },
+  {
+    "article_id": "art_008",
+    "l1_candidates": 25,
+    "candidates": [
+      {
+        "company": "TSMC",
+        "similarity": 0.7103932499885559
+      },
+      {
+        "company": "NVIDIA Corporation",
+        "similarity": 0.6344048976898193
+      },
+      {
+        "company": "Honeywell International",
+        "similarity": 0.6220009326934814
+      },
+      {
+        "company": "Apple Inc.",
+        "similarity": 0.6170405745506287
+      },
+      {
+        "company": "General Motors Co.",
+        "similarity": 0.6128376722335815
+      },
+      {
+        "company": "Chevron Corporation",
+        "similarity": 0.608827531337738
+      },
+      {
+        "company": "Foxconn",
+        "similarity": 0.5986535549163818
+      },
+      {
+        "company": "GE Aerospace",
+        "similarity": 0.5954257249832153
+      },
+      {
+        "company": "Exxon Mobil Corporation",
+        "similarity": 0.5936906337738037
+      },
+      {
+        "company": "Delta Air Lines Inc.",
+        "similarity": 0.5911617279052734
+      },
+      {
+        "company": "Pfizer Inc.",
+        "similarity": 0.5898202657699585
+      },
+      {
+        "company": "Airbus SE",
+        "similarity": 0.5861397981643677
+      },
+      {
+        "company": "Merck & Co. Inc.",
+        "similarity": 0.5852539539337158
+      },
+      {
+        "company": "Boeing Company",
+        "similarity": 0.5847191214561462
+      },
+      {
+        "company": "AT&T Inc.",
+        "similarity": 0.5822667479515076
+      },
+      {
+        "company": "Microsoft Corporation",
+        "similarity": 0.5767216682434082
+      },
+      {
+        "company": "Lockheed Martin Corporation",
+        "similarity": 0.5746462941169739
+      },
+      {
+        "company": "Target Corporation",
+        "similarity": 0.5728657841682434
+      },
+      {
+        "company": "Procter & Gamble Co.",
+        "similarity": 0.5691688060760498
+      },
+      {
+        "company": "PepsiCo Inc.",
+        "similarity": 0.5689078569412231
+      },
+      {
+        "company": "American Airlines Group Inc.",
+        "similarity": 0.5667588710784912
+      },
+      {
+        "company": "Ford Motor Company",
+        "similarity": 0.5666743516921997
+      },
+      {
+        "company": "ConocoPhillips",
+        "similarity": 0.5661063194274902
+      },
+      {
+        "company": "Tesla Inc.",
+        "similarity": 0.5657646656036377
+      },
+      {
+        "company": "The Coca-Cola Company",
+        "similarity": 0.5633817911148071
+      }
+    ]
+  },
+  {
+    "article_id": "art_009",
+    "l1_candidates": 25,
+    "candidates": [
+      {
+        "company": "Chevron Corporation",
+        "similarity": 0.6940001249313354
+      },
+      {
+        "company": "ConocoPhillips",
+        "similarity": 0.643099308013916
+      },
+      {
+        "company": "Exxon Mobil Corporation",
+        "similarity": 0.6212791800498962
+      },
+      {
+        "company": "NVIDIA Corporation",
+        "similarity": 0.5809639692306519
+      },
+      {
+        "company": "TSMC",
+        "similarity": 0.5394908785820007
+      },
+      {
+        "company": "Spirit AeroSystems",
+        "similarity": 0.5370065569877625
+      },
+      {
+        "company": "Honeywell International",
+        "similarity": 0.5206918120384216
+      },
+      {
+        "company": "GE Aerospace",
+        "similarity": 0.5058386921882629
+      },
+      {
+        "company": "Boeing Company",
+        "similarity": 0.5013843774795532
+      },
+      {
+        "company": "Foxconn",
+        "similarity": 0.499952107667923
+      },
+      {
+        "company": "Procter & Gamble Co.",
+        "similarity": 0.49797147512435913
+      },
+      {
+        "company": "Merck & Co. Inc.",
+        "similarity": 0.49726611375808716
+      },
+      {
+        "company": "Airbus SE",
+        "similarity": 0.4957680404186249
+      },
+      {
+        "company": "Pfizer Inc.",
+        "similarity": 0.49464502930641174
+      },
+      {
+        "company": "Delta Air Lines Inc.",
+        "similarity": 0.49386510252952576
+      },
+      {
+        "company": "The Coca-Cola Company",
+        "similarity": 0.4844264090061188
+      },
+      {
+        "company": "Lockheed Martin Corporation",
+        "similarity": 0.4813080132007599
+      },
+      {
+        "company": "United Continental Holdings Inc.",
+        "similarity": 0.4785521328449249
+      },
+      {
+        "company": "General Motors Co.",
+        "similarity": 0.4753921926021576
+      },
+      {
+        "company": "Johnson & Johnson",
+        "similarity": 0.4724702835083008
+      },
+      {
+        "company": "JPMorgan Chase & Co.",
+        "similarity": 0.4721696376800537
+      },
+      {
+        "company": "Verizon Communications Inc.",
+        "similarity": 0.47179627418518066
+      },
+      {
+        "company": "Microsoft Corporation",
+        "similarity": 0.4712255001068115
+      },
+      {
+        "company": "Tesla Inc.",
+        "similarity": 0.46665120124816895
+      },
+      {
+        "company": "Ford Motor Company",
+        "similarity": 0.46517413854599
+      }
+    ]
+  },
+  {
+    "article_id": "art_010",
+    "l1_candidates": 25,
+    "candidates": [
+      {
+        "company": "ConocoPhillips",
+        "similarity": 0.5773024559020996
+      },
+      {
+        "company": "Chevron Corporation",
+        "similarity": 0.5602563619613647
+      },
+      {
+        "company": "Exxon Mobil Corporation",
+        "similarity": 0.55936598777771
+      },
+      {
+        "company": "Boeing Company",
+        "similarity": 0.517572820186615
+      },
+      {
+        "company": "GE Aerospace",
+        "similarity": 0.5110057592391968
+      },
+      {
+        "company": "Tesla Inc.",
+        "similarity": 0.5102353692054749
+      },
+      {
+        "company": "Procter & Gamble Co.",
+        "similarity": 0.509452760219574
+      },
+      {
+        "company": "Airbus SE",
+        "similarity": 0.5086464881896973
+      },
+      {
+        "company": "NVIDIA Corporation",
+        "similarity": 0.501570999622345
+      },
+      {
+        "company": "United Continental Holdings Inc.",
+        "similarity": 0.501210629940033
+      },
+      {
+        "company": "Delta Air Lines Inc.",
+        "similarity": 0.5010624527931213
+      },
+      {
+        "company": "Pfizer Inc.",
+        "similarity": 0.4951707720756531
+      },
+      {
+        "company": "Foxconn",
+        "similarity": 0.4950447082519531
+      },
+      {
+        "company": "PepsiCo Inc.",
+        "similarity": 0.49410778284072876
+      },
+      {
+        "company": "General Motors Co.",
+        "similarity": 0.49342116713523865
+      },
+      {
+        "company": "JPMorgan Chase & Co.",
+        "similarity": 0.4924696683883667
+      },
+      {
+        "company": "Merck & Co. Inc.",
+        "similarity": 0.48995229601860046
+      },
+      {
+        "company": "American Airlines Group Inc.",
+        "similarity": 0.4876628518104553
+      },
+      {
+        "company": "Target Corporation",
+        "similarity": 0.48377546668052673
+      },
+      {
+        "company": "Johnson & Johnson",
+        "similarity": 0.48284608125686646
+      },
+      {
+        "company": "Walmart Inc.",
+        "similarity": 0.4808018207550049
+      },
+      {
+        "company": "Spirit AeroSystems",
+        "similarity": 0.4786820411682129
+      },
+      {
+        "company": "Lockheed Martin Corporation",
+        "similarity": 0.47690141201019287
+      },
+      {
+        "company": "AT&T Inc.",
+        "similarity": 0.4739569127559662
+      },
+      {
+        "company": "TSMC",
+        "similarity": 0.47266310453414917
+      }
+    ]
+  },
+  {
+    "article_id": "art_011",
+    "l1_candidates": 25,
+    "candidates": [
+      {
+        "company": "Delta Air Lines Inc.",
+        "similarity": 0.7264478206634521
+      },
+      {
+        "company": "American Airlines Group Inc.",
+        "similarity": 0.6319350600242615
+      },
+      {
+        "company": "Airbus SE",
+        "similarity": 0.5939130783081055
+      },
+      {
+        "company": "Spirit AeroSystems",
+        "similarity": 0.5797656774520874
+      },
+      {
+        "company": "Boeing Company",
+        "similarity": 0.5743703842163086
+      },
+      {
+        "company": "Honeywell International",
+        "similarity": 0.569269597530365
+      },
+      {
+        "company": "GE Aerospace",
+        "similarity": 0.5631625056266785
+      },
+      {
+        "company": "United Continental Holdings Inc.",
+        "similarity": 0.5587363243103027
+      },
+      {
+        "company": "Lockheed Martin Corporation",
+        "similarity": 0.5361023545265198
+      },
+      {
+        "company": "AT&T Inc.",
+        "similarity": 0.5123085379600525
+      },
+      {
+        "company": "Exxon Mobil Corporation",
+        "similarity": 0.5054791569709778
+      },
+      {
+        "company": "T-Mobile US Inc.",
+        "similarity": 0.49542784690856934
+      },
+      {
+        "company": "JPMorgan Chase & Co.",
+        "similarity": 0.49521517753601074
+      },
+      {
+        "company": "Verizon Communications Inc.",
+        "similarity": 0.49366670846939087
+      },
+      {
+        "company": "TSMC",
+        "similarity": 0.493339866399765
+      },
+      {
+        "company": "Target Corporation",
+        "similarity": 0.48615002632141113
+      },
+      {
+        "company": "Chevron Corporation",
+        "similarity": 0.4855588674545288
+      },
+      {
+        "company": "Merck & Co. Inc.",
+        "similarity": 0.48313984274864197
+      },
+      {
+        "company": "Foxconn",
+        "similarity": 0.4831358790397644
+      },
+      {
+        "company": "Bank of America Corp.",
+        "similarity": 0.47558969259262085
+      },
+      {
+        "company": "Walmart Inc.",
+        "similarity": 0.4753846228122711
+      },
+      {
+        "company": "General Motors Co.",
+        "similarity": 0.47398507595062256
+      },
+      {
+        "company": "NVIDIA Corporation",
+        "similarity": 0.47249671816825867
+      },
+      {
+        "company": "Tesla Inc.",
+        "similarity": 0.47196564078330994
+      },
+      {
+        "company": "Microsoft Corporation",
+        "similarity": 0.4680907130241394
+      }
+    ]
+  },
+  {
+    "article_id": "art_012",
+    "l1_candidates": 25,
+    "candidates": [
+      {
+        "company": "Delta Air Lines Inc.",
+        "similarity": 0.6634798049926758
+      },
+      {
+        "company": "Boeing Company",
+        "similarity": 0.6604951620101929
+      },
+      {
+        "company": "Airbus SE",
+        "similarity": 0.6598392724990845
+      },
+      {
+        "company": "GE Aerospace",
+        "similarity": 0.6504985094070435
+      },
+      {
+        "company": "American Airlines Group Inc.",
+        "similarity": 0.6363002061843872
+      },
+      {
+        "company": "United Continental Holdings Inc.",
+        "similarity": 0.6316852569580078
+      },
+      {
+        "company": "Exxon Mobil Corporation",
+        "similarity": 0.599483072757721
+      },
+      {
+        "company": "Spirit AeroSystems",
+        "similarity": 0.5986405611038208
+      },
+      {
+        "company": "Honeywell International",
+        "similarity": 0.5889124274253845
+      },
+      {
+        "company": "Lockheed Martin Corporation",
+        "similarity": 0.5824240446090698
+      },
+      {
+        "company": "Ford Motor Company",
+        "similarity": 0.5812036395072937
+      },
+      {
+        "company": "Chevron Corporation",
+        "similarity": 0.5721014738082886
+      },
+      {
+        "company": "General Motors Co.",
+        "similarity": 0.5636852383613586
+      },
+      {
+        "company": "NVIDIA Corporation",
+        "similarity": 0.5627458095550537
+      },
+      {
+        "company": "Foxconn",
+        "similarity": 0.5614316463470459
+      },
+      {
+        "company": "JPMorgan Chase & Co.",
+        "similarity": 0.559098482131958
+      },
+      {
+        "company": "Tesla Inc.",
+        "similarity": 0.5584619045257568
+      },
+      {
+        "company": "PepsiCo Inc.",
+        "similarity": 0.5561366081237793
+      },
+      {
+        "company": "AT&T Inc.",
+        "similarity": 0.5552209615707397
+      },
+      {
+        "company": "The Coca-Cola Company",
+        "similarity": 0.5533032417297363
+      },
+      {
+        "company": "Target Corporation",
+        "similarity": 0.5523120760917664
+      },
+      {
+        "company": "Verizon Communications Inc.",
+        "similarity": 0.5517256259918213
+      },
+      {
+        "company": "Costco Wholesale Corporation",
+        "similarity": 0.5513641238212585
+      },
+      {
+        "company": "Johnson & Johnson",
+        "similarity": 0.5472604036331177
+      },
+      {
+        "company": "Bank of America Corp.",
+        "similarity": 0.5442595481872559
+      }
+    ]
+  },
+  {
+    "article_id": "art_013",
+    "l1_candidates": 25,
+    "candidates": [
+      {
+        "company": "Pfizer Inc.",
+        "similarity": 0.6543824076652527
+      },
+      {
+        "company": "Merck & Co. Inc.",
+        "similarity": 0.5664122104644775
+      },
+      {
+        "company": "Procter & Gamble Co.",
+        "similarity": 0.521304190158844
+      },
+      {
+        "company": "Johnson & Johnson",
+        "similarity": 0.49715688824653625
+      },
+      {
+        "company": "PepsiCo Inc.",
+        "similarity": 0.4929373264312744
+      },
+      {
+        "company": "Lockheed Martin Corporation",
+        "similarity": 0.49277782440185547
+      },
+      {
+        "company": "NVIDIA Corporation",
+        "similarity": 0.48626577854156494
+      },
+      {
+        "company": "Spirit AeroSystems",
+        "similarity": 0.4757000803947449
+      },
+      {
+        "company": "Boeing Company",
+        "similarity": 0.4693569540977478
+      },
+      {
+        "company": "Apple Inc.",
+        "similarity": 0.4665525257587433
+      },
+      {
+        "company": "GE Aerospace",
+        "similarity": 0.4644613265991211
+      },
+      {
+        "company": "Honeywell International",
+        "similarity": 0.46441328525543213
+      },
+      {
+        "company": "TSMC",
+        "similarity": 0.46382999420166016
+      },
+      {
+        "company": "Airbus SE",
+        "similarity": 0.4615476727485657
+      },
+      {
+        "company": "Delta Air Lines Inc.",
+        "similarity": 0.4551082253456116
+      },
+      {
+        "company": "Chevron Corporation",
+        "similarity": 0.4550420045852661
+      },
+      {
+        "company": "Tesla Inc.",
+        "similarity": 0.45377716422080994
+      },
+      {
+        "company": "General Motors Co.",
+        "similarity": 0.4512651562690735
+      },
+      {
+        "company": "The Coca-Cola Company",
+        "similarity": 0.4478091597557068
+      },
+      {
+        "company": "Exxon Mobil Corporation",
+        "similarity": 0.44743651151657104
+      },
+      {
+        "company": "Target Corporation",
+        "similarity": 0.44694721698760986
+      },
+      {
+        "company": "ConocoPhillips",
+        "similarity": 0.4457904100418091
+      },
+      {
+        "company": "JPMorgan Chase & Co.",
+        "similarity": 0.44442063570022583
+      },
+      {
+        "company": "Microsoft Corporation",
+        "similarity": 0.4420569837093353
+      },
+      {
+        "company": "Ford Motor Company",
+        "similarity": 0.4401550889015198
+      }
+    ]
+  },
+  {
+    "article_id": "art_014",
+    "l1_candidates": 25,
+    "candidates": [
+      {
+        "company": "Pfizer Inc.",
+        "similarity": 0.6636967062950134
+      },
+      {
+        "company": "Merck & Co. Inc.",
+        "similarity": 0.6354758739471436
+      },
+      {
+        "company": "Johnson & Johnson",
+        "similarity": 0.6128631830215454
+      },
+      {
+        "company": "Procter & Gamble Co.",
+        "similarity": 0.6085015535354614
+      },
+      {
+        "company": "The Coca-Cola Company",
+        "similarity": 0.5978909134864807
+      },
+      {
+        "company": "PepsiCo Inc.",
+        "similarity": 0.5754488706588745
+      },
+      {
+        "company": "Costco Wholesale Corporation",
+        "similarity": 0.5686542391777039
+      },
+      {
+        "company": "Walmart Inc.",
+        "similarity": 0.5674242973327637
+      },
+      {
+        "company": "Target Corporation",
+        "similarity": 0.5630998611450195
+      },
+      {
+        "company": "General Motors Co.",
+        "similarity": 0.5594221353530884
+      },
+      {
+        "company": "Apple Inc.",
+        "similarity": 0.553581953048706
+      },
+      {
+        "company": "TSMC",
+        "similarity": 0.5532335042953491
+      },
+      {
+        "company": "ConocoPhillips",
+        "similarity": 0.5516509413719177
+      },
+      {
+        "company": "Lockheed Martin Corporation",
+        "similarity": 0.5490658283233643
+      },
+      {
+        "company": "United Continental Holdings Inc.",
+        "similarity": 0.5466723442077637
+      },
+      {
+        "company": "Honeywell International",
+        "similarity": 0.5426729321479797
+      },
+      {
+        "company": "Tesla Inc.",
+        "similarity": 0.5410313010215759
+      },
+      {
+        "company": "Foxconn",
+        "similarity": 0.5377365350723267
+      },
+      {
+        "company": "AT&T Inc.",
+        "similarity": 0.5376840829849243
+      },
+      {
+        "company": "Chevron Corporation",
+        "similarity": 0.5333432555198669
+      },
+      {
+        "company": "Citigroup Inc.",
+        "similarity": 0.533180296421051
+      },
+      {
+        "company": "JPMorgan Chase & Co.",
+        "similarity": 0.5291576981544495
+      },
+      {
+        "company": "Exxon Mobil Corporation",
+        "similarity": 0.5285133123397827
+      },
+      {
+        "company": "American Airlines Group Inc.",
+        "similarity": 0.5280184745788574
+      },
+      {
+        "company": "NVIDIA Corporation",
+        "similarity": 0.5222350358963013
+      }
+    ]
+  },
+  {
+    "article_id": "art_015",
+    "l1_candidates": 25,
+    "candidates": [
+      {
+        "company": "JPMorgan Chase & Co.",
+        "similarity": 0.7014583945274353
+      },
+      {
+        "company": "Merck & Co. Inc.",
+        "similarity": 0.548310399055481
+      },
+      {
+        "company": "Johnson & Johnson",
+        "similarity": 0.5426081418991089
+      },
+      {
+        "company": "Citigroup Inc.",
+        "similarity": 0.5384198427200317
+      },
+      {
+        "company": "Verizon Communications Inc.",
+        "similarity": 0.528913140296936
+      },
+      {
+        "company": "Bank of America Corp.",
+        "similarity": 0.5260817408561707
+      },
+      {
+        "company": "Chevron Corporation",
+        "similarity": 0.5259555578231812
+      },
+      {
+        "company": "Procter & Gamble Co.",
+        "similarity": 0.522473931312561
+      },
+      {
+        "company": "Pfizer Inc.",
+        "similarity": 0.5219383835792542
+      },
+      {
+        "company": "Target Corporation",
+        "similarity": 0.5191704034805298
+      },
+      {
+        "company": "AT&T Inc.",
+        "similarity": 0.5144993662834167
+      },
+      {
+        "company": "NVIDIA Corporation",
+        "similarity": 0.513824462890625
+      },
+      {
+        "company": "PepsiCo Inc.",
+        "similarity": 0.5119484066963196
+      },
+      {
+        "company": "ConocoPhillips",
+        "similarity": 0.5073263645172119
+      },
+      {
+        "company": "Walmart Inc.",
+        "similarity": 0.5057004690170288
+      },
+      {
+        "company": "The Coca-Cola Company",
+        "similarity": 0.5056087970733643
+      },
+      {
+        "company": "TSMC",
+        "similarity": 0.504145622253418
+      },
+      {
+        "company": "United Continental Holdings Inc.",
+        "similarity": 0.5028676390647888
+      },
+      {
+        "company": "Costco Wholesale Corporation",
+        "similarity": 0.5019917488098145
+      },
+      {
+        "company": "General Motors Co.",
+        "similarity": 0.5019668340682983
+      },
+      {
+        "company": "Exxon Mobil Corporation",
+        "similarity": 0.5009438991546631
+      },
+      {
+        "company": "Tesla Inc.",
+        "similarity": 0.4997580945491791
+      },
+      {
+        "company": "Foxconn",
+        "similarity": 0.4982662498950958
+      },
+      {
+        "company": "Delta Air Lines Inc.",
+        "similarity": 0.49509236216545105
+      },
+      {
+        "company": "GE Aerospace",
+        "similarity": 0.4879075884819031
+      }
+    ]
+  },
+  {
+    "article_id": "art_016",
+    "l1_candidates": 25,
+    "candidates": [
+      {
+        "company": "Bank of America Corp.",
+        "similarity": 0.6517226696014404
+      },
+      {
+        "company": "JPMorgan Chase & Co.",
+        "similarity": 0.6496852040290833
+      },
+      {
+        "company": "Citigroup Inc.",
+        "similarity": 0.6267467737197876
+      },
+      {
+        "company": "TSMC",
+        "similarity": 0.5730413198471069
+      },
+      {
+        "company": "Honeywell International",
+        "similarity": 0.5707879066467285
+      },
+      {
+        "company": "United Continental Holdings Inc.",
+        "similarity": 0.5638526678085327
+      },
+      {
+        "company": "AT&T Inc.",
+        "similarity": 0.5631661415100098
+      },
+      {
+        "company": "Delta Air Lines Inc.",
+        "similarity": 0.562606930732727
+      },
+      {
+        "company": "Verizon Communications Inc.",
+        "similarity": 0.5578010082244873
+      },
+      {
+        "company": "General Motors Co.",
+        "similarity": 0.5539799332618713
+      },
+      {
+        "company": "American Airlines Group Inc.",
+        "similarity": 0.5530858039855957
+      },
+      {
+        "company": "GE Aerospace",
+        "similarity": 0.5486627221107483
+      },
+      {
+        "company": "Apple Inc.",
+        "similarity": 0.5482277274131775
+      },
+      {
+        "company": "Pfizer Inc.",
+        "similarity": 0.5478089451789856
+      },
+      {
+        "company": "Merck & Co. Inc.",
+        "similarity": 0.5439143180847168
+      },
+      {
+        "company": "Boeing Company",
+        "similarity": 0.5407630801200867
+      },
+      {
+        "company": "Foxconn",
+        "similarity": 0.53669273853302
+      },
+      {
+        "company": "NVIDIA Corporation",
+        "similarity": 0.5349268913269043
+      },
+      {
+        "company": "Spirit AeroSystems",
+        "similarity": 0.5349223613739014
+      },
+      {
+        "company": "Airbus SE",
+        "similarity": 0.527885913848877
+      },
+      {
+        "company": "Tesla Inc.",
+        "similarity": 0.526321291923523
+      },
+      {
+        "company": "Lockheed Martin Corporation",
+        "similarity": 0.5256401896476746
+      },
+      {
+        "company": "PepsiCo Inc.",
+        "similarity": 0.5248154997825623
+      },
+      {
+        "company": "Microsoft Corporation",
+        "similarity": 0.5247284173965454
+      },
+      {
+        "company": "Chevron Corporation",
+        "similarity": 0.5235847234725952
+      }
+    ]
+  },
+  {
+    "article_id": "art_017",
+    "l1_candidates": 25,
+    "candidates": [
+      {
+        "company": "Procter & Gamble Co.",
+        "similarity": 0.7247588634490967
+      },
+      {
+        "company": "Pfizer Inc.",
+        "similarity": 0.573233962059021
+      },
+      {
+        "company": "PepsiCo Inc.",
+        "similarity": 0.5474422574043274
+      },
+      {
+        "company": "Merck & Co. Inc.",
+        "similarity": 0.5394055843353271
+      },
+      {
+        "company": "Target Corporation",
+        "similarity": 0.5346384048461914
+      },
+      {
+        "company": "AT&T Inc.",
+        "similarity": 0.5308865308761597
+      },
+      {
+        "company": "Walmart Inc.",
+        "similarity": 0.5279190540313721
+      },
+      {
+        "company": "Johnson & Johnson",
+        "similarity": 0.5197063684463501
+      },
+      {
+        "company": "ConocoPhillips",
+        "similarity": 0.519326388835907
+      },
+      {
+        "company": "The Coca-Cola Company",
+        "similarity": 0.5152720212936401
+      },
+      {
+        "company": "TSMC",
+        "similarity": 0.5149325132369995
+      },
+      {
+        "company": "Lockheed Martin Corporation",
+        "similarity": 0.5099560022354126
+      },
+      {
+        "company": "JPMorgan Chase & Co.",
+        "similarity": 0.5072017908096313
+      },
+      {
+        "company": "Costco Wholesale Corporation",
+        "similarity": 0.5007736682891846
+      },
+      {
+        "company": "Spirit AeroSystems",
+        "similarity": 0.5000823140144348
+      },
+      {
+        "company": "Delta Air Lines Inc.",
+        "similarity": 0.49883580207824707
+      },
+      {
+        "company": "Apple Inc.",
+        "similarity": 0.49786612391471863
+      },
+      {
+        "company": "Bank of America Corp.",
+        "similarity": 0.49600353837013245
+      },
+      {
+        "company": "United Continental Holdings Inc.",
+        "similarity": 0.4958961009979248
+      },
+      {
+        "company": "NVIDIA Corporation",
+        "similarity": 0.49234941601753235
+      },
+      {
+        "company": "Citigroup Inc.",
+        "similarity": 0.49063825607299805
+      },
+      {
+        "company": "Chevron Corporation",
+        "similarity": 0.48883333802223206
+      },
+      {
+        "company": "Foxconn",
+        "similarity": 0.48528391122817993
+      },
+      {
+        "company": "General Motors Co.",
+        "similarity": 0.4844222664833069
+      },
+      {
+        "company": "Honeywell International",
+        "similarity": 0.48415014147758484
+      }
+    ]
+  },
+  {
+    "article_id": "art_018",
+    "l1_candidates": 25,
+    "candidates": [
+      {
+        "company": "Target Corporation",
+        "similarity": 0.6592404246330261
+      },
+      {
+        "company": "Walmart Inc.",
+        "similarity": 0.6189563274383545
+      },
+      {
+        "company": "PepsiCo Inc.",
+        "similarity": 0.5975478887557983
+      },
+      {
+        "company": "Costco Wholesale Corporation",
+        "similarity": 0.5922310948371887
+      },
+      {
+        "company": "Procter & Gamble Co.",
+        "similarity": 0.583610475063324
+      },
+      {
+        "company": "The Coca-Cola Company",
+        "similarity": 0.5480040907859802
+      },
+      {
+        "company": "United Continental Holdings Inc.",
+        "similarity": 0.5229581594467163
+      },
+      {
+        "company": "American Airlines Group Inc.",
+        "similarity": 0.5174133777618408
+      },
+      {
+        "company": "Foxconn",
+        "similarity": 0.5161020755767822
+      },
+      {
+        "company": "Apple Inc.",
+        "similarity": 0.5158705115318298
+      },
+      {
+        "company": "Pfizer Inc.",
+        "similarity": 0.5152140259742737
+      },
+      {
+        "company": "JPMorgan Chase & Co.",
+        "similarity": 0.5137975215911865
+      },
+      {
+        "company": "General Motors Co.",
+        "similarity": 0.5093698501586914
+      },
+      {
+        "company": "AT&T Inc.",
+        "similarity": 0.5067510604858398
+      },
+      {
+        "company": "Delta Air Lines Inc.",
+        "similarity": 0.5030750036239624
+      },
+      {
+        "company": "Merck & Co. Inc.",
+        "similarity": 0.5019001960754395
+      },
+      {
+        "company": "Tesla Inc.",
+        "similarity": 0.5001245141029358
+      },
+      {
+        "company": "Citigroup Inc.",
+        "similarity": 0.49681493639945984
+      },
+      {
+        "company": "Bank of America Corp.",
+        "similarity": 0.49396252632141113
+      },
+      {
+        "company": "Lockheed Martin Corporation",
+        "similarity": 0.49264201521873474
+      },
+      {
+        "company": "ConocoPhillips",
+        "similarity": 0.4913480281829834
+      },
+      {
+        "company": "Spirit AeroSystems",
+        "similarity": 0.4878893494606018
+      },
+      {
+        "company": "NVIDIA Corporation",
+        "similarity": 0.48254066705703735
+      },
+      {
+        "company": "Ford Motor Company",
+        "similarity": 0.4817894399166107
+      },
+      {
+        "company": "TSMC",
+        "similarity": 0.4790632128715515
+      }
+    ]
+  },
+  {
+    "article_id": "art_019",
+    "l1_candidates": 25,
+    "candidates": [
+      {
+        "company": "Tesla Inc.",
+        "similarity": 0.7156976461410522
+      },
+      {
+        "company": "TSMC",
+        "similarity": 0.602851390838623
+      },
+      {
+        "company": "Exxon Mobil Corporation",
+        "similarity": 0.5847598314285278
+      },
+      {
+        "company": "Honeywell International",
+        "similarity": 0.5763683319091797
+      },
+      {
+        "company": "NVIDIA Corporation",
+        "similarity": 0.5631415247917175
+      },
+      {
+        "company": "General Motors Co.",
+        "similarity": 0.5608749389648438
+      },
+      {
+        "company": "Apple Inc.",
+        "similarity": 0.5591613054275513
+      },
+      {
+        "company": "Johnson & Johnson",
+        "similarity": 0.5572206974029541
+      },
+      {
+        "company": "Boeing Company",
+        "similarity": 0.5519912242889404
+      },
+      {
+        "company": "GE Aerospace",
+        "similarity": 0.5496827363967896
+      },
+      {
+        "company": "Delta Air Lines Inc.",
+        "similarity": 0.5489208102226257
+      },
+      {
+        "company": "The Coca-Cola Company",
+        "similarity": 0.5487350225448608
+      },
+      {
+        "company": "Airbus SE",
+        "similarity": 0.5468102693557739
+      },
+      {
+        "company": "Foxconn",
+        "similarity": 0.5420333743095398
+      },
+      {
+        "company": "Ford Motor Company",
+        "similarity": 0.5417578220367432
+      },
+      {
+        "company": "PepsiCo Inc.",
+        "similarity": 0.5417451858520508
+      },
+      {
+        "company": "United Continental Holdings Inc.",
+        "similarity": 0.5390735864639282
+      },
+      {
+        "company": "American Airlines Group Inc.",
+        "similarity": 0.538115382194519
+      },
+      {
+        "company": "AT&T Inc.",
+        "similarity": 0.5380852222442627
+      },
+      {
+        "company": "Spirit AeroSystems",
+        "similarity": 0.5375288724899292
+      },
+      {
+        "company": "Pfizer Inc.",
+        "similarity": 0.5355932116508484
+      },
+      {
+        "company": "Lockheed Martin Corporation",
+        "similarity": 0.5353613495826721
+      },
+      {
+        "company": "Chevron Corporation",
+        "similarity": 0.5352731943130493
+      },
+      {
+        "company": "T-Mobile US Inc.",
+        "similarity": 0.5334217548370361
+      },
+      {
+        "company": "Microsoft Corporation",
+        "similarity": 0.5283422470092773
+      }
+    ]
+  },
+  {
+    "article_id": "art_020",
+    "l1_candidates": 25,
+    "candidates": [
+      {
+        "company": "TSMC",
+        "similarity": 0.6727007627487183
+      },
+      {
+        "company": "General Motors Co.",
+        "similarity": 0.6441375017166138
+      },
+      {
+        "company": "Tesla Inc.",
+        "similarity": 0.6279261112213135
+      },
+      {
+        "company": "Ford Motor Company",
+        "similarity": 0.6120822429656982
+      },
+      {
+        "company": "Apple Inc.",
+        "similarity": 0.6045798063278198
+      },
+      {
+        "company": "GE Aerospace",
+        "similarity": 0.6029995083808899
+      },
+      {
+        "company": "Honeywell International",
+        "similarity": 0.5938076376914978
+      },
+      {
+        "company": "Foxconn",
+        "similarity": 0.5914431810379028
+      },
+      {
+        "company": "NVIDIA Corporation",
+        "similarity": 0.5889688730239868
+      },
+      {
+        "company": "AT&T Inc.",
+        "similarity": 0.5818923711776733
+      },
+      {
+        "company": "Verizon Communications Inc.",
+        "similarity": 0.5793832540512085
+      },
+      {
+        "company": "Johnson & Johnson",
+        "similarity": 0.5703800916671753
+      },
+      {
+        "company": "Pfizer Inc.",
+        "similarity": 0.5621046423912048
+      },
+      {
+        "company": "Exxon Mobil Corporation",
+        "similarity": 0.5601271390914917
+      },
+      {
+        "company": "Chevron Corporation",
+        "similarity": 0.5594807863235474
+      },
+      {
+        "company": "Delta Air Lines Inc.",
+        "similarity": 0.5568678975105286
+      },
+      {
+        "company": "Merck & Co. Inc.",
+        "similarity": 0.5565778017044067
+      },
+      {
+        "company": "The Coca-Cola Company",
+        "similarity": 0.555983304977417
+      },
+      {
+        "company": "T-Mobile US Inc.",
+        "similarity": 0.5539352297782898
+      },
+      {
+        "company": "Procter & Gamble Co.",
+        "similarity": 0.5522188544273376
+      },
+      {
+        "company": "PepsiCo Inc.",
+        "similarity": 0.5517137050628662
+      },
+      {
+        "company": "Airbus SE",
+        "similarity": 0.5493844747543335
+      },
+      {
+        "company": "Lockheed Martin Corporation",
+        "similarity": 0.5471711158752441
+      },
+      {
+        "company": "United Continental Holdings Inc.",
+        "similarity": 0.5446425676345825
+      },
+      {
+        "company": "Boeing Company",
+        "similarity": 0.5376289486885071
+      }
+    ]
+  },
+  {
+    "article_id": "art_021",
+    "l1_candidates": 25,
+    "candidates": [
+      {
+        "company": "Walmart Inc.",
+        "similarity": 0.7137283086776733
+      },
+      {
+        "company": "Costco Wholesale Corporation",
+        "similarity": 0.6463704705238342
+      },
+      {
+        "company": "Target Corporation",
+        "similarity": 0.6341414451599121
+      },
+      {
+        "company": "PepsiCo Inc.",
+        "similarity": 0.6304395794868469
+      },
+      {
+        "company": "Procter & Gamble Co.",
+        "similarity": 0.6041398644447327
+      },
+      {
+        "company": "Merck & Co. Inc.",
+        "similarity": 0.58633953332901
+      },
+      {
+        "company": "The Coca-Cola Company",
+        "similarity": 0.5780977606773376
+      },
+      {
+        "company": "Pfizer Inc.",
+        "similarity": 0.5704327821731567
+      },
+      {
+        "company": "General Motors Co.",
+        "similarity": 0.5500723123550415
+      },
+      {
+        "company": "United Continental Holdings Inc.",
+        "similarity": 0.5491647124290466
+      },
+      {
+        "company": "Johnson & Johnson",
+        "similarity": 0.5473917126655579
+      },
+      {
+        "company": "JPMorgan Chase & Co.",
+        "similarity": 0.5439250469207764
+      },
+      {
+        "company": "Apple Inc.",
+        "similarity": 0.5363703370094299
+      },
+      {
+        "company": "Ford Motor Company",
+        "similarity": 0.5356525182723999
+      },
+      {
+        "company": "Lockheed Martin Corporation",
+        "similarity": 0.528873085975647
+      },
+      {
+        "company": "Tesla Inc.",
+        "similarity": 0.5273327827453613
+      },
+      {
+        "company": "Chevron Corporation",
+        "similarity": 0.5157339572906494
+      },
+      {
+        "company": "Bank of America Corp.",
+        "similarity": 0.5156362652778625
+      },
+      {
+        "company": "Delta Air Lines Inc.",
+        "similarity": 0.5080114603042603
+      },
+      {
+        "company": "ConocoPhillips",
+        "similarity": 0.5072552561759949
+      },
+      {
+        "company": "Citigroup Inc.",
+        "similarity": 0.5066397190093994
+      },
+      {
+        "company": "Foxconn",
+        "similarity": 0.5043812990188599
+      },
+      {
+        "company": "Microsoft Corporation",
+        "similarity": 0.49966952204704285
+      },
+      {
+        "company": "TSMC",
+        "similarity": 0.499300479888916
+      },
+      {
+        "company": "Honeywell International",
+        "similarity": 0.49868226051330566
+      }
+    ]
+  },
+  {
+    "article_id": "art_022",
+    "l1_candidates": 25,
+    "candidates": [
+      {
+        "company": "Target Corporation",
+        "similarity": 0.696100115776062
+      },
+      {
+        "company": "Walmart Inc.",
+        "similarity": 0.6917723417282104
+      },
+      {
+        "company": "Costco Wholesale Corporation",
+        "similarity": 0.6294522881507874
+      },
+      {
+        "company": "PepsiCo Inc.",
+        "similarity": 0.5898939371109009
+      },
+      {
+        "company": "Procter & Gamble Co.",
+        "similarity": 0.585425078868866
+      },
+      {
+        "company": "The Coca-Cola Company",
+        "similarity": 0.5688451528549194
+      },
+      {
+        "company": "JPMorgan Chase & Co.",
+        "similarity": 0.562049150466919
+      },
+      {
+        "company": "Apple Inc.",
+        "similarity": 0.5610338449478149
+      },
+      {
+        "company": "Citigroup Inc.",
+        "similarity": 0.5502256155014038
+      },
+      {
+        "company": "Bank of America Corp.",
+        "similarity": 0.5491905212402344
+      },
+      {
+        "company": "American Airlines Group Inc.",
+        "similarity": 0.5464469194412231
+      },
+      {
+        "company": "ConocoPhillips",
+        "similarity": 0.5456850528717041
+      },
+      {
+        "company": "Lockheed Martin Corporation",
+        "similarity": 0.5407143235206604
+      },
+      {
+        "company": "United Continental Holdings Inc.",
+        "similarity": 0.5371876955032349
+      },
+      {
+        "company": "Foxconn",
+        "similarity": 0.5344769358634949
+      },
+      {
+        "company": "Delta Air Lines Inc.",
+        "similarity": 0.5342103242874146
+      },
+      {
+        "company": "AT&T Inc.",
+        "similarity": 0.5320639610290527
+      },
+      {
+        "company": "General Motors Co.",
+        "similarity": 0.5307891964912415
+      },
+      {
+        "company": "Chevron Corporation",
+        "similarity": 0.5304477214813232
+      },
+      {
+        "company": "Exxon Mobil Corporation",
+        "similarity": 0.527561604976654
+      },
+      {
+        "company": "Microsoft Corporation",
+        "similarity": 0.5268950462341309
+      },
+      {
+        "company": "Merck & Co. Inc.",
+        "similarity": 0.5237341523170471
+      },
+      {
+        "company": "Tesla Inc.",
+        "similarity": 0.5201457142829895
+      },
+      {
+        "company": "NVIDIA Corporation",
+        "similarity": 0.5188018083572388
+      },
+      {
+        "company": "Verizon Communications Inc.",
+        "similarity": 0.5148178935050964
+      }
+    ]
+  },
+  {
+    "article_id": "art_023",
+    "l1_candidates": 25,
+    "candidates": [
+      {
+        "company": "AT&T Inc.",
+        "similarity": 0.731078028678894
+      },
+      {
+        "company": "T-Mobile US Inc.",
+        "similarity": 0.6974003911018372
+      },
+      {
+        "company": "Verizon Communications Inc.",
+        "similarity": 0.6674760580062866
+      },
+      {
+        "company": "Foxconn",
+        "similarity": 0.5594501495361328
+      },
+      {
+        "company": "JPMorgan Chase & Co.",
+        "similarity": 0.5493308901786804
+      },
+      {
+        "company": "TSMC",
+        "similarity": 0.5475196838378906
+      },
+      {
+        "company": "Apple Inc.",
+        "similarity": 0.5474068522453308
+      },
+      {
+        "company": "Delta Air Lines Inc.",
+        "similarity": 0.5440741777420044
+      },
+      {
+        "company": "Microsoft Corporation",
+        "similarity": 0.5380638241767883
+      },
+      {
+        "company": "Bank of America Corp.",
+        "similarity": 0.5343400239944458
+      },
+      {
+        "company": "Procter & Gamble Co.",
+        "similarity": 0.5339356064796448
+      },
+      {
+        "company": "Citigroup Inc.",
+        "similarity": 0.5324434041976929
+      },
+      {
+        "company": "American Airlines Group Inc.",
+        "similarity": 0.5300197601318359
+      },
+      {
+        "company": "United Continental Holdings Inc.",
+        "similarity": 0.5235812067985535
+      },
+      {
+        "company": "NVIDIA Corporation",
+        "similarity": 0.5206137895584106
+      },
+      {
+        "company": "Honeywell International",
+        "similarity": 0.5195595026016235
+      },
+      {
+        "company": "Merck & Co. Inc.",
+        "similarity": 0.5178472995758057
+      },
+      {
+        "company": "Lockheed Martin Corporation",
+        "similarity": 0.51179039478302
+      },
+      {
+        "company": "General Motors Co.",
+        "similarity": 0.5060636401176453
+      },
+      {
+        "company": "Pfizer Inc.",
+        "similarity": 0.503821611404419
+      },
+      {
+        "company": "Walmart Inc.",
+        "similarity": 0.5007119178771973
+      },
+      {
+        "company": "Target Corporation",
+        "similarity": 0.4978516101837158
+      },
+      {
+        "company": "PepsiCo Inc.",
+        "similarity": 0.4975185990333557
+      },
+      {
+        "company": "The Coca-Cola Company",
+        "similarity": 0.49535316228866577
+      },
+      {
+        "company": "Spirit AeroSystems",
+        "similarity": 0.4926680028438568
+      }
+    ]
+  },
+  {
+    "article_id": "art_024",
+    "l1_candidates": 25,
+    "candidates": [
+      {
+        "company": "AT&T Inc.",
+        "similarity": 0.6331385970115662
+      },
+      {
+        "company": "Verizon Communications Inc.",
+        "similarity": 0.6220816969871521
+      },
+      {
+        "company": "TSMC",
+        "similarity": 0.6201270818710327
+      },
+      {
+        "company": "T-Mobile US Inc.",
+        "similarity": 0.603319525718689
+      },
+      {
+        "company": "Foxconn",
+        "similarity": 0.5760542154312134
+      },
+      {
+        "company": "Procter & Gamble Co.",
+        "similarity": 0.5640994906425476
+      },
+      {
+        "company": "NVIDIA Corporation",
+        "similarity": 0.5445388555526733
+      },
+      {
+        "company": "Target Corporation",
+        "similarity": 0.5398223996162415
+      },
+      {
+        "company": "Spirit AeroSystems",
+        "similarity": 0.5392400026321411
+      },
+      {
+        "company": "Microsoft Corporation",
+        "similarity": 0.5374495983123779
+      },
+      {
+        "company": "Honeywell International",
+        "similarity": 0.536227285861969
+      },
+      {
+        "company": "Apple Inc.",
+        "similarity": 0.5348456501960754
+      },
+      {
+        "company": "General Motors Co.",
+        "similarity": 0.5335637331008911
+      },
+      {
+        "company": "GE Aerospace",
+        "similarity": 0.5311105251312256
+      },
+      {
+        "company": "Chevron Corporation",
+        "similarity": 0.5240685343742371
+      },
+      {
+        "company": "Costco Wholesale Corporation",
+        "similarity": 0.5223197937011719
+      },
+      {
+        "company": "Tesla Inc.",
+        "similarity": 0.5218040347099304
+      },
+      {
+        "company": "United Continental Holdings Inc.",
+        "similarity": 0.5196242332458496
+      },
+      {
+        "company": "Walmart Inc.",
+        "similarity": 0.5195730328559875
+      },
+      {
+        "company": "Exxon Mobil Corporation",
+        "similarity": 0.5179977416992188
+      },
+      {
+        "company": "Airbus SE",
+        "similarity": 0.5154374837875366
+      },
+      {
+        "company": "Pfizer Inc.",
+        "similarity": 0.5154248476028442
+      },
+      {
+        "company": "Delta Air Lines Inc.",
+        "similarity": 0.5151680111885071
+      },
+      {
+        "company": "ConocoPhillips",
+        "similarity": 0.514894962310791
+      },
+      {
+        "company": "Boeing Company",
+        "similarity": 0.5131555795669556
+      }
+    ]
+  },
+  {
+    "article_id": "art_025",
+    "l1_candidates": 25,
+    "candidates": [
+      {
+        "company": "Boeing Company",
+        "similarity": 0.7141201496124268
+      },
+      {
+        "company": "Airbus SE",
+        "similarity": 0.6740120649337769
+      },
+      {
+        "company": "American Airlines Group Inc.",
+        "similarity": 0.6491107940673828
+      },
+      {
+        "company": "Delta Air Lines Inc.",
+        "similarity": 0.642676591873169
+      },
+      {
+        "company": "GE Aerospace",
+        "similarity": 0.6312881708145142
+      },
+      {
+        "company": "United Continental Holdings Inc.",
+        "similarity": 0.6205599308013916
+      },
+      {
+        "company": "Honeywell International",
+        "similarity": 0.616445004940033
+      },
+      {
+        "company": "Spirit AeroSystems",
+        "similarity": 0.6129050254821777
+      },
+      {
+        "company": "Lockheed Martin Corporation",
+        "similarity": 0.6120566129684448
+      },
+      {
+        "company": "Foxconn",
+        "similarity": 0.5738818049430847
+      },
+      {
+        "company": "NVIDIA Corporation",
+        "similarity": 0.5565856695175171
+      },
+      {
+        "company": "TSMC",
+        "similarity": 0.5550835132598877
+      },
+      {
+        "company": "Exxon Mobil Corporation",
+        "similarity": 0.5511795282363892
+      },
+      {
+        "company": "Ford Motor Company",
+        "similarity": 0.5430808067321777
+      },
+      {
+        "company": "Target Corporation",
+        "similarity": 0.5393450260162354
+      },
+      {
+        "company": "Bank of America Corp.",
+        "similarity": 0.538833737373352
+      },
+      {
+        "company": "General Motors Co.",
+        "similarity": 0.5387566685676575
+      },
+      {
+        "company": "AT&T Inc.",
+        "similarity": 0.534261167049408
+      },
+      {
+        "company": "Tesla Inc.",
+        "similarity": 0.5339435935020447
+      },
+      {
+        "company": "Apple Inc.",
+        "similarity": 0.5310567617416382
+      },
+      {
+        "company": "Microsoft Corporation",
+        "similarity": 0.5271860361099243
+      },
+      {
+        "company": "Walmart Inc.",
+        "similarity": 0.5271254181861877
+      },
+      {
+        "company": "Johnson & Johnson",
+        "similarity": 0.5242444276809692
+      },
+      {
+        "company": "Pfizer Inc.",
+        "similarity": 0.524086594581604
+      },
+      {
+        "company": "Chevron Corporation",
+        "similarity": 0.5236514210700989
+      }
+    ]
+  },
+  {
+    "article_id": "art_026",
+    "l1_candidates": 25,
+    "candidates": [
+      {
+        "company": "Lockheed Martin Corporation",
+        "similarity": 0.6877962350845337
+      },
+      {
+        "company": "Boeing Company",
+        "similarity": 0.6619375944137573
+      },
+      {
+        "company": "GE Aerospace",
+        "similarity": 0.644858181476593
+      },
+      {
+        "company": "Airbus SE",
+        "similarity": 0.6366757750511169
+      },
+      {
+        "company": "Delta Air Lines Inc.",
+        "similarity": 0.5897656083106995
+      },
+      {
+        "company": "Spirit AeroSystems",
+        "similarity": 0.5896660685539246
+      },
+      {
+        "company": "Honeywell International",
+        "similarity": 0.5813321471214294
+      },
+      {
+        "company": "Foxconn",
+        "similarity": 0.5681848526000977
+      },
+      {
+        "company": "American Airlines Group Inc.",
+        "similarity": 0.5615715980529785
+      },
+      {
+        "company": "United Continental Holdings Inc.",
+        "similarity": 0.559131383895874
+      },
+      {
+        "company": "Apple Inc.",
+        "similarity": 0.5583354234695435
+      },
+      {
+        "company": "Merck & Co. Inc.",
+        "similarity": 0.5580780506134033
+      },
+      {
+        "company": "NVIDIA Corporation",
+        "similarity": 0.5465717911720276
+      },
+      {
+        "company": "TSMC",
+        "similarity": 0.5462555885314941
+      },
+      {
+        "company": "AT&T Inc.",
+        "similarity": 0.5451281070709229
+      },
+      {
+        "company": "JPMorgan Chase & Co.",
+        "similarity": 0.5440959930419922
+      },
+      {
+        "company": "Pfizer Inc.",
+        "similarity": 0.5435733795166016
+      },
+      {
+        "company": "Exxon Mobil Corporation",
+        "similarity": 0.5387206077575684
+      },
+      {
+        "company": "Johnson & Johnson",
+        "similarity": 0.5372111201286316
+      },
+      {
+        "company": "Microsoft Corporation",
+        "similarity": 0.532814085483551
+      },
+      {
+        "company": "Bank of America Corp.",
+        "similarity": 0.5323779582977295
+      },
+      {
+        "company": "Verizon Communications Inc.",
+        "similarity": 0.5322656631469727
+      },
+      {
+        "company": "Tesla Inc.",
+        "similarity": 0.5282768607139587
+      },
+      {
+        "company": "Procter & Gamble Co.",
+        "similarity": 0.5213240385055542
+      },
+      {
+        "company": "Citigroup Inc.",
+        "similarity": 0.5171893239021301
+      }
+    ]
+  },
+  {
+    "article_id": "art_027",
+    "l1_candidates": 25,
+    "candidates": [
+      {
+        "company": "GE Aerospace",
+        "similarity": 0.7204111814498901
+      },
+      {
+        "company": "Airbus SE",
+        "similarity": 0.6507235169410706
+      },
+      {
+        "company": "Spirit AeroSystems",
+        "similarity": 0.6421617269515991
+      },
+      {
+        "company": "Boeing Company",
+        "similarity": 0.6373243927955627
+      },
+      {
+        "company": "Delta Air Lines Inc.",
+        "similarity": 0.5973657369613647
+      },
+      {
+        "company": "Exxon Mobil Corporation",
+        "similarity": 0.5877806544303894
+      },
+      {
+        "company": "American Airlines Group Inc.",
+        "similarity": 0.5842089056968689
+      },
+      {
+        "company": "Honeywell International",
+        "similarity": 0.5839220285415649
+      },
+      {
+        "company": "Lockheed Martin Corporation",
+        "similarity": 0.5763354301452637
+      },
+      {
+        "company": "General Motors Co.",
+        "similarity": 0.570761501789093
+      },
+      {
+        "company": "United Continental Holdings Inc.",
+        "similarity": 0.5604391694068909
+      },
+      {
+        "company": "NVIDIA Corporation",
+        "similarity": 0.5569807887077332
+      },
+      {
+        "company": "TSMC",
+        "similarity": 0.5521552562713623
+      },
+      {
+        "company": "Chevron Corporation",
+        "similarity": 0.5495148301124573
+      },
+      {
+        "company": "Tesla Inc.",
+        "similarity": 0.5421664714813232
+      },
+      {
+        "company": "Ford Motor Company",
+        "similarity": 0.5387666821479797
+      },
+      {
+        "company": "Target Corporation",
+        "similarity": 0.5210104584693909
+      },
+      {
+        "company": "Microsoft Corporation",
+        "similarity": 0.513005256652832
+      },
+      {
+        "company": "Foxconn",
+        "similarity": 0.5115910768508911
+      },
+      {
+        "company": "Procter & Gamble Co.",
+        "similarity": 0.5115507245063782
+      },
+      {
+        "company": "Johnson & Johnson",
+        "similarity": 0.5106160640716553
+      },
+      {
+        "company": "Merck & Co. Inc.",
+        "similarity": 0.5102952718734741
+      },
+      {
+        "company": "Pfizer Inc.",
+        "similarity": 0.5047594308853149
+      },
+      {
+        "company": "ConocoPhillips",
+        "similarity": 0.49841439723968506
+      },
+      {
+        "company": "JPMorgan Chase & Co.",
+        "similarity": 0.493301123380661
+      }
+    ]
+  },
+  {
+    "article_id": "art_028",
+    "l1_candidates": 25,
+    "candidates": [
+      {
+        "company": "Delta Air Lines Inc.",
+        "similarity": 0.525912880897522
+      },
+      {
+        "company": "American Airlines Group Inc.",
+        "similarity": 0.5080220699310303
+      },
+      {
+        "company": "Costco Wholesale Corporation",
+        "similarity": 0.5027853846549988
+      },
+      {
+        "company": "Target Corporation",
+        "similarity": 0.49758338928222656
+      },
+      {
+        "company": "Walmart Inc.",
+        "similarity": 0.495853990316391
+      },
+      {
+        "company": "Procter & Gamble Co.",
+        "similarity": 0.49503177404403687
+      },
+      {
+        "company": "General Motors Co.",
+        "similarity": 0.4923452138900757
+      },
+      {
+        "company": "TSMC",
+        "similarity": 0.4920649528503418
+      },
+      {
+        "company": "Exxon Mobil Corporation",
+        "similarity": 0.48881852626800537
+      },
+      {
+        "company": "PepsiCo Inc.",
+        "similarity": 0.4881531596183777
+      },
+      {
+        "company": "Verizon Communications Inc.",
+        "similarity": 0.48808327317237854
+      },
+      {
+        "company": "ConocoPhillips",
+        "similarity": 0.48588234186172485
+      },
+      {
+        "company": "Pfizer Inc.",
+        "similarity": 0.4853741526603699
+      },
+      {
+        "company": "United Continental Holdings Inc.",
+        "similarity": 0.4850769340991974
+      },
+      {
+        "company": "Chevron Corporation",
+        "similarity": 0.48204144835472107
+      },
+      {
+        "company": "AT&T Inc.",
+        "similarity": 0.48097288608551025
+      },
+      {
+        "company": "JPMorgan Chase & Co.",
+        "similarity": 0.480817973613739
+      },
+      {
+        "company": "GE Aerospace",
+        "similarity": 0.48068001866340637
+      },
+      {
+        "company": "The Coca-Cola Company",
+        "similarity": 0.4806683361530304
+      },
+      {
+        "company": "Spirit AeroSystems",
+        "similarity": 0.4780139923095703
+      },
+      {
+        "company": "Boeing Company",
+        "similarity": 0.4770888090133667
+      },
+      {
+        "company": "Foxconn",
+        "similarity": 0.47580593824386597
+      },
+      {
+        "company": "NVIDIA Corporation",
+        "similarity": 0.4752945601940155
+      },
+      {
+        "company": "Airbus SE",
+        "similarity": 0.47411003708839417
+      },
+      {
+        "company": "Merck & Co. Inc.",
+        "similarity": 0.47178831696510315
+      }
+    ]
+  },
+  {
+    "article_id": "art_029",
+    "l1_candidates": 25,
+    "candidates": [
+      {
+        "company": "JPMorgan Chase & Co.",
+        "similarity": 0.5589917898178101
+      },
+      {
+        "company": "United Continental Holdings Inc.",
+        "similarity": 0.5573039054870605
+      },
+      {
+        "company": "American Airlines Group Inc.",
+        "similarity": 0.543084979057312
+      },
+      {
+        "company": "T-Mobile US Inc.",
+        "similarity": 0.5337735414505005
+      },
+      {
+        "company": "Verizon Communications Inc.",
+        "similarity": 0.5297410488128662
+      },
+      {
+        "company": "Citigroup Inc.",
+        "similarity": 0.5296076536178589
+      },
+      {
+        "company": "NVIDIA Corporation",
+        "similarity": 0.5274488925933838
+      },
+      {
+        "company": "Bank of America Corp.",
+        "similarity": 0.5265068411827087
+      },
+      {
+        "company": "TSMC",
+        "similarity": 0.5237975716590881
+      },
+      {
+        "company": "AT&T Inc.",
+        "similarity": 0.5236212015151978
+      },
+      {
+        "company": "Delta Air Lines Inc.",
+        "similarity": 0.521553099155426
+      },
+      {
+        "company": "GE Aerospace",
+        "similarity": 0.5184551477432251
+      },
+      {
+        "company": "Procter & Gamble Co.",
+        "similarity": 0.515396237373352
+      },
+      {
+        "company": "General Motors Co.",
+        "similarity": 0.5110960602760315
+      },
+      {
+        "company": "Airbus SE",
+        "similarity": 0.5109291076660156
+      },
+      {
+        "company": "Spirit AeroSystems",
+        "similarity": 0.5104249119758606
+      },
+      {
+        "company": "Honeywell International",
+        "similarity": 0.5083112716674805
+      },
+      {
+        "company": "Johnson & Johnson",
+        "similarity": 0.5078696608543396
+      },
+      {
+        "company": "Ford Motor Company",
+        "similarity": 0.5038201212882996
+      },
+      {
+        "company": "Tesla Inc.",
+        "similarity": 0.5025479197502136
+      },
+      {
+        "company": "PepsiCo Inc.",
+        "similarity": 0.5020034909248352
+      },
+      {
+        "company": "Apple Inc.",
+        "similarity": 0.5007171630859375
+      },
+      {
+        "company": "Exxon Mobil Corporation",
+        "similarity": 0.49508264660835266
+      },
+      {
+        "company": "Walmart Inc.",
+        "similarity": 0.4941873550415039
+      },
+      {
+        "company": "Foxconn",
+        "similarity": 0.492938756942749
+      }
+    ]
+  },
+  {
+    "article_id": "art_030",
+    "l1_candidates": 25,
+    "candidates": [
+      {
+        "company": "Chevron Corporation",
+        "similarity": 0.6124749779701233
+      },
+      {
+        "company": "Target Corporation",
+        "similarity": 0.6076170206069946
+      },
+      {
+        "company": "General Motors Co.",
+        "similarity": 0.607328474521637
+      },
+      {
+        "company": "PepsiCo Inc.",
+        "similarity": 0.6047563552856445
+      },
+      {
+        "company": "Exxon Mobil Corporation",
+        "similarity": 0.6040876507759094
+      },
+      {
+        "company": "American Airlines Group Inc.",
+        "similarity": 0.6025713682174683
+      },
+      {
+        "company": "The Coca-Cola Company",
+        "similarity": 0.5991857051849365
+      },
+      {
+        "company": "Delta Air Lines Inc.",
+        "similarity": 0.5974070429801941
+      },
+      {
+        "company": "Procter & Gamble Co.",
+        "similarity": 0.5964047312736511
+      },
+      {
+        "company": "United Continental Holdings Inc.",
+        "similarity": 0.5930169820785522
+      },
+      {
+        "company": "Verizon Communications Inc.",
+        "similarity": 0.5880594253540039
+      },
+      {
+        "company": "JPMorgan Chase & Co.",
+        "similarity": 0.5868270993232727
+      },
+      {
+        "company": "ConocoPhillips",
+        "similarity": 0.5858569145202637
+      },
+      {
+        "company": "Boeing Company",
+        "similarity": 0.5840343236923218
+      },
+      {
+        "company": "Merck & Co. Inc.",
+        "similarity": 0.5832343101501465
+      },
+      {
+        "company": "Pfizer Inc.",
+        "similarity": 0.5819628834724426
+      },
+      {
+        "company": "TSMC",
+        "similarity": 0.5814724564552307
+      },
+      {
+        "company": "AT&T Inc.",
+        "similarity": 0.581358790397644
+      },
+      {
+        "company": "Honeywell International",
+        "similarity": 0.5808759927749634
+      },
+      {
+        "company": "Airbus SE",
+        "similarity": 0.5806861519813538
+      },
+      {
+        "company": "Costco Wholesale Corporation",
+        "similarity": 0.5801728963851929
+      },
+      {
+        "company": "Citigroup Inc.",
+        "similarity": 0.5796756148338318
+      },
+      {
+        "company": "Walmart Inc.",
+        "similarity": 0.5773413181304932
+      },
+      {
+        "company": "Bank of America Corp.",
+        "similarity": 0.5764992237091064
+      },
+      {
+        "company": "Johnson & Johnson",
+        "similarity": 0.5754408240318298
+      }
+    ]
+  }
+]
